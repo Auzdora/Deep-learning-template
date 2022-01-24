@@ -1,5 +1,6 @@
 """
-    An easy implement of CIFAR-10 Model
+    File name: CIFAR_10_Model.py
+    Description: An easy implement of CIFAR-10 Model
 
     Author: Botian Lan
     Time: 2022/01/22

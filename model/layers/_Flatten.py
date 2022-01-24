@@ -1,4 +1,5 @@
 """
+    File name: _Flatten.py
     Torch version: 1.2.0
     Description: Torch 1.2.0 didn't provide flatten operation in module nn, this file write this function
             based on pytorch, to improve code efficiency. To make it more flexible, I named it _Flatten in-

@@ -1,6 +1,7 @@
 """
-    Base class for data loaders, you can create your own dataloader(class) based on this one.
-    It could simplify your work.
+    File name: base_data_loader
+    Description: Base class for data loaders, you can create your own dataloader(class) based on this one.
+                It could simplify your work.
 
     Author: Botian Lan
     Time: 2022/01/21

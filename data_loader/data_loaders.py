@@ -1,9 +1,10 @@
 """
-    This file could combine BaseDataLoader to create your own loader.
-    For instance:
-        You could create your own composer to preprocess data using DataLoader.Compose.
-        You could Load your own dataset.
-        ...
+    File name: data_loaders.py
+    Description: This file could combine BaseDataLoader to create your own loader.
+                For instance:
+                    You could create your own composer to preprocess data using DataLoader.Compose.
+                    You could Load your own dataset.
+                    ...
 
     Author: Botian Lan
     Time: 2022/01/21
