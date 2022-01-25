@@ -32,8 +32,8 @@ class _DataLoader(BaseDataLoader):
 
 
 if __name__ == '__main__':
-    dataload = _DataLoader(root,4,shuffle=True)
-    for data in dataload:
-        imgs, targets = data
-        print(imgs.shape)
-        print(targets)
+    dataload = _DataLoader(root, 4, shuffle=True)
+    #for data in dataload:
+     #   imgs, targets = data
+     #   print(imgs.shape)
+     #   print(targets)
