@@ -26,7 +26,8 @@ class BaseTrainer(ABC):
 
     # TODO: ADD LOGGER
     def _train(self):
-        for epoch in self.epoch:
+        for epoch in range(self.epoch):
+            print('--------Epoch{} begin--------'.format(self.epoch))
             self._epoch_train(epoch)
 
 

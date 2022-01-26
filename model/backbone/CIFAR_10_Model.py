@@ -29,7 +29,7 @@ class CIFAR10(nn.Module):
         self.Linear1 = Linear(in_features=1024, out_features=64)
         self.Linear2 = Linear(in_features=64, out_features=10)
 
-    def forward(self,x):
+    def forward(self, x):
         x = self.Conv1(x)
         x = self.Maxpool1(x)
         x = self.Conv2(x)
@@ -44,6 +44,6 @@ class CIFAR10(nn.Module):
 
 if __name__ == '__main__':
     import torch
-    x = torch.randn([1, 3, 32, 32])
+    x = torch.randn([4, 3, 32, 32])
     model = CIFAR10()
     print(model(x))

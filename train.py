@@ -8,4 +8,33 @@
 """
 
 from trainer import *
+from baseline import *
+from data_loader.data_loaders import _DataLoader
+from model.backbone.CIFAR_10_Model import *
+from torch import nn, optim
 
+
+def starter(**kwargs):
+    train = Cifar10Trainer(**kwargs)
+    train._train()
+
+
+if __name__ == '__main__':
+    batch_size = 64
+    shuffle = True
+    store_path = 'D:/python/DL_Framework/database/data'
+    data_loader = _DataLoader(store_path, batch_size=batch_size, shuffle=shuffle)
+
+    model = CIFAR10()
+    if torch.cuda.is_available():
+        model = model.cuda()
+    init_kwargs = {
+        'model': model,
+        'epoch': 100,
+        'data_loader': data_loader,
+        'loss_function': nn.CrossEntropyLoss(),
+        'optimizer': optim.SGD,
+        'lr': 0.01,
+        'device': 'cuda'
+    }
+    starter(**init_kwargs)

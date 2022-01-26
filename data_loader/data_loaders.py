@@ -13,8 +13,6 @@ import torchvision
 from base_data_loader import BaseDataLoader
 from torchvision import transforms
 
-root = 'D:/python/DL_Framework/database/data'
-
 
 class _DataLoader(BaseDataLoader):
     def __init__(self, root, batch_size, shuffle, num_workers=1):
@@ -23,16 +21,18 @@ class _DataLoader(BaseDataLoader):
         """
         transformer = transforms.Compose(
             [transforms.ToTensor(),
-             #transforms.Normalize()
+             transforms.Normalize(std=(0.5,0.5,0.5),mean=(0.5,0.5,0.5))
              #transforms.RandomCrop()
             ]
         )
         self.dataset = torchvision.datasets.CIFAR10(root, train=True, transform=transformer, target_transform=None, download=True)
-        super().__init__(self.dataset,batch_size,shuffle,num_workers)
+        super().__init__(self.dataset, batch_size, shuffle, num_workers)
 
 
 if __name__ == '__main__':
-    dataload = _DataLoader(root, 4, shuffle=True)
+    root = 'D:/python/DL_Framework/database/data'
+    dataload = _DataLoader(root, 64, shuffle=True)
+    print(len(dataload))
     #for data in dataload:
      #   imgs, targets = data
      #   print(imgs.shape)

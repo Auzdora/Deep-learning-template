@@ -21,5 +21,5 @@ class _Flatten(nn.Module):
         super(_Flatten, self).__init__()
 
     def forward(self, inputs):
-        output = torch.flatten(inputs)
+        output = torch.flatten(inputs, 1, -1)
         return output
