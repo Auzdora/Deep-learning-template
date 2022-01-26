@@ -21,7 +21,7 @@ class _DataLoader(BaseDataLoader):
         """
         transformer = transforms.Compose(
             [transforms.ToTensor(),
-             transforms.Normalize(std=(0.5,0.5,0.5),mean=(0.5,0.5,0.5))
+             transforms.Normalize(std=(0.5, 0.5, 0.5),mean=(0.5, 0.5, 0.5))
              #transforms.RandomCrop()
             ]
         )
@@ -29,8 +29,23 @@ class _DataLoader(BaseDataLoader):
         super().__init__(self.dataset, batch_size, shuffle, num_workers)
 
 
+class _Test_DataLoader(BaseDataLoader):
+    def __init__(self, test_root, batch_size, shuffle, num_workers=1):
+        """
+            Define your self data processing serials, also caller transformer.
+        """
+        transformer = transforms.Compose(
+            [transforms.ToTensor(),
+             transforms.Normalize(std=(0.5, 0.5, 0.5),mean=(0.5, 0.5, 0.5))
+             #transforms.RandomCrop()
+            ]
+        )
+        self.test_dataset = torchvision.datasets.CIFAR10(test_root, train=False, transform=transformer, target_transform=None, download=True)
+        super().__init__(self.test_dataset, batch_size, shuffle, num_workers)
+
 if __name__ == '__main__':
     root = 'D:/python/DL_Framework/database/data'
+    test_root = 'D:/python/DL_Framework/database/test_data'
     dataload = _DataLoader(root, 64, shuffle=True)
     print(len(dataload))
     #for data in dataload:

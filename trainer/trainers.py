@@ -14,7 +14,8 @@ from utils.general_utils import *
 
 
 class Cifar10Trainer(BaseTrainer):
-    def __init__(self, model, epoch, data_loader, loss_function, optimizer, lr, device):
+    def __init__(self, model, epoch, data_loader, test_loader, loss_function, optimizer, lr, device):
+        self.test_data = test_loader
         self.device = device
         self.loss_function = loss_function
         self.lr = lr
@@ -27,7 +28,7 @@ class Cifar10Trainer(BaseTrainer):
         super(Cifar10Trainer, self).__init__(**self.init_kwargs)
 
     def _epoch_train(self, epoch):
-        mean_loss = 0
+        total_train_loss = 0
         counter = 0
         for batch_index, dataset in enumerate(self.data_loader):
             datas, labels = dataset
@@ -35,14 +36,27 @@ class Cifar10Trainer(BaseTrainer):
                 datas, labels = data_to_gpu(datas, labels)
             output = self.model(datas)
             loss_val = self.loss_function(output, labels)
-            mean_loss += loss_val
+            total_train_loss += loss_val
             counter += 1
-            print("Train {}: loss:{}".format(counter,loss_val))
-
+            if counter % 100 == 0:
+                print("Train {}: loss:{}".format(counter,loss_val))
             self.optimizer.zero_grad()
             loss_val.backward()
             self.optimizer.step()
-        print('Epoch{}:--------loss:{}'.format(epoch,mean_loss/len(self.data_loader)))
+
+        total_test_loss = 0
+        total_accuracy = 0
+        with torch.no_grad():
+            for data in self.test_data:
+                imgs, labels = data
+                if self.device == 'cuda':
+                    imgs, labels = data_to_gpu(imgs, labels)
+                outputs = self.model(imgs)
+                loss = self.loss_function(outputs, labels)
+                total_test_loss += loss.item()
+                accuracy = ((outputs.argmax(1) == labels).sum())
+                total_accuracy += accuracy
+        print('Epoch{}:--------loss:{}, test loss:{}, accuracy:{}'.format(epoch, total_train_loss, total_test_loss, total_accuracy.item()/self.test_data.length()))
 
 
 

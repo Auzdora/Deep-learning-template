@@ -13,7 +13,7 @@ from torch.utils.data import DataLoader
 
 class BaseDataLoader(DataLoader):
     def __init__(self, dataset, batch_size, shuffle, num_workers):
-
+        self.dataset = dataset
         self.init_kwargs = {
             'dataset': dataset,
             'batch_size': batch_size,
@@ -26,3 +26,6 @@ class BaseDataLoader(DataLoader):
     # TODO Add random split method
     def spliter(self):
         pass
+
+    def length(self):
+        return len(self.dataset)
