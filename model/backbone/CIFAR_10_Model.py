@@ -29,16 +29,31 @@ class CIFAR10(nn.Module):
         self.Linear1 = Linear(in_features=1024, out_features=64)
         self.Linear2 = Linear(in_features=64, out_features=10)
 
+        #Batch Norm
+        self.bn1 = nn.BatchNorm2d(32)
+        self.bn2 = nn.BatchNorm2d(32)
+        self.bn3 = nn.BatchNorm2d(64)
+        self.bn4 = nn.BatchNorm1d(64)
+        self.bn5 = nn.BatchNorm1d(10)
+
+        #relu
+        self.relu = nn.ReLU()
+
     def forward(self, x):
         x = self.Conv1(x)
+        x = self.relu(self.bn1(x))
         x = self.Maxpool1(x)
         x = self.Conv2(x)
+        x = self.relu(self.bn2(x))
         x = self.Maxpool2(x)
         x = self.Conv3(x)
+        x = self.relu(self.bn3(x))
         x = self.Maxpool3(x)
         x = self.Flatten(x)
         x = self.Linear1(x)
-        outputs = self.Linear2(x)
+        x = self.relu(self.bn4(x))
+        x = self.Linear2(x)
+        outputs = self.relu(self.bn5(x))
         return outputs
 
 
@@ -46,4 +61,17 @@ if __name__ == '__main__':
     import torch
     x = torch.randn([4, 3, 32, 32])
     model = CIFAR10()
-    print(model(x))
+
+
+    def gener(model):
+        for para in model.parameters():
+            yield para
+
+    for groups in gener(model):
+        for p in groups:
+            #print(p)
+            pass
+
+    x = [1,2,3,4,5,6,7,8,9]
+    print(filter(lambda x: x>5, x))
+

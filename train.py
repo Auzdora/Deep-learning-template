@@ -36,8 +36,8 @@ if __name__ == '__main__':
         'data_loader': data_loader,
         'test_loader': test_loader,
         'loss_function': nn.CrossEntropyLoss(),
-        'optimizer': optim.SGD,
-        'lr': 0.01,
+        'optimizer': optim.Adam,
+        'lr': 0.001,
         'device': 'cuda'
     }
     starter(**init_kwargs)

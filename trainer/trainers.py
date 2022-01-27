@@ -19,7 +19,7 @@ class Cifar10Trainer(BaseTrainer):
         self.device = device
         self.loss_function = loss_function
         self.lr = lr
-        self.optimizer = optimizer(model.parameters(),lr=self.lr)
+        self.optimizer = optimizer(model.parameters(), lr=self.lr)
         self.init_kwargs = {
             'model': model,
             'epoch': epoch,
@@ -39,7 +39,7 @@ class Cifar10Trainer(BaseTrainer):
             total_train_loss += loss_val
             counter += 1
             if counter % 100 == 0:
-                print("Train {}: loss:{}".format(counter,loss_val))
+                print("Train {}: loss:{}".format(counter, loss_val))
             self.optimizer.zero_grad()
             loss_val.backward()
             self.optimizer.step()

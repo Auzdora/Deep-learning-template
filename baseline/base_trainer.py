@@ -39,6 +39,6 @@ if __name__ == '__main__':
         def __init__(self, model, epoch, data_loader):
             super(Train, self).__init__(model, epoch, data_loader)
 
-    train = BaseTrainer(1,2,3)
+    train = BaseTrainer(1, 2, 3)
 
 
