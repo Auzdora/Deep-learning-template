@@ -1,0 +1,36 @@
+{
+    "model_name": "LeNet",
+    "author": "Botian Lan",
+    "version": "1.0",
+
+
+    "data": {
+        "data_split": true,
+        "split_data": {
+            "train_data_path": "./database/train_data",
+            "test_data_path": "./database/test_data",
+            "data_loader": {
+                "train_dataLoader": "_DataLoader",
+                "test_dataLoader": "_Test_DataLoader"
+            },
+            "batch_size": 64,
+            "shuffle": true
+        },
+        "original_data": {
+            "batch_size": 64,
+            "shuffle": true
+        }
+    },
+
+
+    "model_params": {
+        "model": "LeNet",
+        "epoch": 100,
+        "data_loader": "data_loader",
+        "test_loader": "test_loader",
+        "loss_function": "loss_fn",
+        "optimizer": "Adam",
+        "lr": 0.001,
+        "device": "cuda"
+    }
+}
