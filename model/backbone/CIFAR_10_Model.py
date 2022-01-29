@@ -60,7 +60,7 @@ class LeNet(nn.Module):
 if __name__ == '__main__':
     import torch
     x = torch.randn([4, 3, 32, 32])
-    model = CIFAR10()
+    model = LeNet()
 
 
     def gener(model):

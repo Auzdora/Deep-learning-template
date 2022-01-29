@@ -1,0 +1,34 @@
+{
+    "version": 1,
+    "disable_existing_loggers": false,
+    "formatters": {
+        "train_formatter": {
+            "class": "logging.Formatter",
+            "format": "%(asctime)s - %(name)s - %(levelname)s: %(message)s"
+        },
+        "model_info_formatter": {
+            "class": "logging.Formatter",
+            "format": "%(levelname)s: %(message)s"
+        }
+    },
+    "handlers": {
+        "console": {
+            "class": "logging.StreamHandler",
+            "level": "DEBUG",
+            "formatter": "train_formatter"
+        },
+        "log_file": {
+            "class": "logging.handlers.RotatingFileHandler",
+            "level": "INFO",
+            "formatter": "train_formatter",
+            "filename": "info.log"
+        }
+    },
+    "root": {
+        "level": "DEBUG",
+        "handlers": [
+            "console",
+            "log_file"
+        ]
+    }
+}

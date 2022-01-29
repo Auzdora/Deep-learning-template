@@ -8,7 +8,6 @@
 """
 
 from trainer import *
-from baseline import *
 from data_loader.data_loaders import _DataLoader, _Test_DataLoader
 from model.backbone.CIFAR_10_Model import *
 from model.backbone import CIFAR_10_Model

@@ -18,7 +18,7 @@ def data_to_gpu(*args):
     buffer = []
     for val in args:
         if type(val) != 'tensor':
-            val = torch.tensor(val)
+            val = torch.as_tensor(val)
         val = val.to(device='cuda')
         buffer.append(val)
     return buffer[0], buffer[1]
