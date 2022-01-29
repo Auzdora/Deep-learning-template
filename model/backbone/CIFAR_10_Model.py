@@ -11,7 +11,7 @@ from layers._Flatten import _Flatten
 
 
 # Models class
-class CIFAR10(nn.Module):
+class LeNet(nn.Module):
     def __init__(self):
         super().__init__()
         # Convolution layers

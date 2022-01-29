@@ -44,4 +44,5 @@ model_config = {
 }
 
 if __name__ == '__main__':
-    write_json('config.json',model_config, 4)
+    data = read_json('config.json')
+    print(data['data']['data_split'])

@@ -11,33 +11,48 @@ from trainer import *
 from baseline import *
 from data_loader.data_loaders import _DataLoader, _Test_DataLoader
 from model.backbone.CIFAR_10_Model import *
+from model.backbone import CIFAR_10_Model
 from torch import nn, optim
+from config_parse import _ConfigParser
+from utils import loss
 
 
-def starter(**kwargs):
-    train = Cifar10Trainer(**kwargs)
+def starter(config):
+
+    data_congig = config.data_config
+    model_config = config.model_config
+
+    data_loader = _DataLoader(data_congig['train_data_path'], batch_size=data_congig['batch_size'],
+                              shuffle=data_congig['shuffle'])
+    test_loader = _Test_DataLoader(data_congig['test_data_path'], batch_size=data_congig['batch_size'],
+                                   shuffle=data_congig['shuffle'])
+
+    my_model = getattr(CIFAR_10_Model, model_config['model'])
+    if torch.cuda.is_available():
+        my_model = my_model().cuda()
+
+    epoch = model_config['epoch']
+    loss_function = getattr(loss, model_config['loss_function'])
+    optimizer = getattr(optim, model_config['optimizer'])
+    learning_rate = model_config['lr']
+    device = model_config['device']
+
+    init_kwargs = {
+        'model': my_model,
+        'epoch': epoch,
+        'data_loader': data_loader,
+        'test_loader': test_loader,
+        'loss_function': loss_function,
+        'optimizer': optimizer,
+        'lr': learning_rate,
+        'device': device
+    }
+
+    train = Cifar10Trainer(**init_kwargs)
     train._train()
 
 
 if __name__ == '__main__':
-    batch_size = 64
-    shuffle = True
-    store_path = 'D:/python/DL_Framework/database/data'
-    test_root = 'D:/python/DL_Framework/database/test_data'
-    data_loader = _DataLoader(store_path, batch_size=batch_size, shuffle=shuffle)
-    test_loader = _Test_DataLoader(test_root, batch_size=batch_size, shuffle=shuffle)
 
-    model = CIFAR10()
-    if torch.cuda.is_available():
-        model = model.cuda()
-    init_kwargs = {
-        'model': model,
-        'epoch': 100,
-        'data_loader': data_loader,
-        'test_loader': test_loader,
-        'loss_function': nn.CrossEntropyLoss(),
-        'optimizer': optim.Adam,
-        'lr': 0.001,
-        'device': 'cuda'
-    }
-    starter(**init_kwargs)
+    config = _ConfigParser('config.json')
+    starter(config)
