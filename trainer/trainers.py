@@ -28,6 +28,7 @@ class Cifar10Trainer(BaseTrainer):
         super(Cifar10Trainer, self).__init__(**self.init_kwargs)
 
     def _epoch_train(self, epoch):
+
         total_train_loss = 0
         counter = 0
         for batch_index, dataset in enumerate(self.data_loader):
@@ -39,7 +40,8 @@ class Cifar10Trainer(BaseTrainer):
             total_train_loss += loss_val
             counter += 1
             if counter % 100 == 0:
-                print("Train {}: loss:{}".format(counter, loss_val))
+                self.train_logger.info("Train {}: loss:{}".format(counter, loss_val))
+                self.console_logger.info("Train {}: loss:{}".format(counter, loss_val))
             self.optimizer.zero_grad()
             loss_val.backward()
             self.optimizer.step()
@@ -56,7 +58,10 @@ class Cifar10Trainer(BaseTrainer):
                 total_test_loss += loss.item()
                 accuracy = ((outputs.argmax(1) == labels).sum())
                 total_accuracy += accuracy
-        print('Epoch{}:--------loss:{}, test loss:{}, accuracy:{}'.format(epoch, total_train_loss, total_test_loss, total_accuracy.item()/self.test_data.length()))
+        self.train_logger.info('Epoch{}:--------loss:{}, test loss:{}, accuracy:{}'.format(epoch, total_train_loss,
+                                                    total_test_loss, total_accuracy.item()/self.test_data.length()))
+        self.console_logger.info('Epoch{}:--------loss:{}, test loss:{}, accuracy:{}'.format(epoch, total_train_loss,
+                                                    total_test_loss, total_accuracy.item() / self.test_data.length()))
 
 
 

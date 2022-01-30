@@ -21,7 +21,7 @@ class _DataLoader(BaseDataLoader):
         """
         transformer = transforms.Compose(
             [transforms.ToTensor(),
-             transforms.Normalize(std=(0.5, 0.5, 0.5),mean=(0.5, 0.5, 0.5))
+             transforms.Normalize(std=(0.5, 0.5, 0.5), mean=(0.5, 0.5, 0.5))
              #transforms.RandomCrop()
             ]
         )
@@ -43,12 +43,11 @@ class _Test_DataLoader(BaseDataLoader):
         self.test_dataset = torchvision.datasets.CIFAR10(test_root, train=False, transform=transformer, target_transform=None, download=True)
         super().__init__(self.test_dataset, batch_size, shuffle, num_workers)
 
+
 if __name__ == '__main__':
-    root = 'D:/python/DL_Framework/database/data'
+    from logger.logger_parse import *
+    root = 'D:/python/DL_Framework/database/train_data'
     test_root = 'D:/python/DL_Framework/database/test_data'
-    dataload = _DataLoader(root, 64, shuffle=True)
+    logger_parser('D:/python/DL_Framework/logger/log_config.json')
+    dataload = _DataLoader(root, 64, True, num_workers=1)
     print(len(dataload))
-    #for data in dataload:
-     #   imgs, targets = data
-     #   print(imgs.shape)
-     #   print(targets)

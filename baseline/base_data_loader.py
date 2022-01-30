@@ -9,6 +9,7 @@
 
 import numpy as np
 from torch.utils.data import DataLoader
+import logging
 
 
 class BaseDataLoader(DataLoader):
@@ -21,6 +22,8 @@ class BaseDataLoader(DataLoader):
             'num_workers': num_workers
         }
 
+        self.log_record()
+
         super().__init__(**self.init_kwargs)
 
     # TODO Add random split method
@@ -29,3 +32,19 @@ class BaseDataLoader(DataLoader):
 
     def length(self):
         return len(self.dataset)
+
+    def log_record(self):
+        # get loggers
+        console_loggers = logging.getLogger('console_loggers')
+        model_info_loggers = logging.getLogger('model_file_loggers')
+
+        # data loader info
+        console_loggers.info('Dataset length: {}'.format(len(self.dataset)))
+        console_loggers.info('Batch size: {}'.format(self.init_kwargs['batch_size']))
+        console_loggers.info('Shuffle: {}'.format(self.init_kwargs['shuffle']))
+        console_loggers.info('Num workers: {}'.format(self.init_kwargs['num_workers']))
+
+        model_info_loggers.info('Dataset length: {}'.format(len(self.dataset)))
+        model_info_loggers.info('Batch size: {}'.format(self.init_kwargs['batch_size']))
+        model_info_loggers.info('Shuffle: {}'.format(self.init_kwargs['shuffle']))
+        model_info_loggers.info('Num workers: {}'.format(self.init_kwargs['num_workers']))

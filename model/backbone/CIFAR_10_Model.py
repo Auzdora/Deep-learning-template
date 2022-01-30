@@ -68,10 +68,6 @@ if __name__ == '__main__':
             yield para
 
     for groups in gener(model):
-        for p in groups:
-            #print(p)
-            pass
+        print(groups.shape)
 
-    x = [1,2,3,4,5,6,7,8,9]
-    print(filter(lambda x: x>5, x))
 

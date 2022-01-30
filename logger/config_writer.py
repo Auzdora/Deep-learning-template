@@ -23,16 +23,45 @@ data = {
             'formatter': 'train_formatter'
         },
 
-        'log_file': {
+        'train_file': {
             'class': 'logging.handlers.RotatingFileHandler',
             'level': 'INFO',
-            'formatter': 'train_formatter'
+            'formatter': 'train_formatter',
+            "filename": "train.log"
+        },
+
+        'model_info_file': {
+            'class': 'logging.handlers.RotatingFileHandler',
+            'level': 'INFO',
+            'formatter': 'train_formatter',
+            'filename': 'model_info.log'
         }
     },
 
-    'root': {
-        'level': 'INFO',
-        'handlers': ['console', 'log_file']
+    "loggers": {
+        "console_loggers": {
+            'handlers': ['console'],
+            'level': "INFO",
+            "propagate": False
+        },
+
+        "console_debug_loggers": {
+            'handlers': ['console'],
+            'level': "DEBUG",
+            "propagate": False
+        },
+
+        "train_file_loggers": {
+            'handlers': ['train_file'],
+            'level': "INFO",
+            "propagate": False
+        },
+
+        'model_file_loggers': {
+            'handlers': ['model_info_file'],
+            'level': 'INFO',
+            'propagate': False
+        }
     }
 }
 

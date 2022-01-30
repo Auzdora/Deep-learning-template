@@ -7,6 +7,7 @@
     Time: 2022/01/24
 """
 from abc import abstractmethod, ABC
+import logging
 
 
 class BaseTrainer(ABC):
@@ -14,6 +15,8 @@ class BaseTrainer(ABC):
         self.model = model
         self.epoch = epoch
         self.data_loader = data_loader
+        self.console_logger = logging.getLogger('console_loggers')
+        self.train_logger = logging.getLogger('train_file_loggers')
 
     @abstractmethod
     def _epoch_train(self, epoch):
@@ -27,7 +30,8 @@ class BaseTrainer(ABC):
     # TODO: ADD LOGGER
     def _train(self):
         for epoch in range(self.epoch):
-            print('--------Epoch {} begin--------'.format(epoch))
+            self.console_logger.info(' Epoch {} begin'.format(epoch))
+            self.train_logger.info(' Epoch {} begin'.format(epoch))
             self._epoch_train(epoch)
 
 
