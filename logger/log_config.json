@@ -21,13 +21,13 @@
             "class": "logging.handlers.RotatingFileHandler",
             "level": "INFO",
             "formatter": "train_formatter",
-            "filename": "D:/python/DL_Framework/logger/train.log"
+            "filename": "logger/train.log"
         },
         "model_info_file": {
             "class": "logging.handlers.RotatingFileHandler",
             "level": "INFO",
             "formatter": "train_formatter",
-            "filename": "D:/python/DL_Framework/logger/model_info.log"
+            "filename": "logger/model_info.log"
         }
     },
     "loggers": {

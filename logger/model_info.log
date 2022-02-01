@@ -1,23 +1,17 @@
 
-2022-01-30 14:40:37,494 - model_file_loggers - INFO: Dataset length: 50000
-2022-01-30 14:40:37,494 - model_file_loggers - INFO: Batch size: 64
-2022-01-30 14:40:37,504 - model_file_loggers - INFO: Shuffle: True
-2022-01-30 14:40:37,504 - model_file_loggers - INFO: Num workers: 1
-2022-01-30 14:40:38,494 - model_file_loggers - INFO: Dataset length: 10000
-2022-01-30 14:40:38,494 - model_file_loggers - INFO: Batch size: 64
-2022-01-30 14:40:38,494 - model_file_loggers - INFO: Shuffle: True
-2022-01-30 14:40:38,494 - model_file_loggers - INFO: Num workers: 1
-2022-01-30 14:42:40,834 - model_file_loggers - INFO: Dataset length: 50000
-2022-01-30 14:42:40,834 - model_file_loggers - INFO: Batch size: 64
-2022-01-30 14:42:40,834 - model_file_loggers - INFO: Shuffle: True
-2022-01-30 14:42:40,834 - model_file_loggers - INFO: Num workers: 1
-2022-01-30 14:42:41,805 - model_file_loggers - INFO: Dataset length: 10000
-2022-01-30 14:42:41,805 - model_file_loggers - INFO: Batch size: 64
-2022-01-30 14:42:41,805 - model_file_loggers - INFO: Shuffle: True
-2022-01-30 14:42:41,805 - model_file_loggers - INFO: Num workers: 1
-2022-01-30 14:42:44,849 - model_file_loggers - INFO: model_name: LeNet
-2022-01-30 14:42:44,849 - model_file_loggers - INFO: epoch: 100
-2022-01-30 14:42:44,849 - model_file_loggers - INFO: loss_function: loss_fn
-2022-01-30 14:42:44,849 - model_file_loggers - INFO: optimizer: Adam
-2022-01-30 14:42:44,849 - model_file_loggers - INFO: learning rate: 0.001
-2022-01-30 14:42:44,849 - model_file_loggers - INFO: device: cuda
+2022-01-31 23:52:24,766 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-01-31 23:52:25,648 - model_file_loggers - INFO: Dataset length: 50000
+2022-01-31 23:52:25,648 - model_file_loggers - INFO: Batch size: 2
+2022-01-31 23:52:25,648 - model_file_loggers - INFO: Shuffle: True
+2022-01-31 23:52:25,648 - model_file_loggers - INFO: Num workers: 1
+2022-01-31 23:52:26,415 - model_file_loggers - INFO: Dataset length: 10000
+2022-01-31 23:52:26,415 - model_file_loggers - INFO: Batch size: 2
+2022-01-31 23:52:26,415 - model_file_loggers - INFO: Shuffle: True
+2022-01-31 23:52:26,415 - model_file_loggers - INFO: Num workers: 1
+2022-01-31 23:52:26,426 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-01-31 23:52:26,426 - model_file_loggers - INFO: model_name: LeNet
+2022-01-31 23:52:26,426 - model_file_loggers - INFO: epoch: 100
+2022-01-31 23:52:26,426 - model_file_loggers - INFO: loss_function: loss_fn
+2022-01-31 23:52:26,426 - model_file_loggers - INFO: optimizer: Adam
+2022-01-31 23:52:26,426 - model_file_loggers - INFO: learning rate: 0.001
+2022-01-31 23:52:26,426 - model_file_loggers - INFO: device: cpu

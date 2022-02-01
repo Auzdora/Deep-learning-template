@@ -18,7 +18,13 @@ import logging
 
 
 def starter(config):
-    logger_packer('D:/python/DL_Framework/logger/log_config.json')
+
+    logger_packer('logger/log_config.json')
+    # get logger
+    console_logger = logging.getLogger('console_logger')
+    model_logger = logging.getLogger('model_file_loggers')
+
+    model_logger.info('--------------------------Data loader information--------------------------')
 
     data_congig = config.data_config
     model_config = config.model_config
@@ -29,8 +35,9 @@ def starter(config):
                                    shuffle=data_congig['shuffle'])
 
     my_model = getattr(CIFAR_10_Model, model_config['model'])
+    model = my_model()
     if torch.cuda.is_available():
-        my_model = my_model().cuda()
+        model = model.cuda()
 
     epoch = model_config['epoch']
     loss_function = getattr(loss, model_config['loss_function'])
@@ -39,7 +46,7 @@ def starter(config):
     device = model_config['device']
 
     init_kwargs = {
-        'model': my_model,
+        'model': model,
         'epoch': epoch,
         'data_loader': data_loader,
         'test_loader': test_loader,
@@ -49,9 +56,7 @@ def starter(config):
         'device': device
     }
 
-    # get logger
-    console_logger = logging.getLogger('console_logger')
-    model_logger = logging.getLogger('model_file_loggers')
+    model_logger.info('--------------------------Model information--------------------------')
 
     # record
     console_logger.info('model_name: {}'.format(config.json_data['model_name']))

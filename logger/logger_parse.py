@@ -7,14 +7,26 @@
 """
 import logging.config
 import logging
+import pathlib
 
 from utils_json import *
 
 
 def logger_parser(config_file_path):
-    logger_config = read_json(config_file_path)
-    logging.config.dictConfig(logger_config)
-    return logger_config
+    """
+        This function is a node between json structure and dict structure.
+    :param config_file_path:
+    :return: A dict data that json file contained.
+    """
+    config_file_path = pathlib.Path(config_file_path)
+
+    if config_file_path.is_file():
+        logger_config = read_json(config_file_path)
+        logging.config.dictConfig(logger_config)
+        return logger_config
+
+    else:
+        raise FileNotFoundError("Object file '{}' is not found!".format(config_file_path))
 
 
 def logger_packer(config_file_path):
@@ -33,7 +45,7 @@ def logger_packer(config_file_path):
 
 
 if __name__ == '__main__':
-    loggers = logger_packer('log_config.json')
+    loggers = logger_packer('logger/log_config.json')
     print(loggers)
     console = logging.getLogger('console_loggers')
     a = 3

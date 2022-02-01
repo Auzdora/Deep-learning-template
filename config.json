@@ -13,7 +13,7 @@
                 "train_dataLoader": "_DataLoader",
                 "test_dataLoader": "_Test_DataLoader"
             },
-            "batch_size": 64,
+            "batch_size": 2,
             "shuffle": true
         },
         "original_data": {
@@ -31,6 +31,6 @@
         "loss_function": "loss_fn",
         "optimizer": "Adam",
         "lr": 0.001,
-        "device": "cuda"
+        "device": "cpu"
     }
 }

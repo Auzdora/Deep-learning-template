@@ -1,6 +1,6 @@
 """
     File name: CIFAR_10_Model.py
-    Description: An easy implement of CIFAR-10 Model
+    Description: An easy implement of LeNet Model
 
     Author: Botian Lan
     Time: 2022/01/22
@@ -29,14 +29,14 @@ class LeNet(nn.Module):
         self.Linear1 = Linear(in_features=1024, out_features=64)
         self.Linear2 = Linear(in_features=64, out_features=10)
 
-        #Batch Norm
+        # Batch Norm
         self.bn1 = nn.BatchNorm2d(32)
         self.bn2 = nn.BatchNorm2d(32)
         self.bn3 = nn.BatchNorm2d(64)
         self.bn4 = nn.BatchNorm1d(64)
         self.bn5 = nn.BatchNorm1d(10)
 
-        #relu
+        # Relu
         self.relu = nn.ReLU()
 
     def forward(self, x):
@@ -69,5 +69,4 @@ if __name__ == '__main__':
 
     for groups in gener(model):
         print(groups.shape)
-
 
