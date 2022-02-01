@@ -56,10 +56,12 @@ class Cifar10Trainer(BaseTrainer):
                 self.train_logger.info("Train {}: loss:{}".format(counter, loss_val))
                 self.console_logger.info("Train {}: loss:{}".format(counter, loss_val))
 
+        # TODO: Split train and val blocks, make them more fancy
         # test logic
         total_test_loss = 0
         total_accuracy = 0
         with torch.no_grad():
+            self.model.eval()
             for data in self.test_data:
                 imgs, labels = data
 

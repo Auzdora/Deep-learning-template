@@ -3,3 +3,8 @@
 2022-01-31 23:52:29,183 - train_file_loggers - INFO: Train 100: loss:2.3699777126312256
 2022-01-31 23:52:30,473 - train_file_loggers - INFO: Train 200: loss:2.860970973968506
 2022-01-31 23:52:31,793 - train_file_loggers - INFO: Train 300: loss:2.39998197555542
+2022-02-01 15:31:33,591 - train_file_loggers - INFO:  Epoch 0 begin
+2022-02-01 15:31:35,938 - train_file_loggers - INFO: Train 100: loss:2.3713157176971436
+2022-02-01 15:31:36,842 - train_file_loggers - INFO: Train 200: loss:2.313105583190918
+2022-02-01 15:31:37,806 - train_file_loggers - INFO: Train 300: loss:2.301121473312378
+2022-02-01 15:31:38,638 - train_file_loggers - INFO: Train 400: loss:2.3218021392822266
