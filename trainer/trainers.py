@@ -56,8 +56,14 @@ class Cifar10Trainer(BaseTrainer):
                 self.train_logger.info("Train {}: loss:{}".format(counter, loss_val))
                 self.console_logger.info("Train {}: loss:{}".format(counter, loss_val))
 
-        # TODO: Split train and val blocks, make them more fancy
-        # test logic
+        total_test_loss, total_accuracy = self._epoch_val()
+
+        self.train_logger.info('Epoch{}:--------loss:{}, test loss:{}, accuracy:{}'.format(epoch, total_train_loss,
+                                                    total_test_loss, total_accuracy.item()/self.test_data.length()))
+        self.console_logger.info('Epoch{}:--------loss:{}, test loss:{}, accuracy:{}'.format(epoch, total_train_loss,
+                                                    total_test_loss, total_accuracy.item() / self.test_data.length()))
+
+    def _epoch_val(self):
         total_test_loss = 0
         total_accuracy = 0
         with torch.no_grad():
@@ -78,9 +84,4 @@ class Cifar10Trainer(BaseTrainer):
                 accuracy = ((outputs.argmax(1) == labels).sum())
                 total_accuracy += accuracy
 
-        self.train_logger.info('Epoch{}:--------loss:{}, test loss:{}, accuracy:{}'.format(epoch, total_train_loss,
-                                                    total_test_loss, total_accuracy.item()/self.test_data.length()))
-        self.console_logger.info('Epoch{}:--------loss:{}, test loss:{}, accuracy:{}'.format(epoch, total_train_loss,
-                                                    total_test_loss, total_accuracy.item() / self.test_data.length()))
-
-
+        return total_test_loss, total_accuracy

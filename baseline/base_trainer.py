@@ -29,6 +29,14 @@ class BaseTrainer(ABC):
         """
         raise NotImplementedError
 
+    @abstractmethod
+    def _epoch_val(self):
+        """
+         Train process for every epoch.
+         Should be overridden by all subclasses.
+        """
+        raise NotImplementedError
+
     def _train(self):
         """
          Epoch-wise train logic.
