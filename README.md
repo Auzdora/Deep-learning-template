@@ -46,7 +46,7 @@ utility. So you can add more based on these.
 How to use part demonstrates how you can implement this during
 a project.
 
-### 2. Diagram
+### 2. Diagram (ps, recommande use light mode of web so that you can see it clearly, sorry for that..)
 
 ![](./readme_files/framwork.png)
 &ensp;&ensp;&ensp;&ensp;
