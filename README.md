@@ -6,7 +6,7 @@
 * Intro
 * Diagram
 * Module and function
-* How to use
+* Get started
 
 ## To Do List
 - [X] Add base class for data-loading process and training process
@@ -47,23 +47,83 @@ How to use part demonstrates how you can implement this during
 a project.
 
 ### 2. Diagram
-&ensp;&ensp;&ensp;&ensp;
+
 ![](./readme_files/framwork.png)
+&ensp;&ensp;&ensp;&ensp;
+Logger directory provide simple files to control the whole project
+log record. Many log commands have been written to the different
+part of code.
+
+&ensp;&ensp;&ensp;&ensp;
+Database has two directories. One is train_data, other is test_data.
+It depends on your original dataset.
+
+&ensp;&ensp;&ensp;&ensp;
+Utils provides many useful tools for coding. It also has optimizers, 
+loss function and some json utils.
+
+&ensp;&ensp;&ensp;&ensp;
+Model has backbone which you could define your innovational model
+here and layers which you could define your model's layer.
+
+&ensp;&ensp;&ensp;&ensp;
+Baseline provides basic class for data_loader and trainer.
+
+&ensp;&ensp;&ensp;&ensp;
+Data_loader will load data to database. Trainer provide a class
+for training process.
 
 ### 3. Module and function
+#### Baseline
+&ensp;&ensp;&ensp;&ensp;
+Baseline provides basic elements you need to implement a neural
+network project for data loader and trainer. Specifically, for 
+trainer, you need to rewrite _**_epoch_train**_ and **__epoch_vall_** methods.
+These two files require no need to change if you just wanna use
+this project, also you could change it based on your purpose.
 
-### 4. How to use
+#### data_loader
+&ensp;&ensp;&ensp;&ensp;
+This is the place where you need to define your self dataloader.
+For instance, dataset loction or transform.
+
+#### database
+&ensp;&ensp;&ensp;&ensp;
+It will restore your dataset through data_loader.
+
+#### logger
+&ensp;&ensp;&ensp;&ensp;
+By changing the content or parameters in log_config.json, you
+could change formatter, logger and handlers. This file will be
+parsed by logger_parser.
+
+#### model
+&ensp;&ensp;&ensp;&ensp;
+Backbone is for restoring your models.
+
+&ensp;&ensp;&ensp;&ensp;
+Layers is for defining your own layers.
+
+#### readme_files
+&ensp;&ensp;&ensp;&ensp;
+Nothing but imgs.
+
+#### trainer
+&ensp;&ensp;&ensp;&ensp;
+Self-defined trainers based on basic class.
+
+### utils
+&ensp;&ensp;&ensp;&ensp;
+It mainly contains two things. First, you could write any function
+here as tools. Second, you could define your own optimizers or loss
+function here.
+
+### config.json
+Change and add your params here directly.
 
 
-
->hahahahaha
-> >hahahah
-
- ~~asdasd~~
- 
-`this is inline code`
-<p> this is a content</p>
-<pre><code>print('hello')
-a = b
-c = d
-</code></pre>
+### 4. Get started
+&ensp;&ensp;&ensp;&ensp;
+So, how you gonna use it? All you need to do is add your creative
+model to backbone, your dataset to database and go to train.py.
+Click 'run' button, and wait till the end of learing!
