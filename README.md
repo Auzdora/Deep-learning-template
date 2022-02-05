@@ -6,19 +6,8 @@
 * Intro
 * Diagram
 * Module and function
-* Get started
-
-## To Do List
-- [X] Add base class for data-loading process and training process
-- [x] Add data loaders module
-- [x] Build a basic neural network for testing
-- [x] Add trainers
-- [x] Add config file and config file parser
-- [x] Add log system
-- [x] Add model save and reload function
-- [ ] Add checkpoint to base class
-- [ ] Enhance code expandability and robustness
-- [ ] Fix all bugs
+* Getting started
+* To Do List
 
 ---
 
@@ -122,8 +111,24 @@ function here.
 Change and add your params here directly.
 
 
-### 4. Get started
+### 4. Getting started
 &ensp;&ensp;&ensp;&ensp;
 So, how you gonna use it? All you need to do is add your creative
 model to backbone, your dataset to database and go to train.py.
 Click 'run' button, and wait till the end of learing!
+
+---
+
+
+## To Do List
+- [X] Add base class for data-loading process and training process
+- [x] Add data loaders module
+- [x] Build a basic neural network for testing
+- [x] Add trainers
+- [x] Add config file and config file parser
+- [x] Add log system
+- [x] Add model save and reload function
+- [ ] Add checkpoint to base class
+- [ ] Enhance code expandability and robustness
+- [ ] Fix all bugs
+
