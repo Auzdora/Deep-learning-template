@@ -48,6 +48,9 @@ class BaseTrainer(ABC):
             self._epoch_train(epoch)
             self.model.train()
 
+            # save model for every epoch
+            self.save_model(self.model, epoch)
+
     # TODO: Untested
     def save_model(self, model, epoch):
         """
@@ -56,14 +59,15 @@ class BaseTrainer(ABC):
         :param epoch: current epoch number
         :return:
         """
-        path = 'model/saved_model/model_state_dict_{}.pkl'.format(epoch)
+        path = 'model/saved_model/'
+        model_path = 'model/saved_model/model_state_dict_{}.pkl'.format(epoch)
         model_saved_path = pathlib.Path(path)
-        if model_saved_path.is_file():
-            torch.save(model.state_dict(), 'model/saved_model')
+        if model_saved_path.is_dir():
+            torch.save(model.state_dict(), 'model/saved_model/model_state_dict_{}.pkl'.format(epoch))
             self.console_logger.info('---------------- Model has been saved to "{}",epoch {} ----------------'
-                                     .format(path, epoch))
+                                     .format(model_path, epoch))
             self.train_logger.info('---------------- Model has been saved to "{}",epoch {} ----------------'
-                                     .format(path, epoch))
+                                     .format(model_path, epoch))
 
         else:
             raise FileNotFoundError("Model saved directory: '{}' not found!".format(path))
@@ -84,7 +88,7 @@ class BaseTrainer(ABC):
             self.console_logger.info('---------------- Model parameters of epoch {} has been loaded ----------------'
                                      .format(path, epoch))
         else:
-            raise FileNotFoundError("Model saved directory: '{}' not found!".format(path))
+            raise FileNotFoundError("Model state dict: '{}' not found!".format(path))
 
 
 if __name__ == '__main__':

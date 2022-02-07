@@ -69,7 +69,7 @@ class Cifar10Trainer(BaseTrainer):
         with torch.no_grad():
             self.model.eval()
             for data in self.test_data:
-                imgs, labels = data
+                datas, labels = data
 
                 # choose device
                 if self.device == 'gpu':
@@ -78,7 +78,7 @@ class Cifar10Trainer(BaseTrainer):
                 elif self.device == 'cpu':
                     pass
 
-                outputs = self.model(imgs)
+                outputs = self.model(datas)
                 loss = self.loss_function(outputs, labels)
                 total_test_loss += loss.item()
                 accuracy = ((outputs.argmax(1) == labels).sum())
