@@ -6,6 +6,7 @@
     Author: Botian Lan
     Time: 2022/01/24
 """
+import os
 from abc import abstractmethod, ABC
 import logging
 import torch
@@ -13,10 +14,12 @@ import pathlib
 
 
 class BaseTrainer(ABC):
-    def __init__(self, model, epoch, data_loader):
+    def __init__(self, model, epoch, data_loader, optimizer, checkpoint_enable):
         self.model = model
         self.epoch = epoch
+        self.optimizer = optimizer
         self.data_loader = data_loader
+        self.checkpoint_enable = checkpoint_enable
         self.console_logger = logging.getLogger('console_loggers')
         self.train_logger = logging.getLogger('train_file_loggers')
 
@@ -43,6 +46,8 @@ class BaseTrainer(ABC):
         :return:
         """
         for epoch in range(self.epoch):
+            # if self.checkpoint_enable:
+
             self.console_logger.info(' Epoch {} begin'.format(epoch))
             self.train_logger.info(' Epoch {} begin'.format(epoch))
             self._epoch_train(epoch)
@@ -51,7 +56,6 @@ class BaseTrainer(ABC):
             # save model for every epoch
             self.save_model(self.model, epoch)
 
-    # TODO: Untested
     def save_model(self, model, epoch):
         """
          Save model's parameters of every epoch into pkl file.
@@ -63,7 +67,8 @@ class BaseTrainer(ABC):
         model_path = 'model/saved_model/model_state_dict_{}.pkl'.format(epoch)
         model_saved_path = pathlib.Path(path)
         if model_saved_path.is_dir():
-            torch.save(model.state_dict(), 'model/saved_model/model_state_dict_{}.pkl'.format(epoch))
+            model_info = self.checkpoint_generator(model, epoch)
+            torch.save(model_info, 'model/saved_model/model_state_dict_{}.pkl'.format(epoch))
             self.console_logger.info('---------------- Model has been saved to "{}",epoch {} ----------------'
                                      .format(model_path, epoch))
             self.train_logger.info('---------------- Model has been saved to "{}",epoch {} ----------------'
@@ -72,6 +77,15 @@ class BaseTrainer(ABC):
         else:
             raise FileNotFoundError("Model saved directory: '{}' not found!".format(path))
 
+    def checkpoint_generator(self, model, epoch):
+        checkpoint = {
+            'epoch': epoch,
+            'optimizer': self.optimizer.state_dict(),
+            'model': model.state_dict()
+        }
+
+        return checkpoint
+
     # TODO: Untested
     def load_model(self, epoch):
         """
@@ -79,6 +93,13 @@ class BaseTrainer(ABC):
         :param epoch: choose a specific epoch number to load
         :return:
         """
+
+        path = 'model/saved_model/'
+        if pathlib.Path(path).is_dir():
+            # find the last model-saved file
+            for model_file in os.listdir(path):
+                name, ext = os.path.splitext(model_file)
+
         path = 'model/saved_model/model_state_dict_{}.pkl'.format(epoch)
         model_load_path = pathlib.Path(path)
         if model_load_path.is_file():
@@ -92,12 +113,12 @@ class BaseTrainer(ABC):
 
 
 if __name__ == '__main__':
+    # TODO: how to use relative dir path find object
     """
         Abstractmethod test code.
     """
-    class Train(BaseTrainer):
-        def __init__(self, model, epoch, data_loader):
-            super(Train, self).__init__(model, epoch, data_loader)
-
-    train = BaseTrainer(1, 2, 3)
+    path = 'model/saved_model/'
+    model_load_path = pathlib.Path(path)
+    for model_file in model_load_path.iterdir():
+        print(model_file)
 

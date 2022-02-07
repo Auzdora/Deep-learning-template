@@ -24,7 +24,8 @@ class Cifar10Trainer(BaseTrainer):
         self.init_kwargs = {
             'model': model,
             'epoch': epoch,
-            'data_loader': data_loader
+            'data_loader': data_loader,
+            'optimizer': self.optimizer
         }
         super(Cifar10Trainer, self).__init__(**self.init_kwargs)
 

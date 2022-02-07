@@ -17,6 +17,7 @@ class _ConfigParser:
         # Parsers
         self.data_config = self.data_parser()
         self.model_config = self.model_parser()
+        self.checkpoint_enable = self.checkpoint_parser()
 
     def reader(self):
         return read_json(self.file_path)
@@ -34,3 +35,14 @@ class _ConfigParser:
         model_config = self.json_data['model_params']
         return model_config
 
+    def checkpoint_parser(self):
+        """
+        Get json data "checkpoint_enable", logically, when it returns true,
+        system will use check point to load last time epoch model information,
+        when it returns false, it will train from the beginning.
+        :return: true or false
+        """
+        checkpoint = self.json_data['"checkpoint_enable"']
+        if checkpoint:
+            return True
+        return False

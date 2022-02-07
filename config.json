@@ -3,6 +3,7 @@
     "author": "Botian Lan",
     "version": "1.0",
 
+    "checkpoint_enable": true,
 
     "data": {
         "data_split": true,

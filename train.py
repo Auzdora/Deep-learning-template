@@ -28,6 +28,7 @@ def starter(config):
 
     data_congig = config.data_config
     model_config = config.model_config
+    checkpoint_enable = config.checkpoint_enable
 
     data_loader = _DataLoader(data_congig['train_data_path'], batch_size=data_congig['batch_size'],
                               shuffle=data_congig['shuffle'])
@@ -56,23 +57,26 @@ def starter(config):
         'device': device
     }
 
-    model_logger.info('--------------------------Model information--------------------------')
+    if checkpoint_enable:
+        console_logger.info('Checkpoint enabled successfully, continue to train from last time!')
+    else:
+        model_logger.info('--------------------------Model information--------------------------')
+        # record
+        console_logger.info('model_name: {}'.format(config.json_data['model_name']))
+        console_logger.info('epoch: {}'.format(epoch))
+        console_logger.info('loss_function: {}'.format(model_config['loss_function']))
+        console_logger.info('optimizer: {}'.format(model_config['optimizer']))
+        console_logger.info('learning rate: {}'.format(learning_rate))
+        console_logger.info('device: {}'.format(device))
 
-    # record
-    console_logger.info('model_name: {}'.format(config.json_data['model_name']))
-    console_logger.info('epoch: {}'.format(epoch))
-    console_logger.info('loss_function: {}'.format(model_config['loss_function']))
-    console_logger.info('optimizer: {}'.format(model_config['optimizer']))
-    console_logger.info('learning rate: {}'.format(learning_rate))
-    console_logger.info('device: {}'.format(device))
+        model_logger.info('model_name: {}'.format(config.json_data['model_name']))
+        model_logger.info('epoch: {}'.format(epoch))
+        model_logger.info('loss_function: {}'.format(model_config['loss_function']))
+        model_logger.info('optimizer: {}'.format(model_config['optimizer']))
+        model_logger.info('learning rate: {}'.format(learning_rate))
+        model_logger.info('device: {}'.format(device))
 
-    model_logger.info('model_name: {}'.format(config.json_data['model_name']))
-    model_logger.info('epoch: {}'.format(epoch))
-    model_logger.info('loss_function: {}'.format(model_config['loss_function']))
-    model_logger.info('optimizer: {}'.format(model_config['optimizer']))
-    model_logger.info('learning rate: {}'.format(learning_rate))
-    model_logger.info('device: {}'.format(device))
-
+        console_logger.info('--------------------------Start to train--------------------------')
     train = Cifar10Trainer(**init_kwargs)
     train._train()
 
