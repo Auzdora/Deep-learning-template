@@ -64,6 +64,7 @@ for training process.
 
 ### 3. Module and function
 #### Baseline
+---
 &ensp;&ensp;&ensp;&ensp;
 Baseline provides basic elements you need to implement a neural
 network project for data loader and trainer. Specifically, for 
@@ -72,21 +73,25 @@ These two files require no need to change if you just wanna use
 this project, also you could change it based on your purpose.
 
 #### data_loader
+---
 &ensp;&ensp;&ensp;&ensp;
 This is the place where you need to define your self dataloader.
 For instance, dataset loction or transform.
 
 #### database
+---
 &ensp;&ensp;&ensp;&ensp;
 It will restore your dataset through data_loader.
 
 #### logger
+---
 &ensp;&ensp;&ensp;&ensp;
 By changing the content or parameters in log_config.json, you
 could change formatter, logger and handlers. This file will be
 parsed by logger_parser.
 
 #### model
+---
 &ensp;&ensp;&ensp;&ensp;
 Backbone is for restoring your models.
 
@@ -94,20 +99,24 @@ Backbone is for restoring your models.
 Layers is for defining your own layers.
 
 #### readme_files
+---
 &ensp;&ensp;&ensp;&ensp;
 Nothing but imgs.
 
 #### trainer
+---
 &ensp;&ensp;&ensp;&ensp;
 Self-defined trainers based on basic class.
 
 ### utils
+---
 &ensp;&ensp;&ensp;&ensp;
 It mainly contains two things. First, you could write any function
 here as tools. Second, you could define your own optimizers or loss
 function here.
 
 ### config.json
+---
 Change and add your params here directly.
 
 
