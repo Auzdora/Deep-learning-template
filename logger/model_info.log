@@ -1,0 +1,169 @@
+2022-02-08 11:00:43,538 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-02-08 11:00:44,738 - model_file_loggers - INFO: Dataset length: 50000
+2022-02-08 11:00:44,738 - model_file_loggers - INFO: Batch size: 64
+2022-02-08 11:00:44,738 - model_file_loggers - INFO: Shuffle: True
+2022-02-08 11:00:44,738 - model_file_loggers - INFO: Num workers: 1
+2022-02-08 11:00:45,718 - model_file_loggers - INFO: Dataset length: 10000
+2022-02-08 11:00:45,718 - model_file_loggers - INFO: Batch size: 64
+2022-02-08 11:00:45,718 - model_file_loggers - INFO: Shuffle: True
+2022-02-08 11:00:45,718 - model_file_loggers - INFO: Num workers: 1
+2022-02-08 11:01:44,644 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-02-08 11:01:45,844 - model_file_loggers - INFO: Dataset length: 50000
+2022-02-08 11:01:45,844 - model_file_loggers - INFO: Batch size: 64
+2022-02-08 11:01:45,844 - model_file_loggers - INFO: Shuffle: True
+2022-02-08 11:01:45,844 - model_file_loggers - INFO: Num workers: 1
+2022-02-08 11:01:46,884 - model_file_loggers - INFO: Dataset length: 10000
+2022-02-08 11:01:46,884 - model_file_loggers - INFO: Batch size: 64
+2022-02-08 11:01:46,884 - model_file_loggers - INFO: Shuffle: True
+2022-02-08 11:01:46,884 - model_file_loggers - INFO: Num workers: 1
+2022-02-08 11:02:39,767 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-02-08 11:02:40,917 - model_file_loggers - INFO: Dataset length: 50000
+2022-02-08 11:02:40,917 - model_file_loggers - INFO: Batch size: 64
+2022-02-08 11:02:40,917 - model_file_loggers - INFO: Shuffle: True
+2022-02-08 11:02:40,917 - model_file_loggers - INFO: Num workers: 1
+2022-02-08 11:02:41,877 - model_file_loggers - INFO: Dataset length: 10000
+2022-02-08 11:02:41,877 - model_file_loggers - INFO: Batch size: 64
+2022-02-08 11:02:41,877 - model_file_loggers - INFO: Shuffle: True
+2022-02-08 11:02:41,877 - model_file_loggers - INFO: Num workers: 1
+2022-02-08 11:03:19,256 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-02-08 11:03:20,406 - model_file_loggers - INFO: Dataset length: 50000
+2022-02-08 11:03:20,406 - model_file_loggers - INFO: Batch size: 64
+2022-02-08 11:03:20,406 - model_file_loggers - INFO: Shuffle: True
+2022-02-08 11:03:20,406 - model_file_loggers - INFO: Num workers: 1
+2022-02-08 11:03:21,366 - model_file_loggers - INFO: Dataset length: 10000
+2022-02-08 11:03:21,366 - model_file_loggers - INFO: Batch size: 64
+2022-02-08 11:03:21,376 - model_file_loggers - INFO: Shuffle: True
+2022-02-08 11:03:21,376 - model_file_loggers - INFO: Num workers: 1
+2022-02-08 11:04:40,047 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-02-08 11:04:41,187 - model_file_loggers - INFO: Dataset length: 50000
+2022-02-08 11:04:41,187 - model_file_loggers - INFO: Batch size: 64
+2022-02-08 11:04:41,187 - model_file_loggers - INFO: Shuffle: True
+2022-02-08 11:04:41,187 - model_file_loggers - INFO: Num workers: 1
+2022-02-08 11:04:42,157 - model_file_loggers - INFO: Dataset length: 10000
+2022-02-08 11:04:42,157 - model_file_loggers - INFO: Batch size: 64
+2022-02-08 11:04:42,157 - model_file_loggers - INFO: Shuffle: True
+2022-02-08 11:04:42,157 - model_file_loggers - INFO: Num workers: 1
+2022-02-08 11:05:28,466 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-02-08 11:05:29,626 - model_file_loggers - INFO: Dataset length: 50000
+2022-02-08 11:05:29,626 - model_file_loggers - INFO: Batch size: 64
+2022-02-08 11:05:29,626 - model_file_loggers - INFO: Shuffle: True
+2022-02-08 11:05:29,626 - model_file_loggers - INFO: Num workers: 1
+2022-02-08 11:05:30,586 - model_file_loggers - INFO: Dataset length: 10000
+2022-02-08 11:05:30,586 - model_file_loggers - INFO: Batch size: 64
+2022-02-08 11:05:30,586 - model_file_loggers - INFO: Shuffle: True
+2022-02-08 11:05:30,586 - model_file_loggers - INFO: Num workers: 1
+2022-02-08 11:09:54,550 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-02-08 11:09:55,700 - model_file_loggers - INFO: Dataset length: 50000
+2022-02-08 11:09:55,700 - model_file_loggers - INFO: Batch size: 64
+2022-02-08 11:09:55,700 - model_file_loggers - INFO: Shuffle: True
+2022-02-08 11:09:55,700 - model_file_loggers - INFO: Num workers: 1
+2022-02-08 11:09:56,670 - model_file_loggers - INFO: Dataset length: 10000
+2022-02-08 11:09:56,670 - model_file_loggers - INFO: Batch size: 64
+2022-02-08 11:09:56,670 - model_file_loggers - INFO: Shuffle: True
+2022-02-08 11:09:56,670 - model_file_loggers - INFO: Num workers: 1
+2022-02-08 11:10:49,892 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-02-08 11:10:51,052 - model_file_loggers - INFO: Dataset length: 50000
+2022-02-08 11:10:51,052 - model_file_loggers - INFO: Batch size: 64
+2022-02-08 11:10:51,062 - model_file_loggers - INFO: Shuffle: True
+2022-02-08 11:10:51,062 - model_file_loggers - INFO: Num workers: 1
+2022-02-08 11:10:52,022 - model_file_loggers - INFO: Dataset length: 10000
+2022-02-08 11:10:52,022 - model_file_loggers - INFO: Batch size: 64
+2022-02-08 11:10:52,022 - model_file_loggers - INFO: Shuffle: True
+2022-02-08 11:10:52,022 - model_file_loggers - INFO: Num workers: 1
+2022-02-08 11:11:41,073 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-02-08 11:11:42,223 - model_file_loggers - INFO: Dataset length: 50000
+2022-02-08 11:11:42,223 - model_file_loggers - INFO: Batch size: 64
+2022-02-08 11:11:42,223 - model_file_loggers - INFO: Shuffle: True
+2022-02-08 11:11:42,223 - model_file_loggers - INFO: Num workers: 1
+2022-02-08 11:11:43,183 - model_file_loggers - INFO: Dataset length: 10000
+2022-02-08 11:11:43,183 - model_file_loggers - INFO: Batch size: 64
+2022-02-08 11:11:43,183 - model_file_loggers - INFO: Shuffle: True
+2022-02-08 11:11:43,183 - model_file_loggers - INFO: Num workers: 1
+2022-02-08 11:12:00,261 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-02-08 11:12:01,401 - model_file_loggers - INFO: Dataset length: 50000
+2022-02-08 11:12:01,401 - model_file_loggers - INFO: Batch size: 64
+2022-02-08 11:12:01,401 - model_file_loggers - INFO: Shuffle: True
+2022-02-08 11:12:01,401 - model_file_loggers - INFO: Num workers: 1
+2022-02-08 11:12:02,371 - model_file_loggers - INFO: Dataset length: 10000
+2022-02-08 11:12:02,371 - model_file_loggers - INFO: Batch size: 64
+2022-02-08 11:12:02,371 - model_file_loggers - INFO: Shuffle: True
+2022-02-08 11:12:02,371 - model_file_loggers - INFO: Num workers: 1
+2022-02-08 11:13:44,650 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-02-08 11:13:45,800 - model_file_loggers - INFO: Dataset length: 50000
+2022-02-08 11:13:45,800 - model_file_loggers - INFO: Batch size: 64
+2022-02-08 11:13:45,800 - model_file_loggers - INFO: Shuffle: True
+2022-02-08 11:13:45,800 - model_file_loggers - INFO: Num workers: 1
+2022-02-08 11:13:46,760 - model_file_loggers - INFO: Dataset length: 10000
+2022-02-08 11:13:46,760 - model_file_loggers - INFO: Batch size: 64
+2022-02-08 11:13:46,760 - model_file_loggers - INFO: Shuffle: True
+2022-02-08 11:13:46,760 - model_file_loggers - INFO: Num workers: 1
+2022-02-08 11:14:05,079 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-02-08 11:14:06,229 - model_file_loggers - INFO: Dataset length: 50000
+2022-02-08 11:14:06,229 - model_file_loggers - INFO: Batch size: 64
+2022-02-08 11:14:06,229 - model_file_loggers - INFO: Shuffle: True
+2022-02-08 11:14:06,229 - model_file_loggers - INFO: Num workers: 1
+2022-02-08 11:14:07,189 - model_file_loggers - INFO: Dataset length: 10000
+2022-02-08 11:14:07,189 - model_file_loggers - INFO: Batch size: 64
+2022-02-08 11:14:07,189 - model_file_loggers - INFO: Shuffle: True
+2022-02-08 11:14:07,189 - model_file_loggers - INFO: Num workers: 1
+2022-02-08 11:14:16,920 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-02-08 11:14:18,079 - model_file_loggers - INFO: Dataset length: 50000
+2022-02-08 11:14:18,079 - model_file_loggers - INFO: Batch size: 64
+2022-02-08 11:14:18,079 - model_file_loggers - INFO: Shuffle: True
+2022-02-08 11:14:18,079 - model_file_loggers - INFO: Num workers: 1
+2022-02-08 11:14:19,049 - model_file_loggers - INFO: Dataset length: 10000
+2022-02-08 11:14:19,049 - model_file_loggers - INFO: Batch size: 64
+2022-02-08 11:14:19,049 - model_file_loggers - INFO: Shuffle: True
+2022-02-08 11:14:19,049 - model_file_loggers - INFO: Num workers: 1
+2022-02-08 11:16:39,914 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-02-08 11:16:41,074 - model_file_loggers - INFO: Dataset length: 50000
+2022-02-08 11:16:41,074 - model_file_loggers - INFO: Batch size: 64
+2022-02-08 11:16:41,074 - model_file_loggers - INFO: Shuffle: True
+2022-02-08 11:16:41,074 - model_file_loggers - INFO: Num workers: 1
+2022-02-08 11:16:42,044 - model_file_loggers - INFO: Dataset length: 10000
+2022-02-08 11:16:42,044 - model_file_loggers - INFO: Batch size: 64
+2022-02-08 11:16:42,044 - model_file_loggers - INFO: Shuffle: True
+2022-02-08 11:16:42,044 - model_file_loggers - INFO: Num workers: 1
+2022-02-08 11:17:32,877 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-02-08 11:17:34,027 - model_file_loggers - INFO: Dataset length: 50000
+2022-02-08 11:17:34,027 - model_file_loggers - INFO: Batch size: 64
+2022-02-08 11:17:34,027 - model_file_loggers - INFO: Shuffle: True
+2022-02-08 11:17:34,027 - model_file_loggers - INFO: Num workers: 1
+2022-02-08 11:17:34,987 - model_file_loggers - INFO: Dataset length: 10000
+2022-02-08 11:17:34,987 - model_file_loggers - INFO: Batch size: 64
+2022-02-08 11:17:34,987 - model_file_loggers - INFO: Shuffle: True
+2022-02-08 11:17:34,987 - model_file_loggers - INFO: Num workers: 1
+2022-02-08 11:18:20,008 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-02-08 11:18:21,158 - model_file_loggers - INFO: Dataset length: 50000
+2022-02-08 11:18:21,158 - model_file_loggers - INFO: Batch size: 64
+2022-02-08 11:18:21,158 - model_file_loggers - INFO: Shuffle: True
+2022-02-08 11:18:21,158 - model_file_loggers - INFO: Num workers: 1
+2022-02-08 11:18:22,118 - model_file_loggers - INFO: Dataset length: 10000
+2022-02-08 11:18:22,118 - model_file_loggers - INFO: Batch size: 64
+2022-02-08 11:18:22,118 - model_file_loggers - INFO: Shuffle: True
+2022-02-08 11:18:22,118 - model_file_loggers - INFO: Num workers: 1
+2022-02-08 11:18:37,878 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-02-08 11:18:39,038 - model_file_loggers - INFO: Dataset length: 50000
+2022-02-08 11:18:39,038 - model_file_loggers - INFO: Batch size: 64
+2022-02-08 11:18:39,038 - model_file_loggers - INFO: Shuffle: True
+2022-02-08 11:18:39,038 - model_file_loggers - INFO: Num workers: 1
+2022-02-08 11:18:40,018 - model_file_loggers - INFO: Dataset length: 10000
+2022-02-08 11:18:40,018 - model_file_loggers - INFO: Batch size: 64
+2022-02-08 11:18:40,018 - model_file_loggers - INFO: Shuffle: True
+2022-02-08 11:18:40,018 - model_file_loggers - INFO: Num workers: 1
+2022-02-08 11:19:50,471 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-02-08 11:19:51,610 - model_file_loggers - INFO: Dataset length: 50000
+2022-02-08 11:19:51,610 - model_file_loggers - INFO: Batch size: 64
+2022-02-08 11:19:51,610 - model_file_loggers - INFO: Shuffle: True
+2022-02-08 11:19:51,610 - model_file_loggers - INFO: Num workers: 1
+2022-02-08 11:19:52,580 - model_file_loggers - INFO: Dataset length: 10000
+2022-02-08 11:19:52,580 - model_file_loggers - INFO: Batch size: 64
+2022-02-08 11:19:52,590 - model_file_loggers - INFO: Shuffle: True
+2022-02-08 11:19:52,590 - model_file_loggers - INFO: Num workers: 1
+2022-02-08 11:19:55,590 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-02-08 11:19:55,590 - model_file_loggers - INFO: model_name: LeNet
+2022-02-08 11:19:55,590 - model_file_loggers - INFO: epoch: 100
+2022-02-08 11:19:55,590 - model_file_loggers - INFO: loss_function: loss_fn
+2022-02-08 11:19:55,590 - model_file_loggers - INFO: optimizer: Adam
+2022-02-08 11:19:55,590 - model_file_loggers - INFO: learning rate: 0.001
+2022-02-08 11:19:55,590 - model_file_loggers - INFO: device: gpu

@@ -54,7 +54,8 @@ def starter(config):
         'loss_function': loss_function,
         'optimizer': optimizer,
         'lr': learning_rate,
-        'device': device
+        'device': device,
+        'checkpoint_enable': checkpoint_enable
     }
 
     if checkpoint_enable:

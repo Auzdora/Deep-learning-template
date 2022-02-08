@@ -42,7 +42,7 @@ class _ConfigParser:
         when it returns false, it will train from the beginning.
         :return: true or false
         """
-        checkpoint = self.json_data['"checkpoint_enable"']
+        checkpoint = self.json_data['checkpoint_enable']
         if checkpoint:
             return True
         return False

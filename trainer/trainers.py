@@ -15,7 +15,7 @@ from utils.general_utils import *
 
 
 class Cifar10Trainer(BaseTrainer):
-    def __init__(self, model, epoch, data_loader, test_loader, loss_function, optimizer, lr, device):
+    def __init__(self, model, epoch, data_loader, test_loader, loss_function, optimizer, lr, device, checkpoint_enable):
         self.test_data = test_loader
         self.device = device
         self.loss_function = loss_function
@@ -25,7 +25,8 @@ class Cifar10Trainer(BaseTrainer):
             'model': model,
             'epoch': epoch,
             'data_loader': data_loader,
-            'optimizer': self.optimizer
+            'optimizer': self.optimizer,
+            'checkpoint_enable': checkpoint_enable
         }
         super(Cifar10Trainer, self).__init__(**self.init_kwargs)
 

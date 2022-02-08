@@ -15,13 +15,19 @@ import pathlib
 
 class BaseTrainer(ABC):
     def __init__(self, model, epoch, data_loader, optimizer, checkpoint_enable):
+        self.checkpoint_enable = checkpoint_enable
+        self.data_loader = data_loader
+        self.console_logger = logging.getLogger('console_loggers')
+        self.train_logger = logging.getLogger('train_file_loggers')
         self.model = model
         self.epoch = epoch
         self.optimizer = optimizer
-        self.data_loader = data_loader
-        self.checkpoint_enable = checkpoint_enable
-        self.console_logger = logging.getLogger('console_loggers')
-        self.train_logger = logging.getLogger('train_file_loggers')
+
+        if checkpoint_enable:
+            self.last_epoch, self.checkpoint = self.load_model()
+            self.model.load_state_dict(self.checkpoint['model'])
+            self.optimizer.load_state_dict(self.checkpoint['optimizer'])
+
 
     @abstractmethod
     def _epoch_train(self, epoch):
@@ -46,15 +52,25 @@ class BaseTrainer(ABC):
         :return:
         """
         for epoch in range(self.epoch):
-            # if self.checkpoint_enable:
+            if self.checkpoint_enable:
+                if epoch <= self.last_epoch:
+                    continue
+                else:
+                    self.console_logger.info(' Epoch {} begin'.format(epoch))
+                    self.train_logger.info(' Epoch {} begin'.format(epoch))
+                    self._epoch_train(epoch)
+                    self.model.train()
 
-            self.console_logger.info(' Epoch {} begin'.format(epoch))
-            self.train_logger.info(' Epoch {} begin'.format(epoch))
-            self._epoch_train(epoch)
-            self.model.train()
+                    # save model for every epoch
+                    self.save_model(self.model, epoch)
+            else:
+                self.console_logger.info(' Epoch {} begin'.format(epoch))
+                self.train_logger.info(' Epoch {} begin'.format(epoch))
+                self._epoch_train(epoch)
+                self.model.train()
 
-            # save model for every epoch
-            self.save_model(self.model, epoch)
+                # save model for every epoch
+                self.save_model(self.model, epoch)
 
     def save_model(self, model, epoch):
         """
@@ -87,38 +103,43 @@ class BaseTrainer(ABC):
         return checkpoint
 
     # TODO: Untested
-    def load_model(self, epoch):
+    def load_model(self):
         """
          Load saved model dict to
         :param epoch: choose a specific epoch number to load
         :return:
         """
 
-        path = 'model/saved_model/'
-        if pathlib.Path(path).is_dir():
-            # find the last model-saved file
-            for model_file in os.listdir(path):
-                name, ext = os.path.splitext(model_file)
+        path = './model/saved_model/'
+        # find the last model-saved file
+        epoch_num = []
+        for model_file in os.listdir(path):
+            name, ext = os.path.splitext(model_file)
+            epoch_num.append(int(name[-1]))
+        last_epoch = max(epoch_num)
 
-        path = 'model/saved_model/model_state_dict_{}.pkl'.format(epoch)
-        model_load_path = pathlib.Path(path)
+
+        # load checkpoint
+        model_path = 'model/saved_model/model_state_dict_{}.pkl'.format(last_epoch)
+        model_load_path = pathlib.Path(model_path)
         if model_load_path.is_file():
-            model_params = torch.load(model_load_path)
-            self.model.load_state_dict(model_params)
+            checkpoint = torch.load(model_load_path)
 
             self.console_logger.info('---------------- Model parameters of epoch {} has been loaded ----------------'
-                                     .format(path, epoch))
+                                     .format(last_epoch))
         else:
             raise FileNotFoundError("Model state dict: '{}' not found!".format(path))
+        return last_epoch, checkpoint
 
 
 if __name__ == '__main__':
-    # TODO: how to use relative dir path find object
     """
         Abstractmethod test code.
     """
-    path = 'model/saved_model/'
-    model_load_path = pathlib.Path(path)
-    for model_file in model_load_path.iterdir():
-        print(model_file)
+    path = '../model/saved_model/'
+    for model_file in os.listdir(path):
+        name, ext = os.path.splitext(model_file)
+        print(int(name[-1]))
+    num = [1, 2]
+    print(max(num))
 
