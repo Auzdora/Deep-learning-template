@@ -102,7 +102,6 @@ class BaseTrainer(ABC):
 
         return checkpoint
 
-    # TODO: Untested
     def load_model(self):
         """
          Load saved model dict to
@@ -117,7 +116,6 @@ class BaseTrainer(ABC):
             name, ext = os.path.splitext(model_file)
             epoch_num.append(int(name[-1]))
         last_epoch = max(epoch_num)
-
 
         # load checkpoint
         model_path = 'model/saved_model/model_state_dict_{}.pkl'.format(last_epoch)
