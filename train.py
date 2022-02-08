@@ -21,7 +21,7 @@ def starter(config):
 
     logger_packer('logger/log_config.json')
     # get logger
-    console_logger = logging.getLogger('console_logger')
+    console_logger = logging.getLogger('console_loggers')
     model_logger = logging.getLogger('model_file_loggers')
 
     model_logger.info('--------------------------Data loader information--------------------------')
@@ -61,28 +61,29 @@ def starter(config):
     if checkpoint_enable:
         console_logger.info('Checkpoint enabled successfully, continue to train from last time!')
     else:
-        model_logger.info('--------------------------Model information--------------------------')
+        info = {
+            'model_name': config.json_data['model_name'],
+            'epoch': epoch,
+            'loss_function': model_config['loss_function'],
+            'optimizer': model_config['optimizer'],
+            'learning rate': learning_rate,
+            'device': device
+        }
         # record
-        console_logger.info('model_name: {}'.format(config.json_data['model_name']))
-        console_logger.info('epoch: {}'.format(epoch))
-        console_logger.info('loss_function: {}'.format(model_config['loss_function']))
-        console_logger.info('optimizer: {}'.format(model_config['optimizer']))
-        console_logger.info('learning rate: {}'.format(learning_rate))
-        console_logger.info('device: {}'.format(device))
-
-        model_logger.info('model_name: {}'.format(config.json_data['model_name']))
-        model_logger.info('epoch: {}'.format(epoch))
-        model_logger.info('loss_function: {}'.format(model_config['loss_function']))
-        model_logger.info('optimizer: {}'.format(model_config['optimizer']))
-        model_logger.info('learning rate: {}'.format(learning_rate))
-        model_logger.info('device: {}'.format(device))
+        info_shower(console_logger, **info)
+        info_shower(model_logger, **info)
 
         console_logger.info('--------------------------Start to train--------------------------')
     train = Cifar10Trainer(**init_kwargs)
     train._train()
 
 
-if __name__ == '__main__':
+def info_shower(logger, **kwargs):
+    logger.info('--------------------------Model information--------------------------')
+    for info in kwargs:
+        logger.info('{}: {}'.format(info, kwargs[info]))
 
+
+if __name__ == '__main__':
     config = _ConfigParser('config.json')
     starter(config)
