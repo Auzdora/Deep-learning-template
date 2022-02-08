@@ -128,7 +128,7 @@ Click 'run' button, and wait till the end of learing!
 - [x] Add config file and config file parser
 - [x] Add log system
 - [x] Add model save and reload function
-- [ ] Add checkpoint to base class
+- [x] Add checkpoint to base class
 - [ ] Enhance code expandability and robustness
 - [ ] Fix all bugs
 
