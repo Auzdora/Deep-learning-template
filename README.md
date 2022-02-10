@@ -1,6 +1,5 @@
 # DeepLearning-Template-Code
 
----
 
 ## Catalogue
 * Intro
