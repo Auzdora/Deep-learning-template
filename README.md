@@ -98,13 +98,13 @@ Nothing but imgs.
 &ensp;&ensp;&ensp;&ensp;
 Self-defined trainers based on basic class.
 
-### utils
+#### utils
 &ensp;&ensp;&ensp;&ensp;
 It mainly contains two things. First, you could write any function
 here as tools. Second, you could define your own optimizers or loss
 function here.
 
-### config.json
+#### config.json
 Change and add your params here directly.
 
 
