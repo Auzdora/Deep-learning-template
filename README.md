@@ -1,6 +1,5 @@
 # DeepLearning-Template-Code
 
-
 ## Catalogue
 * Intro
 * Diagram
@@ -8,7 +7,6 @@
 * Getting started
 * To Do List
 
----
 
 ## Content
 ### 1. Introduction
