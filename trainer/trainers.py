@@ -26,7 +26,8 @@ class Cifar10Trainer(BaseTrainer):
             'epoch': epoch,
             'data_loader': data_loader,
             'optimizer': self.optimizer,
-            'checkpoint_enable': checkpoint_enable
+            'checkpoint_enable': checkpoint_enable,
+            'device': device
         }
         super(Cifar10Trainer, self).__init__(**self.init_kwargs)
 

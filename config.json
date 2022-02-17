@@ -3,7 +3,7 @@
     "author": "Botian Lan",
     "version": "1.0",
 
-    "checkpoint_enable": false,
+    "checkpoint_enable": true,
 
     "data": {
         "data_split": true,
@@ -32,6 +32,6 @@
         "loss_function": "loss_fn",
         "optimizer": "Adam",
         "lr": 0.001,
-        "device": "gpu"
+        "device": "cpu"
     }
 }

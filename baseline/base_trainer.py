@@ -14,7 +14,7 @@ import pathlib
 
 
 class BaseTrainer(ABC):
-    def __init__(self, model, epoch, data_loader, optimizer, checkpoint_enable):
+    def __init__(self, model, epoch, data_loader, optimizer, checkpoint_enable, device):
         self.checkpoint_enable = checkpoint_enable
         self.data_loader = data_loader
         self.console_logger = logging.getLogger('console_loggers')
@@ -22,6 +22,7 @@ class BaseTrainer(ABC):
         self.model = model
         self.epoch = epoch
         self.optimizer = optimizer
+        self.device = device
 
         if checkpoint_enable:
             self.last_epoch, self.checkpoint = self.load_model()
@@ -123,7 +124,10 @@ class BaseTrainer(ABC):
         model_path = 'model/saved_model/model_state_dict_{}.pkl'.format(last_epoch)
         model_load_path = pathlib.Path(model_path)
         if model_load_path.is_file():
-            checkpoint = torch.load(model_load_path)
+            if self.device == 'gpu':
+                checkpoint = torch.load(model_load_path)
+            elif self.device == 'cpu':
+                checkpoint = torch.load(model_load_path, map_location='cpu')
 
             self.console_logger.info('---------------- Model parameters of epoch {} has been loaded ----------------'
                                      .format(last_epoch))
