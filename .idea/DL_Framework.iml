@@ -4,8 +4,11 @@
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/baseline" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/model" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/logger" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/trainer" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/utils" isTestSource="false" />
     </content>
-    <orderEntry type="jdk" jdkName="Python 3.7 (Torchlearning)" jdkType="Python SDK" />
+    <orderEntry type="jdk" jdkName="Python 3.8 (mytf)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>

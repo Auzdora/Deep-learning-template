@@ -31,3 +31,4 @@
 2022-02-08 17:42:56,813 - model_file_loggers - INFO: optimizer: Adam
 2022-02-08 17:42:56,813 - model_file_loggers - INFO: learning rate: 0.001
 2022-02-08 17:42:56,813 - model_file_loggers - INFO: device: gpu
+2022-02-17 17:16:06,657 - model_file_loggers - INFO: --------------------------Data loader information--------------------------

@@ -52,7 +52,9 @@ class BaseTrainer(ABC):
         :return:
         """
         for epoch in range(self.epoch):
+            # checkpoint enabled
             if self.checkpoint_enable:
+                # jump over last epoch
                 if epoch <= self.last_epoch:
                     continue
                 else:
