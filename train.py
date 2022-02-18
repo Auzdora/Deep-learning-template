@@ -40,18 +40,18 @@ def starter(config):
     test_loader = Test_Dataloader(data_congig['test_data_path'], batch_size=data_congig['batch_size'],
                                   shuffle=data_congig['shuffle'])
 
-    # get model
-    my_model = getattr(CIFAR_10_Model, model_config['model'])
-    model = my_model()
-    if torch.cuda.is_available():
-        model = model.cuda()
-
     # get other information
     epoch = model_config['epoch']
     loss_function = getattr(loss, model_config['loss_function'])
     optimizer = getattr(optim, model_config['optimizer'])
     learning_rate = model_config['lr']
     device = model_config['device']
+
+    # get model
+    my_model = getattr(CIFAR_10_Model, model_config['model'])
+    model = my_model()
+    if torch.cuda.is_available() and device == 'gpu':
+        model = model.cuda()
 
     init_kwargs = {
         'model': model,
