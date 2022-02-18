@@ -45,7 +45,7 @@ def logger_packer(config_file_path):
 
 
 if __name__ == '__main__':
-    loggers = logger_packer('../logger/log_config.json')
+    loggers = logger_packer('log_config.json')
     print(loggers)
 
     a = 3
