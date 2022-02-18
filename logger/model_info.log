@@ -82,3 +82,13 @@
 2022-02-17 17:30:55,458 - model_file_loggers - INFO: Batch size: 64
 2022-02-17 17:30:55,458 - model_file_loggers - INFO: Shuffle: True
 2022-02-17 17:30:55,458 - model_file_loggers - INFO: Num workers: 1
+2022-02-18 19:46:52,744 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-02-18 19:47:45,831 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-02-18 19:47:46,670 - model_file_loggers - INFO: Dataset length: 50000
+2022-02-18 19:47:46,670 - model_file_loggers - INFO: Batch size: 64
+2022-02-18 19:47:46,670 - model_file_loggers - INFO: Shuffle: True
+2022-02-18 19:47:46,670 - model_file_loggers - INFO: Num workers: 1
+2022-02-18 19:47:47,388 - model_file_loggers - INFO: Dataset length: 10000
+2022-02-18 19:47:47,388 - model_file_loggers - INFO: Batch size: 64
+2022-02-18 19:47:47,388 - model_file_loggers - INFO: Shuffle: True
+2022-02-18 19:47:47,388 - model_file_loggers - INFO: Num workers: 1

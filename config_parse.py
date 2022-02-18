@@ -23,7 +23,14 @@ class _ConfigParser:
         return read_json(self.file_path)
 
     def data_parser(self):
+        """
+            Parse data episode in config.json, it has two branches. If data_split is true, that means
+        your data has been divided. Else if data_split is false, that means data is original data.
+
+        :return: data_config, a dict data type
+        """
         data_config = self.json_data['data']
+
         if data_config['data_split']:
             data_config = data_config['split_data']
             return data_config

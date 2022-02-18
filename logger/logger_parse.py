@@ -45,8 +45,8 @@ def logger_packer(config_file_path):
 
 
 if __name__ == '__main__':
-    loggers = logger_packer('logger/log_config.json')
+    loggers = logger_packer('../logger/log_config.json')
     print(loggers)
-    console = logging.getLogger('console_loggers')
+
     a = 3
-    console.info('I am yoursP{}'.format(a))
+
