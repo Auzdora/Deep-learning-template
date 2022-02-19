@@ -50,6 +50,8 @@ def starter(config):
     # get model
     my_model = getattr(CIFAR_10_Model, model_config['model'])
     model = my_model()
+
+    # convert to gpu model
     if torch.cuda.is_available() and device == 'gpu':
         model = model.cuda()
 
