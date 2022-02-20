@@ -32,7 +32,7 @@ def logger_parser(config_file_path):
 def logger_packer(config_file_path):
     """
         By using logger_parser, this function can directly parse log_config.json and generate a list which
-    consists of loggers that json file has.
+    loggers that json file has.
     :param config_file_path:
     :return: exist loggers name cluster
     """
