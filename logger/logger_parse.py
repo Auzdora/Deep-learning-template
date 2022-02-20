@@ -12,6 +12,11 @@ import pathlib
 from utils_json import *
 
 
+# TODO: We can use single logger which contains [handlers1, handlers2, ...]
+#  to let one logger send information to multiple place
+
+
+# TODO: Figure a way to create a Logger system by using OOP
 def logger_parser(config_file_path):
     """
         This function is a node between json structure and dict structure.
@@ -36,6 +41,7 @@ def logger_packer(config_file_path):
     :param config_file_path:
     :return: exist loggers name cluster
     """
+    # TODO: Add debug logger for names
     names = []
     logger_json = logger_parser(config_file_path)
     loggers_cluster = logger_json['loggers']

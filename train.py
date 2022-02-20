@@ -17,7 +17,24 @@ import logging
 from data_loader import data_loaders
 
 
-def starter(config):
+def Launch_Engine(config):
+    """
+        Launch_Engine are combined with two code part, one is configuration part, other is
+    'start to train' part.
+        For configuration part, it does several things:
+        1. logger_packer: pack 'log_config.json' file up, it'll call logger_parser function
+    inside. logger_parser function will convert json to dict, at same time, by using logging.
+    config.dictConfig() method, it'll initialize logging system.
+        2. After initializing logging system, Launch_Engine will get logger by using logging.
+    getLogger() method.
+        3. Call class _ConfigParser's method to get config data
+        4. If gpu device is available, move model to gpu.
+        5. Pack useful information as a dict.
+        6. If checkpoint enabled, begin to train model from the last iteration.
+        7. If not, begin to train model from the beginning.
+    :param config: an instantiation object
+    :return: None
+    """
     logger_packer('logger/log_config.json')
 
     # get logger
@@ -101,5 +118,6 @@ def info_shower(logger, **kwargs):
 
 
 if __name__ == '__main__':
+    # Instantiation config parser and pass this parameter to Launch engine
     config = _ConfigParser('config.json')
-    starter(config)
+    Launch_Engine(config)
