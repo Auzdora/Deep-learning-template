@@ -8,7 +8,6 @@
 """
 
 from trainer import *
-from data_loader.data_loaders import _DataLoader, _Test_DataLoader
 from logger_parse import *
 from model.backbone import CIFAR_10_Model
 from torch import nn, optim
