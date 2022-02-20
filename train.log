@@ -1,7 +1,1 @@
-2022-02-18 20:18:27,706 - train_file_loggers - INFO:  Epoch 8 begin
-2022-02-18 20:18:44,654 - train_file_loggers - INFO: Train 100: loss:0.2852097451686859
-2022-02-18 20:19:00,248 - train_file_loggers - INFO: Train 200: loss:0.47590941190719604
-2022-02-18 20:38:53,770 - train_file_loggers - INFO:  Epoch 8 begin
-2022-02-18 20:40:44,736 - train_file_loggers - INFO:  Epoch 8 begin
-2022-02-18 20:41:17,275 - train_file_loggers - INFO: Train 100: loss:0.315476655960083
-2022-02-18 20:41:48,354 - train_file_loggers - INFO: Train 200: loss:0.39395588636398315
+
