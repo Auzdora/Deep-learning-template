@@ -18,8 +18,8 @@ def read_json(file_path):
     """
     json_file_path = pathlib.Path(file_path)
     if json_file_path.is_file():
-        json_file = open(file_path)
-        return json.load(json_file)
+        with open(file_path, 'r') as json_file:
+            return json.load(json_file)
     else:
         raise FileNotFoundError("Json file '{}' is not exist!".format(file_path))
 
