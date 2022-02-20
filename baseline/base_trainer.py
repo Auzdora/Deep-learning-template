@@ -29,7 +29,6 @@ class BaseTrainer(ABC):
             self.model.load_state_dict(self.checkpoint['model'])
             self.optimizer.load_state_dict(self.checkpoint['optimizer'])
 
-
     @abstractmethod
     def _epoch_train(self, epoch):
         """
@@ -91,7 +90,7 @@ class BaseTrainer(ABC):
             self.console_logger.info('---------------- Model has been saved to "{}",epoch {} ----------------'
                                      .format(model_path, epoch))
             self.train_logger.info('---------------- Model has been saved to "{}",epoch {} ----------------'
-                                     .format(model_path, epoch))
+                                   .format(model_path, epoch))
 
         else:
             raise FileNotFoundError("Model saved directory: '{}' not found!".format(path))
@@ -146,4 +145,3 @@ if __name__ == '__main__':
         print(int(name[-1]))
     num = [1, 2]
     print(max(num))
-
