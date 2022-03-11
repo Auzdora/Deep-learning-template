@@ -13,12 +13,12 @@ import torch
 from torch import nn
 
 
-class _Flatten(nn.Module):
+class Flatten(nn.Module):
     """
         _Flatten Class
     """
     def __init__(self):
-        super(_Flatten, self).__init__()
+        super(Flatten, self).__init__()
 
     def forward(self, inputs):
         output = torch.flatten(inputs, 1, -1)

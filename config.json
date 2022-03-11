@@ -32,6 +32,6 @@
         "loss_function": "loss_fn",
         "optimizer": "Adam",
         "lr": 0.001,
-        "device": "cpu"
+        "device": "gpu"
     }
 }
