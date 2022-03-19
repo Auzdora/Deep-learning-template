@@ -6,9 +6,8 @@ from layers import Flatten
 
 
 class ExpNet(nn.Module):
-    def __init__(self, batch_size):
+    def __init__(self):
         super(ExpNet, self).__init__()
-        self.batch_size = batch_size
         # Conv layer
         self.Conv1 = Conv2d(in_channels=1, out_channels=16, kernel_size=(3, 3), stride=(1, 1), padding=1)
         self.Conv2 = Conv2d(in_channels=16, out_channels=32, kernel_size=(3, 3), stride=(1, 1), padding=1)
@@ -16,17 +15,21 @@ class ExpNet(nn.Module):
 
         self.Conv4 = Conv2d(in_channels=64, out_channels=32, kernel_size=(3, 3), stride=(1, 1), padding=1)
         self.Conv5 = Conv2d(in_channels=32, out_channels=16, kernel_size=(3, 3), stride=(1, 1), padding=1)
+        self.Conv6 = Conv2d(in_channels=16, out_channels=1, kernel_size=(3, 3), stride=(1, 1),padding=1)
 
         # Max pooling
-        self.Maxpool1 = MaxPool2d(kernel_size=(2,2), stride=2)
-        self.Maxpool2 = MaxPool2d(kernel_size=(2,2), stride=2)
+        self.Maxpool1 = MaxPool2d(kernel_size=(4, 4), stride=4)
+        self.Maxpool2 = MaxPool2d(kernel_size=(4, 4), stride=4)
 
         # Nearest Up sampling
-        self.NNI1 = UpsamplingNearest2d(scale_factor=2)
-        self.NNI2 = UpsamplingNearest2d(scale_factor=2)
+        self.NNI1 = UpsamplingNearest2d(scale_factor=4)
+        self.NNI2 = UpsamplingNearest2d(scale_factor=4)
 
         # Dropout layer
-        self.Drop = Dropout2d(p=0.5)
+        self.Drop = Dropout2d(p=0)
+
+        # Batch Norm layer
+        self.Relu = nn.ReLU()
 
     def forward(self, x):
         x = self.Conv1(x)
@@ -37,21 +40,21 @@ class ExpNet(nn.Module):
         x = self.Maxpool2(x)
         x = self.Conv3(x)
         x = self.Drop(x)
-
         x = self.NNI1(x)
         x = self.Conv4(x)
         x = self.Drop(x)
         x = self.NNI2(x)
         x = self.Conv5(x)
         x = self.Drop(x)
-        x = torch.sum(x, dim=1)
-        x = torch.unsqueeze(x, dim=1)
+        x = self.Conv6(x)
+        # x = torch.sum(x, dim=1)
+        # x = torch.unsqueeze(x, dim=1)
         return x
 
 
 if __name__ == '__main__':
     import torch.nn.functional as F
-    alex = ExpNet(batch_size=1)
+    alex = ExpNet()
     x = torch.randn([2, 1, 256, 256])
     x = alex(x)
     print(x.shape)

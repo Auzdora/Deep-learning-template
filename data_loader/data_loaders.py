@@ -44,6 +44,22 @@ class _Test_DataLoader(BaseDataLoader):
         super().__init__(self.test_dataset, batch_size, shuffle, num_workers)
 
 
+class _DataLoader2(BaseDataLoader):
+    def __init__(self, dataset, batch_size, shuffle, num_workers=1):
+        """
+            Define your self data processing serials, also caller transformer.
+        """
+        super().__init__(dataset, batch_size, shuffle, num_workers)
+
+
+class _Test_DataLoader2(BaseDataLoader):
+    def __init__(self, dataset, batch_size, shuffle, num_workers=1):
+        """
+            Define your self data processing serials, also caller transformer.
+        """
+        super().__init__(dataset, batch_size, shuffle, num_workers)
+
+
 if __name__ == '__main__':
     from logger.logger_parse import *
     root = 'D:/python/DL_Framework/database/train_data'

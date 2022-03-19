@@ -7,7 +7,7 @@
 """
 from torch import nn
 from torch.nn import Conv2d, MaxPool2d, Linear
-from layers._Flatten import _Flatten
+from layers._Flatten import Flatten
 
 
 # Models class

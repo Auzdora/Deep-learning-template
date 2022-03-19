@@ -38,8 +38,9 @@ class Cifar10Trainer(BaseTrainer):
 
         # train logic
         for batch_index, dataset in enumerate(self.data_loader):
-            datas, labels = dataset
-
+            # datas, labels = dataset
+            datas = dataset[0]
+            labels = dataset[1]
             # choose device
             if self.device == 'gpu':
                 if torch.cuda.is_available():
@@ -55,16 +56,22 @@ class Cifar10Trainer(BaseTrainer):
 
             total_train_loss += loss_val
             counter += 1
-            if counter % 100 == 0:
-                self.train_logger.info("Train {}: loss:{}".format(counter, loss_val))
-                self.console_logger.info("Train {}: loss:{}".format(counter, loss_val))
+            self.train_logger.info("Train {}: loss:{}".format(counter, loss_val))
+            self.console_logger.info("Train {}: loss:{}".format(counter, loss_val))
+            # if counter % 100 == 0:
+            #     self.train_logger.info("Train {}: loss:{}".format(counter, loss_val))
+            #     self.console_logger.info("Train {}: loss:{}".format(counter, loss_val))
 
-        total_test_loss, total_accuracy = self._epoch_val(epoch)
+        total_test_loss, mean_test_loss = self._epoch_val(epoch)
 
-        self.train_logger.info('Epoch{}:--------loss:{}, test loss:{}, accuracy:{}'.format(epoch, total_train_loss,
-                                                    total_test_loss, total_accuracy.item()/self.test_data.length()))
-        self.console_logger.info('Epoch{}:--------loss:{}, test loss:{}, accuracy:{}'.format(epoch, total_train_loss,
-                                                    total_test_loss, total_accuracy.item() / self.test_data.length()))
+        # self.train_logger.info('Epoch{}:--------loss:{}, test loss:{}, accuracy:{}'.format(epoch, total_train_loss,
+        #                                             total_test_loss, total_accuracy.item()/self.test_data.length()))
+        # self.console_logger.info('Epoch{}:--------loss:{}, test loss:{}, accuracy:{}'.format(epoch, total_train_loss,
+        #                                             total_test_loss, total_accuracy.item() / self.test_data.length()))
+        self.train_logger.info('Epoch{}:--------loss:{}, test loss:{}'.format(epoch, total_train_loss,
+                                                                              mean_test_loss))
+        self.console_logger.info('Epoch{}:--------loss:{}, test loss:{}'.format(epoch, total_train_loss,
+                                                                                mean_test_loss))
 
     def _epoch_val(self, epoch):
         total_test_loss = 0
@@ -75,8 +82,9 @@ class Cifar10Trainer(BaseTrainer):
             self.model.eval()
             cnt = 0
             for data in self.test_data:
-                datas, labels = data
-
+                # datas, labels = data
+                datas = data[0]
+                labels = data[1]
                 # choose device
                 if self.device == 'gpu':
                     if torch.cuda.is_available():
