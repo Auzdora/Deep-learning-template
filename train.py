@@ -6,13 +6,14 @@
     Author: Botian Lan
     Time: 2022/01/24
 """
+import torch.cuda
 
 from trainer import *
 from logger_parse import *
-from model.backbone import CIFAR_10_Model
+from model.backbone import CIFAR_10_Model, Exp_net
 from torch import nn, optim
 from config_parse import _ConfigParser
-from utils import loss
+from utils import loss, MyDataSet1, file_loader
 import logging
 from data_loader import data_loaders
 
@@ -44,17 +45,31 @@ def Launch_Engine(config):
     model_logger.info('--------------------------Data loader information--------------------------')
 
     # get (dict) config information
-    data_congig = config.data_config
+    data_config = config.data_config
     model_config = config.model_config
     checkpoint_enable = config.checkpoint_enable
 
     # get data loader and test data loader
-    Dataloader = getattr(data_loaders, data_congig['data_loader']['train_dataLoader'])
-    Test_Dataloader = getattr(data_loaders, data_congig['data_loader']['test_dataLoader'])
-    data_loader = Dataloader(data_congig['train_data_path'], batch_size=data_congig['batch_size'],
-                             shuffle=data_congig['shuffle'])
-    test_loader = Test_Dataloader(data_congig['test_data_path'], batch_size=data_congig['batch_size'],
-                                  shuffle=data_congig['shuffle'])
+    Dataloader = getattr(data_loaders, data_config['data_loader']['train_dataLoader'])
+    Test_Dataloader = getattr(data_loaders, data_config['data_loader']['test_dataLoader'])
+
+    # load data set
+    if config.my_dataset:
+        train_set = MyDataSet1(data_config['train_db'], data_config['db_root'],
+                               data_config['data_size'], data_config['label_size'], loader=file_loader(data_config))
+        test_set = MyDataSet1(data_config['test_db'], data_config['db_root'],
+                              data_config['data_size'], data_config['label_size'], loader=file_loader(data_config))
+
+        data_loader = Dataloader(train_set, batch_size=data_config['train_batch_size'],
+                                 shuffle=data_config['train_shuffle'])
+        test_loader = Test_Dataloader(test_set, batch_size=data_config['test_batch_size'],
+                                      shuffle=data_config['test_shuffle'])
+
+    else:
+        data_loader = Dataloader(data_config['train_data_path'], batch_size=data_config['train_batch_size'],
+                                 shuffle=data_config['shuffle'])
+        test_loader = Test_Dataloader(data_config['test_data_path'], batch_size=data_config['test_batch_size'],
+                                      shuffle=data_config['shuffle'])
 
     # get other information
     epoch = model_config['epoch']
@@ -64,7 +79,7 @@ def Launch_Engine(config):
     device = model_config['device']
 
     # get model
-    my_model = getattr(CIFAR_10_Model, model_config['model'])
+    my_model = getattr(Exp_net, model_config['model'])
     model = my_model()
 
     # convert to gpu model
