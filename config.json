@@ -1,12 +1,12 @@
 {
-    "model_name": "LeNet",
+    "model_name": "MyNet",
     "author": "Botian Lan",
     "version": "1.0",
 
-    "checkpoint_enable": true,
+    "checkpoint_enable": false,
 
     "data": {
-        "data_split": true,
+        "data_split": false,
         "split_data": {
             "train_data_path": "./database/train_data",
             "test_data_path": "./database/test_data",
@@ -14,24 +14,40 @@
                 "train_dataLoader": "_DataLoader",
                 "test_dataLoader": "_Test_DataLoader"
             },
-            "batch_size": 64,
+            "train_batch_size": 3,
+            "test_batch_size": 1,
             "shuffle": true
         },
         "original_data": {
-            "batch_size": 64,
-            "shuffle": true
+            "norm_flag":true,
+            "norm_input":[0,255],
+            "norm_label":[0,255],
+            "data_ext": ".png",
+            "db_root": "./database/data",
+            "train_db": "./database/data/label_01_train.txt",
+            "test_db": "./database/data/label_01_test.txt",
+            "data_size": [1, 256, 256],
+            "label_size": [1, 256, 256],
+            "data_loader": {
+                "train_dataLoader": "_DataLoader2",
+                "test_dataLoader": "_Test_DataLoader2"
+            },
+            "train_batch_size": 3,
+            "test_batch_size": 1,
+            "train_shuffle": true,
+            "test_shuffle": false
         }
     },
 
 
     "model_params": {
-        "model": "LeNet",
+        "model": "ExpNet",
         "epoch": 100,
         "data_loader": "data_loader",
         "test_loader": "test_loader",
-        "loss_function": "loss_fn",
+        "loss_function": "cross_entropy",
         "optimizer": "Adam",
-        "lr": 0.001,
+        "lr": 0.01,
         "device": "gpu"
     }
 }
