@@ -39,7 +39,7 @@ class BaseTrainer(ABC):
         raise NotImplementedError
 
     @abstractmethod
-    def _epoch_val(self):
+    def _epoch_val(self, epoch):
         """
          Train process for every epoch.
          Should be overridden by all subclasses.
