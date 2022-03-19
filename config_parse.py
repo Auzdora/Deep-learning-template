@@ -15,6 +15,7 @@ class _ConfigParser:
         self.json_data = self.reader()
 
         # Parsers
+        self.my_dataset = False
         self.data_config = self.data_parser()
         self.model_config = self.model_parser()
         self.checkpoint_enable = self.checkpoint_parser()
@@ -33,9 +34,11 @@ class _ConfigParser:
 
         if data_config['data_split']:
             data_config = data_config['split_data']
+            self.my_dataset = False
             return data_config
         else:
             data_config = data_config['original_data']
+            self.my_dataset = True
             return data_config
 
     def model_parser(self):
