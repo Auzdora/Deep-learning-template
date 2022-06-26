@@ -4,7 +4,6 @@
                 In the future, user could just tune the params in config.json directly.
 
     Author: Botian Lan
-    Time: 2022/01/28
 """
 from utils_json import *
 

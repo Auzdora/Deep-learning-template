@@ -28,7 +28,7 @@ if __name__ == '__main__':
     label_folder = 'label'
     all_sample_txt = 'label_01.txt'
 
-    train_ratio = 0.9
+    train_ratio = 0.92
 
     ins_random = True
     folder_random = True
@@ -52,7 +52,6 @@ if __name__ == '__main__':
             fn_index = imgs_fn.find('_', 3) + 1
             # print(fn_index)
             imgs_fn_short = imgs_fn[fn_index:]
-            # print(imgs_fn_short)
             if imgs_fn_short in label_imgList:
                 sample_list.append('{} {}\n'.format(os.path.join(image_folder, folder, imgs_fn),
                                                     os.path.join(label_folder, imgs_fn_short)))

@@ -4,7 +4,6 @@
                 To complete basic initialization.
 
     Author: Botian Lan
-    Time: 2022/01/28
 """
 from utils_json import *
 

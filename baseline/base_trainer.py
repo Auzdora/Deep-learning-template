@@ -4,7 +4,6 @@
                 It could simplify your work.
 
     Author: Botian Lan
-    Time: 2022/01/24
 """
 import os
 from abc import abstractmethod, ABC

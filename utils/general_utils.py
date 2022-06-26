@@ -3,7 +3,6 @@
     Description: Provides some general tools for programming, aim at improving code extendability
 
     Author: Botian Lan
-    Time: 2022/01/25
 """
 import os
 import torch

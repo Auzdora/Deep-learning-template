@@ -4,7 +4,6 @@
                 It could simplify your work.
 
     Author: Botian Lan
-    Time: 2022/01/21
 """
 
 import numpy as np

@@ -3,7 +3,6 @@
     Description: Basic json utils for further operation
 
     Author: Botian Lan
-    Time: 2022/01/28
 """
 
 import json

@@ -3,7 +3,6 @@
     Description: This file could read json logging file and config log system
 
     Author: Botian Lan
-    Time: 2022/01/29
 """
 import logging.config
 import logging

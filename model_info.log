@@ -1,0 +1,2465 @@
+2022-05-26 21:47:31,419 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-05-26 21:47:31,420 - model_file_loggers - INFO: Dataset length: 29
+2022-05-26 21:47:31,420 - model_file_loggers - INFO: Batch size: 3
+2022-05-26 21:47:31,420 - model_file_loggers - INFO: Shuffle: True
+2022-05-26 21:47:31,420 - model_file_loggers - INFO: Num workers: 1
+2022-05-26 21:47:31,421 - model_file_loggers - INFO: Dataset length: 3
+2022-05-26 21:47:31,421 - model_file_loggers - INFO: Batch size: 1
+2022-05-26 21:47:31,421 - model_file_loggers - INFO: Shuffle: False
+2022-05-26 21:47:31,421 - model_file_loggers - INFO: Num workers: 1
+2022-05-26 21:47:32,434 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-05-26 21:47:32,434 - model_file_loggers - INFO: model_name: MyNet
+2022-05-26 21:47:32,434 - model_file_loggers - INFO: epoch: 100
+2022-05-26 21:47:32,435 - model_file_loggers - INFO: loss_function: npcc
+2022-05-26 21:47:32,435 - model_file_loggers - INFO: optimizer: Adam
+2022-05-26 21:47:32,435 - model_file_loggers - INFO: learning rate: 0.01
+2022-05-26 21:47:32,435 - model_file_loggers - INFO: device: gpu
+2022-05-26 21:49:04,294 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-05-26 21:49:04,294 - model_file_loggers - INFO: Dataset length: 29
+2022-05-26 21:49:04,294 - model_file_loggers - INFO: Batch size: 3
+2022-05-26 21:49:04,294 - model_file_loggers - INFO: Shuffle: True
+2022-05-26 21:49:04,294 - model_file_loggers - INFO: Num workers: 1
+2022-05-26 21:49:04,295 - model_file_loggers - INFO: Dataset length: 3
+2022-05-26 21:49:04,295 - model_file_loggers - INFO: Batch size: 1
+2022-05-26 21:49:04,295 - model_file_loggers - INFO: Shuffle: False
+2022-05-26 21:49:04,295 - model_file_loggers - INFO: Num workers: 1
+2022-05-26 21:49:26,520 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-05-26 21:49:26,521 - model_file_loggers - INFO: Dataset length: 29
+2022-05-26 21:49:26,521 - model_file_loggers - INFO: Batch size: 3
+2022-05-26 21:49:26,521 - model_file_loggers - INFO: Shuffle: True
+2022-05-26 21:49:26,521 - model_file_loggers - INFO: Num workers: 1
+2022-05-26 21:49:26,522 - model_file_loggers - INFO: Dataset length: 3
+2022-05-26 21:49:26,522 - model_file_loggers - INFO: Batch size: 1
+2022-05-26 21:49:26,522 - model_file_loggers - INFO: Shuffle: False
+2022-05-26 21:49:26,522 - model_file_loggers - INFO: Num workers: 1
+2022-05-26 21:50:08,920 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-05-26 21:50:08,921 - model_file_loggers - INFO: Dataset length: 29
+2022-05-26 21:50:08,921 - model_file_loggers - INFO: Batch size: 3
+2022-05-26 21:50:08,921 - model_file_loggers - INFO: Shuffle: True
+2022-05-26 21:50:08,922 - model_file_loggers - INFO: Num workers: 1
+2022-05-26 21:50:08,922 - model_file_loggers - INFO: Dataset length: 3
+2022-05-26 21:50:08,922 - model_file_loggers - INFO: Batch size: 1
+2022-05-26 21:50:08,922 - model_file_loggers - INFO: Shuffle: False
+2022-05-26 21:50:08,923 - model_file_loggers - INFO: Num workers: 1
+2022-05-26 21:50:10,250 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-05-26 21:50:10,251 - model_file_loggers - INFO: model_name: MyNet
+2022-05-26 21:50:10,251 - model_file_loggers - INFO: epoch: 100
+2022-05-26 21:50:10,251 - model_file_loggers - INFO: loss_function: npcc
+2022-05-26 21:50:10,251 - model_file_loggers - INFO: optimizer: Adam
+2022-05-26 21:50:10,251 - model_file_loggers - INFO: learning rate: 0.01
+2022-05-26 21:50:10,251 - model_file_loggers - INFO: device: gpu
+2022-05-26 21:52:30,612 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-05-26 21:52:30,613 - model_file_loggers - INFO: Dataset length: 29
+2022-05-26 21:52:30,613 - model_file_loggers - INFO: Batch size: 4
+2022-05-26 21:52:30,613 - model_file_loggers - INFO: Shuffle: True
+2022-05-26 21:52:30,613 - model_file_loggers - INFO: Num workers: 1
+2022-05-26 21:52:30,614 - model_file_loggers - INFO: Dataset length: 3
+2022-05-26 21:52:30,614 - model_file_loggers - INFO: Batch size: 1
+2022-05-26 21:52:30,614 - model_file_loggers - INFO: Shuffle: False
+2022-05-26 21:52:30,614 - model_file_loggers - INFO: Num workers: 1
+2022-05-26 21:52:31,837 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-05-26 21:52:31,838 - model_file_loggers - INFO: model_name: MyNet
+2022-05-26 21:52:31,838 - model_file_loggers - INFO: epoch: 100
+2022-05-26 21:52:31,838 - model_file_loggers - INFO: loss_function: npcc
+2022-05-26 21:52:31,838 - model_file_loggers - INFO: optimizer: Adam
+2022-05-26 21:52:31,838 - model_file_loggers - INFO: learning rate: 0.01
+2022-05-26 21:52:31,838 - model_file_loggers - INFO: device: gpu
+2022-05-26 21:54:14,516 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-05-26 21:54:14,517 - model_file_loggers - INFO: Dataset length: 29
+2022-05-26 21:54:14,517 - model_file_loggers - INFO: Batch size: 4
+2022-05-26 21:54:14,517 - model_file_loggers - INFO: Shuffle: True
+2022-05-26 21:54:14,517 - model_file_loggers - INFO: Num workers: 1
+2022-05-26 21:54:14,518 - model_file_loggers - INFO: Dataset length: 3
+2022-05-26 21:54:14,518 - model_file_loggers - INFO: Batch size: 1
+2022-05-26 21:54:14,518 - model_file_loggers - INFO: Shuffle: False
+2022-05-26 21:54:14,518 - model_file_loggers - INFO: Num workers: 1
+2022-05-26 21:54:15,779 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-05-26 21:54:15,779 - model_file_loggers - INFO: model_name: MyNet
+2022-05-26 21:54:15,779 - model_file_loggers - INFO: epoch: 100
+2022-05-26 21:54:15,779 - model_file_loggers - INFO: loss_function: npcc
+2022-05-26 21:54:15,780 - model_file_loggers - INFO: optimizer: Adam
+2022-05-26 21:54:15,780 - model_file_loggers - INFO: learning rate: 0.01
+2022-05-26 21:54:15,780 - model_file_loggers - INFO: device: gpu
+2022-05-26 21:59:12,905 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-05-26 21:59:12,914 - model_file_loggers - INFO: Dataset length: 29
+2022-05-26 21:59:12,915 - model_file_loggers - INFO: Batch size: 4
+2022-05-26 21:59:12,915 - model_file_loggers - INFO: Shuffle: True
+2022-05-26 21:59:12,915 - model_file_loggers - INFO: Num workers: 1
+2022-05-26 21:59:12,915 - model_file_loggers - INFO: Dataset length: 3
+2022-05-26 21:59:12,916 - model_file_loggers - INFO: Batch size: 1
+2022-05-26 21:59:12,916 - model_file_loggers - INFO: Shuffle: False
+2022-05-26 21:59:12,916 - model_file_loggers - INFO: Num workers: 1
+2022-05-26 21:59:14,160 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-05-26 21:59:14,160 - model_file_loggers - INFO: model_name: MyNet
+2022-05-26 21:59:14,161 - model_file_loggers - INFO: epoch: 100
+2022-05-26 21:59:14,161 - model_file_loggers - INFO: loss_function: bce
+2022-05-26 21:59:14,161 - model_file_loggers - INFO: optimizer: Adam
+2022-05-26 21:59:14,161 - model_file_loggers - INFO: learning rate: 0.01
+2022-05-26 21:59:14,161 - model_file_loggers - INFO: device: gpu
+2022-05-26 21:59:59,576 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-05-26 21:59:59,579 - model_file_loggers - INFO: Dataset length: 29
+2022-05-26 21:59:59,579 - model_file_loggers - INFO: Batch size: 4
+2022-05-26 21:59:59,579 - model_file_loggers - INFO: Shuffle: True
+2022-05-26 21:59:59,580 - model_file_loggers - INFO: Num workers: 1
+2022-05-26 21:59:59,580 - model_file_loggers - INFO: Dataset length: 3
+2022-05-26 21:59:59,580 - model_file_loggers - INFO: Batch size: 1
+2022-05-26 21:59:59,580 - model_file_loggers - INFO: Shuffle: False
+2022-05-26 21:59:59,581 - model_file_loggers - INFO: Num workers: 1
+2022-05-26 22:00:00,532 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-05-26 22:00:00,532 - model_file_loggers - INFO: model_name: MyNet
+2022-05-26 22:00:00,533 - model_file_loggers - INFO: epoch: 3
+2022-05-26 22:00:00,533 - model_file_loggers - INFO: loss_function: bce
+2022-05-26 22:00:00,533 - model_file_loggers - INFO: optimizer: Adam
+2022-05-26 22:00:00,533 - model_file_loggers - INFO: learning rate: 0.01
+2022-05-26 22:00:00,533 - model_file_loggers - INFO: device: gpu
+2022-05-26 22:01:44,780 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-05-26 22:01:44,781 - model_file_loggers - INFO: Dataset length: 29
+2022-05-26 22:01:44,781 - model_file_loggers - INFO: Batch size: 4
+2022-05-26 22:01:44,781 - model_file_loggers - INFO: Shuffle: True
+2022-05-26 22:01:44,782 - model_file_loggers - INFO: Num workers: 1
+2022-05-26 22:01:44,782 - model_file_loggers - INFO: Dataset length: 3
+2022-05-26 22:01:44,782 - model_file_loggers - INFO: Batch size: 1
+2022-05-26 22:01:44,782 - model_file_loggers - INFO: Shuffle: False
+2022-05-26 22:01:44,783 - model_file_loggers - INFO: Num workers: 1
+2022-05-26 22:01:45,993 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-05-26 22:01:45,993 - model_file_loggers - INFO: model_name: MyNet
+2022-05-26 22:01:45,993 - model_file_loggers - INFO: epoch: 10
+2022-05-26 22:01:45,993 - model_file_loggers - INFO: loss_function: bce
+2022-05-26 22:01:45,993 - model_file_loggers - INFO: optimizer: Adam
+2022-05-26 22:01:45,994 - model_file_loggers - INFO: learning rate: 0.01
+2022-05-26 22:01:45,994 - model_file_loggers - INFO: device: gpu
+2022-05-26 22:19:07,346 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-05-26 22:19:07,356 - model_file_loggers - INFO: Dataset length: 29
+2022-05-26 22:19:07,356 - model_file_loggers - INFO: Batch size: 4
+2022-05-26 22:19:07,357 - model_file_loggers - INFO: Shuffle: True
+2022-05-26 22:19:07,357 - model_file_loggers - INFO: Num workers: 1
+2022-05-26 22:19:07,357 - model_file_loggers - INFO: Dataset length: 3
+2022-05-26 22:19:07,358 - model_file_loggers - INFO: Batch size: 1
+2022-05-26 22:19:07,358 - model_file_loggers - INFO: Shuffle: False
+2022-05-26 22:19:07,358 - model_file_loggers - INFO: Num workers: 1
+2022-05-26 22:19:08,703 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-05-26 22:19:08,703 - model_file_loggers - INFO: model_name: MyNet
+2022-05-26 22:19:08,703 - model_file_loggers - INFO: epoch: 10
+2022-05-26 22:19:08,703 - model_file_loggers - INFO: loss_function: bce
+2022-05-26 22:19:08,704 - model_file_loggers - INFO: optimizer: Adam
+2022-05-26 22:19:08,704 - model_file_loggers - INFO: learning rate: 0.01
+2022-05-26 22:19:08,704 - model_file_loggers - INFO: device: gpu
+2022-05-26 22:21:01,523 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-05-26 22:21:01,524 - model_file_loggers - INFO: Dataset length: 29
+2022-05-26 22:21:01,524 - model_file_loggers - INFO: Batch size: 4
+2022-05-26 22:21:01,525 - model_file_loggers - INFO: Shuffle: True
+2022-05-26 22:21:01,525 - model_file_loggers - INFO: Num workers: 1
+2022-05-26 22:21:01,526 - model_file_loggers - INFO: Dataset length: 3
+2022-05-26 22:21:01,526 - model_file_loggers - INFO: Batch size: 1
+2022-05-26 22:21:01,526 - model_file_loggers - INFO: Shuffle: False
+2022-05-26 22:21:01,526 - model_file_loggers - INFO: Num workers: 1
+2022-05-26 22:21:02,822 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-05-26 22:21:02,822 - model_file_loggers - INFO: model_name: MyNet
+2022-05-26 22:21:02,823 - model_file_loggers - INFO: epoch: 10
+2022-05-26 22:21:02,823 - model_file_loggers - INFO: loss_function: soft_dice
+2022-05-26 22:21:02,823 - model_file_loggers - INFO: optimizer: Adam
+2022-05-26 22:21:02,823 - model_file_loggers - INFO: learning rate: 0.01
+2022-05-26 22:21:02,823 - model_file_loggers - INFO: device: gpu
+2022-05-26 22:21:53,543 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-05-26 22:21:53,546 - model_file_loggers - INFO: Dataset length: 29
+2022-05-26 22:21:53,546 - model_file_loggers - INFO: Batch size: 4
+2022-05-26 22:21:53,546 - model_file_loggers - INFO: Shuffle: True
+2022-05-26 22:21:53,546 - model_file_loggers - INFO: Num workers: 1
+2022-05-26 22:21:53,547 - model_file_loggers - INFO: Dataset length: 3
+2022-05-26 22:21:53,547 - model_file_loggers - INFO: Batch size: 1
+2022-05-26 22:21:53,547 - model_file_loggers - INFO: Shuffle: False
+2022-05-26 22:21:53,547 - model_file_loggers - INFO: Num workers: 1
+2022-05-26 22:21:54,818 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-05-26 22:21:54,819 - model_file_loggers - INFO: model_name: MyNet
+2022-05-26 22:21:54,819 - model_file_loggers - INFO: epoch: 10
+2022-05-26 22:21:54,819 - model_file_loggers - INFO: loss_function: cross_entropy
+2022-05-26 22:21:54,819 - model_file_loggers - INFO: optimizer: Adam
+2022-05-26 22:21:54,820 - model_file_loggers - INFO: learning rate: 0.01
+2022-05-26 22:21:54,820 - model_file_loggers - INFO: device: gpu
+2022-05-26 22:22:30,383 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-05-26 22:22:30,384 - model_file_loggers - INFO: Dataset length: 29
+2022-05-26 22:22:30,384 - model_file_loggers - INFO: Batch size: 4
+2022-05-26 22:22:30,384 - model_file_loggers - INFO: Shuffle: True
+2022-05-26 22:22:30,384 - model_file_loggers - INFO: Num workers: 1
+2022-05-26 22:22:30,385 - model_file_loggers - INFO: Dataset length: 3
+2022-05-26 22:22:30,385 - model_file_loggers - INFO: Batch size: 1
+2022-05-26 22:22:30,385 - model_file_loggers - INFO: Shuffle: False
+2022-05-26 22:22:30,385 - model_file_loggers - INFO: Num workers: 1
+2022-05-26 22:22:31,621 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-05-26 22:22:31,621 - model_file_loggers - INFO: model_name: MyNet
+2022-05-26 22:22:31,622 - model_file_loggers - INFO: epoch: 10
+2022-05-26 22:22:31,622 - model_file_loggers - INFO: loss_function: rmse
+2022-05-26 22:22:31,622 - model_file_loggers - INFO: optimizer: Adam
+2022-05-26 22:22:31,622 - model_file_loggers - INFO: learning rate: 0.01
+2022-05-26 22:22:31,622 - model_file_loggers - INFO: device: gpu
+2022-05-27 09:42:11,867 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-05-27 09:42:11,882 - model_file_loggers - INFO: Dataset length: 29
+2022-05-27 09:42:11,882 - model_file_loggers - INFO: Batch size: 4
+2022-05-27 09:42:11,882 - model_file_loggers - INFO: Shuffle: True
+2022-05-27 09:42:11,882 - model_file_loggers - INFO: Num workers: 1
+2022-05-27 09:42:11,882 - model_file_loggers - INFO: Dataset length: 3
+2022-05-27 09:42:11,882 - model_file_loggers - INFO: Batch size: 1
+2022-05-27 09:42:11,882 - model_file_loggers - INFO: Shuffle: False
+2022-05-27 09:42:11,882 - model_file_loggers - INFO: Num workers: 1
+2022-05-27 09:42:13,234 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-05-27 09:42:13,234 - model_file_loggers - INFO: model_name: MyNet
+2022-05-27 09:42:13,234 - model_file_loggers - INFO: epoch: 10
+2022-05-27 09:42:13,234 - model_file_loggers - INFO: loss_function: cross_entropy
+2022-05-27 09:42:13,234 - model_file_loggers - INFO: optimizer: Adam
+2022-05-27 09:42:13,234 - model_file_loggers - INFO: learning rate: 0.01
+2022-05-27 09:42:13,234 - model_file_loggers - INFO: device: gpu
+2022-05-27 19:29:07,873 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-05-27 19:29:07,873 - model_file_loggers - INFO: Dataset length: 29
+2022-05-27 19:29:07,873 - model_file_loggers - INFO: Batch size: 4
+2022-05-27 19:29:07,873 - model_file_loggers - INFO: Shuffle: True
+2022-05-27 19:29:07,873 - model_file_loggers - INFO: Num workers: 1
+2022-05-27 19:29:07,873 - model_file_loggers - INFO: Dataset length: 3
+2022-05-27 19:29:07,873 - model_file_loggers - INFO: Batch size: 1
+2022-05-27 19:29:07,873 - model_file_loggers - INFO: Shuffle: False
+2022-05-27 19:29:07,873 - model_file_loggers - INFO: Num workers: 1
+2022-05-27 19:29:09,211 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-05-27 19:29:09,211 - model_file_loggers - INFO: model_name: MyNet
+2022-05-27 19:29:09,211 - model_file_loggers - INFO: epoch: 10
+2022-05-27 19:29:09,211 - model_file_loggers - INFO: loss_function: cross_entropy
+2022-05-27 19:29:09,211 - model_file_loggers - INFO: optimizer: Adam
+2022-05-27 19:29:09,211 - model_file_loggers - INFO: learning rate: 0.01
+2022-05-27 19:29:09,211 - model_file_loggers - INFO: device: gpu
+2022-05-27 19:29:35,396 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-05-27 19:29:35,396 - model_file_loggers - INFO: Dataset length: 29
+2022-05-27 19:29:35,396 - model_file_loggers - INFO: Batch size: 4
+2022-05-27 19:29:35,396 - model_file_loggers - INFO: Shuffle: True
+2022-05-27 19:29:35,412 - model_file_loggers - INFO: Num workers: 1
+2022-05-27 19:29:35,412 - model_file_loggers - INFO: Dataset length: 3
+2022-05-27 19:29:35,412 - model_file_loggers - INFO: Batch size: 1
+2022-05-27 19:29:35,412 - model_file_loggers - INFO: Shuffle: False
+2022-05-27 19:29:35,412 - model_file_loggers - INFO: Num workers: 1
+2022-05-27 19:29:36,632 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-05-27 19:29:36,632 - model_file_loggers - INFO: model_name: MyNet
+2022-05-27 19:29:36,632 - model_file_loggers - INFO: epoch: 10
+2022-05-27 19:29:36,632 - model_file_loggers - INFO: loss_function: cross_entropy
+2022-05-27 19:29:36,632 - model_file_loggers - INFO: optimizer: Adam
+2022-05-27 19:29:36,632 - model_file_loggers - INFO: learning rate: 0.01
+2022-05-27 19:29:36,632 - model_file_loggers - INFO: device: gpu
+2022-05-27 19:30:03,817 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-05-27 19:30:03,817 - model_file_loggers - INFO: Dataset length: 29
+2022-05-27 19:30:03,817 - model_file_loggers - INFO: Batch size: 4
+2022-05-27 19:30:03,817 - model_file_loggers - INFO: Shuffle: True
+2022-05-27 19:30:03,817 - model_file_loggers - INFO: Num workers: 1
+2022-05-27 19:30:03,817 - model_file_loggers - INFO: Dataset length: 3
+2022-05-27 19:30:03,817 - model_file_loggers - INFO: Batch size: 1
+2022-05-27 19:30:03,817 - model_file_loggers - INFO: Shuffle: False
+2022-05-27 19:30:03,817 - model_file_loggers - INFO: Num workers: 1
+2022-05-27 19:30:05,052 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-05-27 19:30:05,052 - model_file_loggers - INFO: model_name: MyNet
+2022-05-27 19:30:05,052 - model_file_loggers - INFO: epoch: 10
+2022-05-27 19:30:05,052 - model_file_loggers - INFO: loss_function: cross_entropy
+2022-05-27 19:30:05,052 - model_file_loggers - INFO: optimizer: Adam
+2022-05-27 19:30:05,052 - model_file_loggers - INFO: learning rate: 0.01
+2022-05-27 19:30:05,052 - model_file_loggers - INFO: device: gpu
+2022-05-27 20:20:18,040 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-05-27 20:20:18,040 - model_file_loggers - INFO: Dataset length: 5414
+2022-05-27 20:20:18,040 - model_file_loggers - INFO: Batch size: 4
+2022-05-27 20:20:18,040 - model_file_loggers - INFO: Shuffle: True
+2022-05-27 20:20:18,040 - model_file_loggers - INFO: Num workers: 1
+2022-05-27 20:20:18,040 - model_file_loggers - INFO: Dataset length: 1354
+2022-05-27 20:20:18,040 - model_file_loggers - INFO: Batch size: 1
+2022-05-27 20:20:18,040 - model_file_loggers - INFO: Shuffle: False
+2022-05-27 20:20:18,040 - model_file_loggers - INFO: Num workers: 1
+2022-05-27 20:20:19,305 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-05-27 20:20:19,305 - model_file_loggers - INFO: model_name: MyNet
+2022-05-27 20:20:19,305 - model_file_loggers - INFO: epoch: 10
+2022-05-27 20:20:19,305 - model_file_loggers - INFO: loss_function: bce
+2022-05-27 20:20:19,305 - model_file_loggers - INFO: optimizer: Adam
+2022-05-27 20:20:19,305 - model_file_loggers - INFO: learning rate: 0.01
+2022-05-27 20:20:19,305 - model_file_loggers - INFO: device: gpu
+2022-05-27 20:21:44,682 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-05-27 20:21:44,682 - model_file_loggers - INFO: Dataset length: 5414
+2022-05-27 20:21:44,682 - model_file_loggers - INFO: Batch size: 4
+2022-05-27 20:21:44,682 - model_file_loggers - INFO: Shuffle: True
+2022-05-27 20:21:44,682 - model_file_loggers - INFO: Num workers: 1
+2022-05-27 20:21:44,682 - model_file_loggers - INFO: Dataset length: 1354
+2022-05-27 20:21:44,682 - model_file_loggers - INFO: Batch size: 1
+2022-05-27 20:21:44,682 - model_file_loggers - INFO: Shuffle: False
+2022-05-27 20:21:44,682 - model_file_loggers - INFO: Num workers: 1
+2022-05-27 20:21:45,938 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-05-27 20:21:45,938 - model_file_loggers - INFO: model_name: MyNet
+2022-05-27 20:21:45,938 - model_file_loggers - INFO: epoch: 10
+2022-05-27 20:21:45,938 - model_file_loggers - INFO: loss_function: bce
+2022-05-27 20:21:45,938 - model_file_loggers - INFO: optimizer: Adam
+2022-05-27 20:21:45,938 - model_file_loggers - INFO: learning rate: 0.01
+2022-05-27 20:21:45,938 - model_file_loggers - INFO: device: gpu
+2022-05-27 20:22:16,423 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-05-27 20:22:16,423 - model_file_loggers - INFO: Dataset length: 5414
+2022-05-27 20:22:16,423 - model_file_loggers - INFO: Batch size: 4
+2022-05-27 20:22:16,423 - model_file_loggers - INFO: Shuffle: True
+2022-05-27 20:22:16,423 - model_file_loggers - INFO: Num workers: 1
+2022-05-27 20:22:16,423 - model_file_loggers - INFO: Dataset length: 1354
+2022-05-27 20:22:16,423 - model_file_loggers - INFO: Batch size: 1
+2022-05-27 20:22:16,423 - model_file_loggers - INFO: Shuffle: False
+2022-05-27 20:22:16,423 - model_file_loggers - INFO: Num workers: 1
+2022-05-27 20:22:17,665 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-05-27 20:22:17,665 - model_file_loggers - INFO: model_name: MyNet
+2022-05-27 20:22:17,665 - model_file_loggers - INFO: epoch: 10
+2022-05-27 20:22:17,665 - model_file_loggers - INFO: loss_function: bce
+2022-05-27 20:22:17,665 - model_file_loggers - INFO: optimizer: Adam
+2022-05-27 20:22:17,665 - model_file_loggers - INFO: learning rate: 0.01
+2022-05-27 20:22:17,665 - model_file_loggers - INFO: device: gpu
+2022-05-27 20:45:52,660 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-05-27 20:45:52,661 - model_file_loggers - INFO: Dataset length: 5414
+2022-05-27 20:45:52,661 - model_file_loggers - INFO: Batch size: 16
+2022-05-27 20:45:52,661 - model_file_loggers - INFO: Shuffle: True
+2022-05-27 20:45:52,662 - model_file_loggers - INFO: Num workers: 1
+2022-05-27 20:45:52,664 - model_file_loggers - INFO: Dataset length: 1354
+2022-05-27 20:45:52,664 - model_file_loggers - INFO: Batch size: 1
+2022-05-27 20:45:52,664 - model_file_loggers - INFO: Shuffle: False
+2022-05-27 20:45:52,665 - model_file_loggers - INFO: Num workers: 1
+2022-05-27 20:45:54,008 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-05-27 20:45:54,008 - model_file_loggers - INFO: model_name: MyNet
+2022-05-27 20:45:54,008 - model_file_loggers - INFO: epoch: 10
+2022-05-27 20:45:54,008 - model_file_loggers - INFO: loss_function: bce
+2022-05-27 20:45:54,008 - model_file_loggers - INFO: optimizer: Adam
+2022-05-27 20:45:54,008 - model_file_loggers - INFO: learning rate: 0.01
+2022-05-27 20:45:54,009 - model_file_loggers - INFO: device: gpu
+2022-05-27 20:48:14,912 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-05-27 20:48:14,913 - model_file_loggers - INFO: Dataset length: 5414
+2022-05-27 20:48:14,913 - model_file_loggers - INFO: Batch size: 16
+2022-05-27 20:48:14,913 - model_file_loggers - INFO: Shuffle: True
+2022-05-27 20:48:14,913 - model_file_loggers - INFO: Num workers: 1
+2022-05-27 20:48:14,921 - model_file_loggers - INFO: Dataset length: 1354
+2022-05-27 20:48:14,921 - model_file_loggers - INFO: Batch size: 1
+2022-05-27 20:48:14,921 - model_file_loggers - INFO: Shuffle: False
+2022-05-27 20:48:14,921 - model_file_loggers - INFO: Num workers: 1
+2022-05-27 20:48:16,235 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-05-27 20:48:16,236 - model_file_loggers - INFO: model_name: MyNet
+2022-05-27 20:48:16,236 - model_file_loggers - INFO: epoch: 10
+2022-05-27 20:48:16,236 - model_file_loggers - INFO: loss_function: bce
+2022-05-27 20:48:16,236 - model_file_loggers - INFO: optimizer: Adam
+2022-05-27 20:48:16,236 - model_file_loggers - INFO: learning rate: 0.01
+2022-05-27 20:48:16,236 - model_file_loggers - INFO: device: gpu
+2022-05-27 20:50:07,661 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-05-27 20:50:07,661 - model_file_loggers - INFO: Dataset length: 5414
+2022-05-27 20:50:07,662 - model_file_loggers - INFO: Batch size: 16
+2022-05-27 20:50:07,662 - model_file_loggers - INFO: Shuffle: True
+2022-05-27 20:50:07,662 - model_file_loggers - INFO: Num workers: 1
+2022-05-27 20:50:07,662 - model_file_loggers - INFO: Dataset length: 1354
+2022-05-27 20:50:07,663 - model_file_loggers - INFO: Batch size: 1
+2022-05-27 20:50:07,663 - model_file_loggers - INFO: Shuffle: False
+2022-05-27 20:50:07,663 - model_file_loggers - INFO: Num workers: 1
+2022-05-27 20:50:08,968 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-05-27 20:50:08,969 - model_file_loggers - INFO: model_name: MyNet
+2022-05-27 20:50:08,969 - model_file_loggers - INFO: epoch: 10
+2022-05-27 20:50:08,969 - model_file_loggers - INFO: loss_function: bce
+2022-05-27 20:50:08,969 - model_file_loggers - INFO: optimizer: Adam
+2022-05-27 20:50:08,969 - model_file_loggers - INFO: learning rate: 0.01
+2022-05-27 20:50:08,969 - model_file_loggers - INFO: device: gpu
+2022-05-27 20:52:12,947 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-05-27 20:52:12,948 - model_file_loggers - INFO: Dataset length: 5414
+2022-05-27 20:52:12,948 - model_file_loggers - INFO: Batch size: 16
+2022-05-27 20:52:12,948 - model_file_loggers - INFO: Shuffle: True
+2022-05-27 20:52:12,948 - model_file_loggers - INFO: Num workers: 1
+2022-05-27 20:52:12,949 - model_file_loggers - INFO: Dataset length: 1354
+2022-05-27 20:52:12,949 - model_file_loggers - INFO: Batch size: 1
+2022-05-27 20:52:12,949 - model_file_loggers - INFO: Shuffle: False
+2022-05-27 20:52:12,949 - model_file_loggers - INFO: Num workers: 1
+2022-05-27 20:52:14,197 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-05-27 20:52:14,197 - model_file_loggers - INFO: model_name: MyNet
+2022-05-27 20:52:14,197 - model_file_loggers - INFO: epoch: 10
+2022-05-27 20:52:14,197 - model_file_loggers - INFO: loss_function: bce
+2022-05-27 20:52:14,197 - model_file_loggers - INFO: optimizer: Adam
+2022-05-27 20:52:14,198 - model_file_loggers - INFO: learning rate: 0.01
+2022-05-27 20:52:14,198 - model_file_loggers - INFO: device: gpu
+2022-05-27 20:58:51,362 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-05-27 20:58:51,362 - model_file_loggers - INFO: Dataset length: 5414
+2022-05-27 20:58:51,362 - model_file_loggers - INFO: Batch size: 16
+2022-05-27 20:58:51,362 - model_file_loggers - INFO: Shuffle: True
+2022-05-27 20:58:51,362 - model_file_loggers - INFO: Num workers: 1
+2022-05-27 20:58:51,362 - model_file_loggers - INFO: Dataset length: 1354
+2022-05-27 20:58:51,362 - model_file_loggers - INFO: Batch size: 1
+2022-05-27 20:58:51,362 - model_file_loggers - INFO: Shuffle: False
+2022-05-27 20:58:51,362 - model_file_loggers - INFO: Num workers: 1
+2022-05-27 20:58:52,586 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-05-27 20:58:52,586 - model_file_loggers - INFO: model_name: MyNet
+2022-05-27 20:58:52,586 - model_file_loggers - INFO: epoch: 10
+2022-05-27 20:58:52,586 - model_file_loggers - INFO: loss_function: bce
+2022-05-27 20:58:52,586 - model_file_loggers - INFO: optimizer: Adam
+2022-05-27 20:58:52,586 - model_file_loggers - INFO: learning rate: 0.01
+2022-05-27 20:58:52,586 - model_file_loggers - INFO: device: gpu
+2022-05-27 21:00:34,485 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-05-27 21:00:34,485 - model_file_loggers - INFO: Dataset length: 5414
+2022-05-27 21:00:34,485 - model_file_loggers - INFO: Batch size: 16
+2022-05-27 21:00:34,485 - model_file_loggers - INFO: Shuffle: True
+2022-05-27 21:00:34,485 - model_file_loggers - INFO: Num workers: 1
+2022-05-27 21:00:34,485 - model_file_loggers - INFO: Dataset length: 1354
+2022-05-27 21:00:34,485 - model_file_loggers - INFO: Batch size: 1
+2022-05-27 21:00:34,485 - model_file_loggers - INFO: Shuffle: False
+2022-05-27 21:00:34,485 - model_file_loggers - INFO: Num workers: 1
+2022-05-27 21:00:35,737 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-05-27 21:00:35,737 - model_file_loggers - INFO: model_name: MyNet
+2022-05-27 21:00:35,737 - model_file_loggers - INFO: epoch: 40
+2022-05-27 21:00:35,737 - model_file_loggers - INFO: loss_function: bce
+2022-05-27 21:00:35,737 - model_file_loggers - INFO: optimizer: Adam
+2022-05-27 21:00:35,737 - model_file_loggers - INFO: learning rate: 0.001
+2022-05-27 21:00:35,737 - model_file_loggers - INFO: device: gpu
+2022-05-27 21:03:42,770 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-05-27 21:03:42,770 - model_file_loggers - INFO: Dataset length: 5760
+2022-05-27 21:03:42,770 - model_file_loggers - INFO: Batch size: 16
+2022-05-27 21:03:42,770 - model_file_loggers - INFO: Shuffle: True
+2022-05-27 21:03:42,770 - model_file_loggers - INFO: Num workers: 1
+2022-05-27 21:03:42,770 - model_file_loggers - INFO: Dataset length: 1008
+2022-05-27 21:03:42,770 - model_file_loggers - INFO: Batch size: 1
+2022-05-27 21:03:42,770 - model_file_loggers - INFO: Shuffle: False
+2022-05-27 21:03:42,770 - model_file_loggers - INFO: Num workers: 1
+2022-05-27 21:03:44,020 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-05-27 21:03:44,020 - model_file_loggers - INFO: model_name: MyNet
+2022-05-27 21:03:44,020 - model_file_loggers - INFO: epoch: 40
+2022-05-27 21:03:44,020 - model_file_loggers - INFO: loss_function: bce
+2022-05-27 21:03:44,020 - model_file_loggers - INFO: optimizer: Adam
+2022-05-27 21:03:44,020 - model_file_loggers - INFO: learning rate: 0.001
+2022-05-27 21:03:44,020 - model_file_loggers - INFO: device: gpu
+2022-05-28 20:08:50,218 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-05-28 20:08:50,219 - model_file_loggers - INFO: Dataset length: 5760
+2022-05-28 20:08:50,220 - model_file_loggers - INFO: Batch size: 16
+2022-05-28 20:08:50,220 - model_file_loggers - INFO: Shuffle: True
+2022-05-28 20:08:50,220 - model_file_loggers - INFO: Num workers: 1
+2022-05-28 20:08:50,222 - model_file_loggers - INFO: Dataset length: 1008
+2022-05-28 20:08:50,222 - model_file_loggers - INFO: Batch size: 1
+2022-05-28 20:08:50,223 - model_file_loggers - INFO: Shuffle: False
+2022-05-28 20:08:50,223 - model_file_loggers - INFO: Num workers: 1
+2022-05-28 20:34:42,932 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-05-28 20:34:42,933 - model_file_loggers - INFO: Dataset length: 16000
+2022-05-28 20:34:42,934 - model_file_loggers - INFO: Batch size: 16
+2022-05-28 20:34:42,934 - model_file_loggers - INFO: Shuffle: True
+2022-05-28 20:34:42,934 - model_file_loggers - INFO: Num workers: 1
+2022-05-28 20:34:42,934 - model_file_loggers - INFO: Dataset length: 2800
+2022-05-28 20:34:42,935 - model_file_loggers - INFO: Batch size: 1
+2022-05-28 20:34:42,935 - model_file_loggers - INFO: Shuffle: False
+2022-05-28 20:34:42,935 - model_file_loggers - INFO: Num workers: 1
+2022-05-28 20:34:44,328 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-05-28 20:34:44,329 - model_file_loggers - INFO: model_name: MyNet
+2022-05-28 20:34:44,329 - model_file_loggers - INFO: epoch: 40
+2022-05-28 20:34:44,329 - model_file_loggers - INFO: loss_function: bce
+2022-05-28 20:34:44,329 - model_file_loggers - INFO: optimizer: Adam
+2022-05-28 20:34:44,329 - model_file_loggers - INFO: learning rate: 0.001
+2022-05-28 20:34:44,329 - model_file_loggers - INFO: device: gpu
+2022-05-28 20:37:58,028 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-05-28 20:37:58,029 - model_file_loggers - INFO: Dataset length: 5760
+2022-05-28 20:37:58,029 - model_file_loggers - INFO: Batch size: 16
+2022-05-28 20:37:58,030 - model_file_loggers - INFO: Shuffle: True
+2022-05-28 20:37:58,030 - model_file_loggers - INFO: Num workers: 1
+2022-05-28 20:37:58,031 - model_file_loggers - INFO: Dataset length: 1008
+2022-05-28 20:37:58,031 - model_file_loggers - INFO: Batch size: 1
+2022-05-28 20:37:58,031 - model_file_loggers - INFO: Shuffle: False
+2022-05-28 20:37:58,031 - model_file_loggers - INFO: Num workers: 1
+2022-05-28 20:37:59,299 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-05-28 20:37:59,299 - model_file_loggers - INFO: model_name: MyNet
+2022-05-28 20:37:59,300 - model_file_loggers - INFO: epoch: 40
+2022-05-28 20:37:59,300 - model_file_loggers - INFO: loss_function: bce
+2022-05-28 20:37:59,300 - model_file_loggers - INFO: optimizer: Adam
+2022-05-28 20:37:59,300 - model_file_loggers - INFO: learning rate: 0.001
+2022-05-28 20:37:59,300 - model_file_loggers - INFO: device: gpu
+2022-05-28 20:39:35,467 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-05-28 20:39:35,468 - model_file_loggers - INFO: Dataset length: 5760
+2022-05-28 20:39:35,468 - model_file_loggers - INFO: Batch size: 16
+2022-05-28 20:39:35,468 - model_file_loggers - INFO: Shuffle: True
+2022-05-28 20:39:35,468 - model_file_loggers - INFO: Num workers: 1
+2022-05-28 20:39:35,469 - model_file_loggers - INFO: Dataset length: 13040
+2022-05-28 20:39:35,469 - model_file_loggers - INFO: Batch size: 1
+2022-05-28 20:39:35,469 - model_file_loggers - INFO: Shuffle: False
+2022-05-28 20:39:35,470 - model_file_loggers - INFO: Num workers: 1
+2022-05-28 20:39:36,824 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-05-28 20:39:36,825 - model_file_loggers - INFO: model_name: MyNet
+2022-05-28 20:39:36,825 - model_file_loggers - INFO: epoch: 40
+2022-05-28 20:39:36,825 - model_file_loggers - INFO: loss_function: bce
+2022-05-28 20:39:36,825 - model_file_loggers - INFO: optimizer: Adam
+2022-05-28 20:39:36,825 - model_file_loggers - INFO: learning rate: 0.001
+2022-05-28 20:39:36,825 - model_file_loggers - INFO: device: gpu
+2022-05-28 20:40:59,729 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-05-28 20:40:59,730 - model_file_loggers - INFO: Dataset length: 5760
+2022-05-28 20:40:59,730 - model_file_loggers - INFO: Batch size: 16
+2022-05-28 20:40:59,730 - model_file_loggers - INFO: Shuffle: True
+2022-05-28 20:40:59,730 - model_file_loggers - INFO: Num workers: 1
+2022-05-28 20:40:59,730 - model_file_loggers - INFO: Dataset length: 13040
+2022-05-28 20:40:59,730 - model_file_loggers - INFO: Batch size: 1
+2022-05-28 20:40:59,731 - model_file_loggers - INFO: Shuffle: False
+2022-05-28 20:40:59,731 - model_file_loggers - INFO: Num workers: 1
+2022-05-28 20:41:01,017 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-05-28 20:41:01,017 - model_file_loggers - INFO: model_name: MyNet
+2022-05-28 20:41:01,017 - model_file_loggers - INFO: epoch: 40
+2022-05-28 20:41:01,017 - model_file_loggers - INFO: loss_function: bce
+2022-05-28 20:41:01,017 - model_file_loggers - INFO: optimizer: Adam
+2022-05-28 20:41:01,017 - model_file_loggers - INFO: learning rate: 0.001
+2022-05-28 20:41:01,018 - model_file_loggers - INFO: device: gpu
+2022-05-28 20:44:27,993 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-05-28 20:44:27,993 - model_file_loggers - INFO: Dataset length: 16000
+2022-05-28 20:44:27,994 - model_file_loggers - INFO: Batch size: 16
+2022-05-28 20:44:27,994 - model_file_loggers - INFO: Shuffle: True
+2022-05-28 20:44:27,994 - model_file_loggers - INFO: Num workers: 1
+2022-05-28 20:44:28,003 - model_file_loggers - INFO: Dataset length: 2800
+2022-05-28 20:44:28,003 - model_file_loggers - INFO: Batch size: 1
+2022-05-28 20:44:28,004 - model_file_loggers - INFO: Shuffle: False
+2022-05-28 20:44:28,004 - model_file_loggers - INFO: Num workers: 1
+2022-05-28 20:44:29,367 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-05-28 20:44:29,367 - model_file_loggers - INFO: model_name: MyNet
+2022-05-28 20:44:29,368 - model_file_loggers - INFO: epoch: 40
+2022-05-28 20:44:29,368 - model_file_loggers - INFO: loss_function: bce
+2022-05-28 20:44:29,368 - model_file_loggers - INFO: optimizer: Adam
+2022-05-28 20:44:29,368 - model_file_loggers - INFO: learning rate: 0.001
+2022-05-28 20:44:29,368 - model_file_loggers - INFO: device: gpu
+2022-05-28 20:50:06,443 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-05-28 20:50:06,444 - model_file_loggers - INFO: Dataset length: 16000
+2022-05-28 20:50:06,444 - model_file_loggers - INFO: Batch size: 16
+2022-05-28 20:50:06,444 - model_file_loggers - INFO: Shuffle: True
+2022-05-28 20:50:06,444 - model_file_loggers - INFO: Num workers: 1
+2022-05-28 20:50:06,445 - model_file_loggers - INFO: Dataset length: 2800
+2022-05-28 20:50:06,445 - model_file_loggers - INFO: Batch size: 1
+2022-05-28 20:50:06,446 - model_file_loggers - INFO: Shuffle: False
+2022-05-28 20:50:06,446 - model_file_loggers - INFO: Num workers: 1
+2022-05-28 20:50:07,782 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-05-28 20:50:07,783 - model_file_loggers - INFO: model_name: MyNet
+2022-05-28 20:50:07,783 - model_file_loggers - INFO: epoch: 40
+2022-05-28 20:50:07,783 - model_file_loggers - INFO: loss_function: bce
+2022-05-28 20:50:07,783 - model_file_loggers - INFO: optimizer: Adam
+2022-05-28 20:50:07,783 - model_file_loggers - INFO: learning rate: 0.001
+2022-05-28 20:50:07,783 - model_file_loggers - INFO: device: gpu
+2022-05-28 21:03:42,482 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-05-28 21:03:42,484 - model_file_loggers - INFO: Dataset length: 16000
+2022-05-28 21:03:42,484 - model_file_loggers - INFO: Batch size: 16
+2022-05-28 21:03:42,484 - model_file_loggers - INFO: Shuffle: True
+2022-05-28 21:03:42,484 - model_file_loggers - INFO: Num workers: 1
+2022-05-28 21:03:42,493 - model_file_loggers - INFO: Dataset length: 2800
+2022-05-28 21:03:42,494 - model_file_loggers - INFO: Batch size: 1
+2022-05-28 21:03:42,494 - model_file_loggers - INFO: Shuffle: False
+2022-05-28 21:03:42,494 - model_file_loggers - INFO: Num workers: 1
+2022-05-28 21:03:43,846 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-05-28 21:03:43,846 - model_file_loggers - INFO: model_name: MyNet
+2022-05-28 21:03:43,846 - model_file_loggers - INFO: epoch: 40
+2022-05-28 21:03:43,846 - model_file_loggers - INFO: loss_function: bce
+2022-05-28 21:03:43,846 - model_file_loggers - INFO: optimizer: Adam
+2022-05-28 21:03:43,846 - model_file_loggers - INFO: learning rate: 0.001
+2022-05-28 21:03:43,847 - model_file_loggers - INFO: device: gpu
+2022-05-28 21:07:42,656 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-05-28 21:07:42,657 - model_file_loggers - INFO: Dataset length: 16000
+2022-05-28 21:07:42,658 - model_file_loggers - INFO: Batch size: 16
+2022-05-28 21:07:42,658 - model_file_loggers - INFO: Shuffle: True
+2022-05-28 21:07:42,658 - model_file_loggers - INFO: Num workers: 1
+2022-05-28 21:07:42,658 - model_file_loggers - INFO: Dataset length: 2800
+2022-05-28 21:07:42,659 - model_file_loggers - INFO: Batch size: 1
+2022-05-28 21:07:42,659 - model_file_loggers - INFO: Shuffle: False
+2022-05-28 21:07:42,659 - model_file_loggers - INFO: Num workers: 1
+2022-05-28 21:07:43,962 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-05-28 21:07:43,963 - model_file_loggers - INFO: model_name: MyNet
+2022-05-28 21:07:43,963 - model_file_loggers - INFO: epoch: 40
+2022-05-28 21:07:43,963 - model_file_loggers - INFO: loss_function: soft_dice
+2022-05-28 21:07:43,963 - model_file_loggers - INFO: optimizer: Adam
+2022-05-28 21:07:43,963 - model_file_loggers - INFO: learning rate: 0.001
+2022-05-28 21:07:43,963 - model_file_loggers - INFO: device: gpu
+2022-05-28 21:10:49,422 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-05-28 21:10:49,423 - model_file_loggers - INFO: Dataset length: 16000
+2022-05-28 21:10:49,423 - model_file_loggers - INFO: Batch size: 16
+2022-05-28 21:10:49,423 - model_file_loggers - INFO: Shuffle: True
+2022-05-28 21:10:49,424 - model_file_loggers - INFO: Num workers: 1
+2022-05-28 21:10:49,424 - model_file_loggers - INFO: Dataset length: 2800
+2022-05-28 21:10:49,424 - model_file_loggers - INFO: Batch size: 1
+2022-05-28 21:10:49,424 - model_file_loggers - INFO: Shuffle: False
+2022-05-28 21:10:49,425 - model_file_loggers - INFO: Num workers: 1
+2022-05-28 21:10:50,694 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-05-28 21:10:50,694 - model_file_loggers - INFO: model_name: MyNet
+2022-05-28 21:10:50,694 - model_file_loggers - INFO: epoch: 40
+2022-05-28 21:10:50,694 - model_file_loggers - INFO: loss_function: bce
+2022-05-28 21:10:50,694 - model_file_loggers - INFO: optimizer: Adam
+2022-05-28 21:10:50,695 - model_file_loggers - INFO: learning rate: 0.01
+2022-05-28 21:10:50,695 - model_file_loggers - INFO: device: gpu
+2022-05-28 21:12:52,926 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-05-28 21:12:52,927 - model_file_loggers - INFO: Dataset length: 16000
+2022-05-28 21:12:52,927 - model_file_loggers - INFO: Batch size: 16
+2022-05-28 21:12:52,927 - model_file_loggers - INFO: Shuffle: True
+2022-05-28 21:12:52,928 - model_file_loggers - INFO: Num workers: 1
+2022-05-28 21:12:52,928 - model_file_loggers - INFO: Dataset length: 2800
+2022-05-28 21:12:52,928 - model_file_loggers - INFO: Batch size: 1
+2022-05-28 21:12:52,928 - model_file_loggers - INFO: Shuffle: False
+2022-05-28 21:12:52,929 - model_file_loggers - INFO: Num workers: 1
+2022-05-28 21:12:54,152 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-05-28 21:12:54,152 - model_file_loggers - INFO: model_name: MyNet
+2022-05-28 21:12:54,152 - model_file_loggers - INFO: epoch: 40
+2022-05-28 21:12:54,152 - model_file_loggers - INFO: loss_function: npcc
+2022-05-28 21:12:54,152 - model_file_loggers - INFO: optimizer: Adam
+2022-05-28 21:12:54,152 - model_file_loggers - INFO: learning rate: 0.01
+2022-05-28 21:12:54,153 - model_file_loggers - INFO: device: gpu
+2022-05-28 21:14:52,127 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-05-28 21:14:52,128 - model_file_loggers - INFO: Dataset length: 1692
+2022-05-28 21:14:52,128 - model_file_loggers - INFO: Batch size: 16
+2022-05-28 21:14:52,128 - model_file_loggers - INFO: Shuffle: True
+2022-05-28 21:14:52,129 - model_file_loggers - INFO: Num workers: 1
+2022-05-28 21:14:52,129 - model_file_loggers - INFO: Dataset length: 0
+2022-05-28 21:14:52,130 - model_file_loggers - INFO: Batch size: 1
+2022-05-28 21:14:52,130 - model_file_loggers - INFO: Shuffle: False
+2022-05-28 21:14:52,130 - model_file_loggers - INFO: Num workers: 1
+2022-05-28 21:14:53,461 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-05-28 21:14:53,462 - model_file_loggers - INFO: model_name: MyNet
+2022-05-28 21:14:53,462 - model_file_loggers - INFO: epoch: 40
+2022-05-28 21:14:53,462 - model_file_loggers - INFO: loss_function: bce
+2022-05-28 21:14:53,462 - model_file_loggers - INFO: optimizer: Adam
+2022-05-28 21:14:53,462 - model_file_loggers - INFO: learning rate: 0.01
+2022-05-28 21:14:53,462 - model_file_loggers - INFO: device: gpu
+2022-05-28 21:20:43,154 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-05-28 21:20:43,155 - model_file_loggers - INFO: Dataset length: 16000
+2022-05-28 21:20:43,155 - model_file_loggers - INFO: Batch size: 16
+2022-05-28 21:20:43,155 - model_file_loggers - INFO: Shuffle: True
+2022-05-28 21:20:43,155 - model_file_loggers - INFO: Num workers: 1
+2022-05-28 21:20:43,165 - model_file_loggers - INFO: Dataset length: 2800
+2022-05-28 21:20:43,165 - model_file_loggers - INFO: Batch size: 1
+2022-05-28 21:20:43,166 - model_file_loggers - INFO: Shuffle: False
+2022-05-28 21:20:43,166 - model_file_loggers - INFO: Num workers: 1
+2022-05-28 21:22:33,763 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-05-28 21:22:33,764 - model_file_loggers - INFO: Dataset length: 16000
+2022-05-28 21:22:33,764 - model_file_loggers - INFO: Batch size: 16
+2022-05-28 21:22:33,764 - model_file_loggers - INFO: Shuffle: True
+2022-05-28 21:22:33,765 - model_file_loggers - INFO: Num workers: 1
+2022-05-28 21:22:33,765 - model_file_loggers - INFO: Dataset length: 2800
+2022-05-28 21:22:33,765 - model_file_loggers - INFO: Batch size: 1
+2022-05-28 21:22:33,765 - model_file_loggers - INFO: Shuffle: False
+2022-05-28 21:22:33,766 - model_file_loggers - INFO: Num workers: 1
+2022-05-28 21:22:35,389 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-05-28 21:22:35,389 - model_file_loggers - INFO: model_name: MyNet
+2022-05-28 21:22:35,389 - model_file_loggers - INFO: epoch: 40
+2022-05-28 21:22:35,390 - model_file_loggers - INFO: loss_function: bce
+2022-05-28 21:22:35,390 - model_file_loggers - INFO: optimizer: Adam
+2022-05-28 21:22:35,390 - model_file_loggers - INFO: learning rate: 0.01
+2022-05-28 21:22:35,390 - model_file_loggers - INFO: device: gpu
+2022-05-28 21:24:46,469 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-05-28 21:24:46,470 - model_file_loggers - INFO: Dataset length: 16000
+2022-05-28 21:24:46,471 - model_file_loggers - INFO: Batch size: 16
+2022-05-28 21:24:46,471 - model_file_loggers - INFO: Shuffle: True
+2022-05-28 21:24:46,471 - model_file_loggers - INFO: Num workers: 1
+2022-05-28 21:24:46,472 - model_file_loggers - INFO: Dataset length: 2800
+2022-05-28 21:24:46,472 - model_file_loggers - INFO: Batch size: 1
+2022-05-28 21:24:46,472 - model_file_loggers - INFO: Shuffle: False
+2022-05-28 21:24:46,472 - model_file_loggers - INFO: Num workers: 1
+2022-05-28 21:24:47,942 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-05-28 21:24:47,943 - model_file_loggers - INFO: model_name: MyNet
+2022-05-28 21:24:47,943 - model_file_loggers - INFO: epoch: 40
+2022-05-28 21:24:47,943 - model_file_loggers - INFO: loss_function: bce
+2022-05-28 21:24:47,943 - model_file_loggers - INFO: optimizer: Adam
+2022-05-28 21:24:47,943 - model_file_loggers - INFO: learning rate: 0.01
+2022-05-28 21:24:47,943 - model_file_loggers - INFO: device: gpu
+2022-05-30 10:56:39,392 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-05-30 10:56:39,407 - model_file_loggers - INFO: Dataset length: 29
+2022-05-30 10:56:39,407 - model_file_loggers - INFO: Batch size: 16
+2022-05-30 10:56:39,407 - model_file_loggers - INFO: Shuffle: True
+2022-05-30 10:56:39,407 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 10:56:39,407 - model_file_loggers - INFO: Dataset length: 3
+2022-05-30 10:56:39,407 - model_file_loggers - INFO: Batch size: 1
+2022-05-30 10:56:39,407 - model_file_loggers - INFO: Shuffle: False
+2022-05-30 10:56:39,407 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 10:56:40,960 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-05-30 10:56:40,960 - model_file_loggers - INFO: model_name: MyNet
+2022-05-30 10:56:40,960 - model_file_loggers - INFO: epoch: 40
+2022-05-30 10:56:40,960 - model_file_loggers - INFO: loss_function: bce
+2022-05-30 10:56:40,960 - model_file_loggers - INFO: optimizer: Adam
+2022-05-30 10:56:40,960 - model_file_loggers - INFO: learning rate: 0.01
+2022-05-30 10:56:40,960 - model_file_loggers - INFO: device: gpu
+2022-05-30 10:58:47,808 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-05-30 10:58:47,809 - model_file_loggers - INFO: Dataset length: 16000
+2022-05-30 10:58:47,809 - model_file_loggers - INFO: Batch size: 16
+2022-05-30 10:58:47,810 - model_file_loggers - INFO: Shuffle: True
+2022-05-30 10:58:47,810 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 10:58:47,810 - model_file_loggers - INFO: Dataset length: 2800
+2022-05-30 10:58:47,810 - model_file_loggers - INFO: Batch size: 1
+2022-05-30 10:58:47,811 - model_file_loggers - INFO: Shuffle: False
+2022-05-30 10:58:47,811 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 10:58:49,285 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-05-30 10:58:49,285 - model_file_loggers - INFO: model_name: MyNet
+2022-05-30 10:58:49,285 - model_file_loggers - INFO: epoch: 40
+2022-05-30 10:58:49,285 - model_file_loggers - INFO: loss_function: bce
+2022-05-30 10:58:49,285 - model_file_loggers - INFO: optimizer: Adam
+2022-05-30 10:58:49,285 - model_file_loggers - INFO: learning rate: 0.01
+2022-05-30 10:58:49,285 - model_file_loggers - INFO: device: gpu
+2022-05-30 11:00:12,633 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-05-30 11:00:12,633 - model_file_loggers - INFO: Dataset length: 16000
+2022-05-30 11:00:12,633 - model_file_loggers - INFO: Batch size: 16
+2022-05-30 11:00:12,633 - model_file_loggers - INFO: Shuffle: True
+2022-05-30 11:00:12,633 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 11:00:12,647 - model_file_loggers - INFO: Dataset length: 2800
+2022-05-30 11:00:12,647 - model_file_loggers - INFO: Batch size: 1
+2022-05-30 11:00:12,647 - model_file_loggers - INFO: Shuffle: False
+2022-05-30 11:00:12,647 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 11:01:26,191 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-05-30 11:01:26,191 - model_file_loggers - INFO: Dataset length: 16000
+2022-05-30 11:01:26,191 - model_file_loggers - INFO: Batch size: 16
+2022-05-30 11:01:26,191 - model_file_loggers - INFO: Shuffle: True
+2022-05-30 11:01:26,191 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 11:01:26,191 - model_file_loggers - INFO: Dataset length: 2800
+2022-05-30 11:01:26,191 - model_file_loggers - INFO: Batch size: 1
+2022-05-30 11:01:26,191 - model_file_loggers - INFO: Shuffle: False
+2022-05-30 11:01:26,191 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 11:01:27,774 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-05-30 11:01:27,774 - model_file_loggers - INFO: model_name: MyNet
+2022-05-30 11:01:27,774 - model_file_loggers - INFO: epoch: 40
+2022-05-30 11:01:27,774 - model_file_loggers - INFO: loss_function: bce
+2022-05-30 11:01:27,774 - model_file_loggers - INFO: optimizer: SGD
+2022-05-30 11:01:27,775 - model_file_loggers - INFO: learning rate: 0.01
+2022-05-30 11:01:27,775 - model_file_loggers - INFO: device: gpu
+2022-05-30 11:09:38,794 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-05-30 11:09:38,796 - model_file_loggers - INFO: Dataset length: 16000
+2022-05-30 11:09:38,796 - model_file_loggers - INFO: Batch size: 16
+2022-05-30 11:09:38,796 - model_file_loggers - INFO: Shuffle: True
+2022-05-30 11:09:38,796 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 11:09:38,806 - model_file_loggers - INFO: Dataset length: 2800
+2022-05-30 11:09:38,806 - model_file_loggers - INFO: Batch size: 1
+2022-05-30 11:09:38,806 - model_file_loggers - INFO: Shuffle: False
+2022-05-30 11:09:38,807 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 11:09:40,378 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-05-30 11:09:40,379 - model_file_loggers - INFO: model_name: MyNet
+2022-05-30 11:09:40,379 - model_file_loggers - INFO: epoch: 40
+2022-05-30 11:09:40,379 - model_file_loggers - INFO: loss_function: bce
+2022-05-30 11:09:40,379 - model_file_loggers - INFO: optimizer: SGD
+2022-05-30 11:09:40,379 - model_file_loggers - INFO: learning rate: 0.01
+2022-05-30 11:09:40,379 - model_file_loggers - INFO: device: gpu
+2022-05-30 11:20:09,049 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-05-30 11:20:55,159 - model_file_loggers - INFO: Dataset length: 16000
+2022-05-30 11:20:55,159 - model_file_loggers - INFO: Batch size: 16
+2022-05-30 11:20:55,159 - model_file_loggers - INFO: Shuffle: True
+2022-05-30 11:20:55,159 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 11:20:57,091 - model_file_loggers - INFO: Dataset length: 2800
+2022-05-30 11:20:57,091 - model_file_loggers - INFO: Batch size: 1
+2022-05-30 11:20:57,091 - model_file_loggers - INFO: Shuffle: False
+2022-05-30 11:20:57,091 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 11:22:29,651 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-05-30 11:22:29,651 - model_file_loggers - INFO: model_name: MyNet
+2022-05-30 11:22:29,651 - model_file_loggers - INFO: epoch: 40
+2022-05-30 11:22:29,652 - model_file_loggers - INFO: loss_function: bce
+2022-05-30 11:22:29,652 - model_file_loggers - INFO: optimizer: SGD
+2022-05-30 11:22:29,652 - model_file_loggers - INFO: learning rate: 0.01
+2022-05-30 11:22:29,652 - model_file_loggers - INFO: device: gpu
+2022-05-30 11:24:04,947 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-05-30 11:24:04,947 - model_file_loggers - INFO: Dataset length: 16000
+2022-05-30 11:24:04,947 - model_file_loggers - INFO: Batch size: 16
+2022-05-30 11:24:04,947 - model_file_loggers - INFO: Shuffle: True
+2022-05-30 11:24:04,947 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 11:24:04,959 - model_file_loggers - INFO: Dataset length: 2800
+2022-05-30 11:24:04,959 - model_file_loggers - INFO: Batch size: 1
+2022-05-30 11:24:04,959 - model_file_loggers - INFO: Shuffle: False
+2022-05-30 11:24:04,959 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 11:24:06,446 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-05-30 11:24:06,446 - model_file_loggers - INFO: model_name: MyNet
+2022-05-30 11:24:06,446 - model_file_loggers - INFO: epoch: 40
+2022-05-30 11:24:06,446 - model_file_loggers - INFO: loss_function: bce
+2022-05-30 11:24:06,446 - model_file_loggers - INFO: optimizer: SGD
+2022-05-30 11:24:06,446 - model_file_loggers - INFO: learning rate: 0.01
+2022-05-30 11:24:06,461 - model_file_loggers - INFO: device: gpu
+2022-05-30 11:27:56,504 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-05-30 11:27:56,504 - model_file_loggers - INFO: Dataset length: 16000
+2022-05-30 11:27:56,504 - model_file_loggers - INFO: Batch size: 16
+2022-05-30 11:27:56,504 - model_file_loggers - INFO: Shuffle: True
+2022-05-30 11:27:56,504 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 11:27:56,504 - model_file_loggers - INFO: Dataset length: 2800
+2022-05-30 11:27:56,504 - model_file_loggers - INFO: Batch size: 1
+2022-05-30 11:27:56,504 - model_file_loggers - INFO: Shuffle: False
+2022-05-30 11:27:56,504 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 11:27:58,000 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-05-30 11:27:58,000 - model_file_loggers - INFO: model_name: MyNet
+2022-05-30 11:27:58,000 - model_file_loggers - INFO: epoch: 40
+2022-05-30 11:27:58,001 - model_file_loggers - INFO: loss_function: bce
+2022-05-30 11:27:58,001 - model_file_loggers - INFO: optimizer: SGD
+2022-05-30 11:27:58,001 - model_file_loggers - INFO: learning rate: 0.01
+2022-05-30 11:27:58,001 - model_file_loggers - INFO: device: gpu
+2022-05-30 11:30:56,465 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-05-30 11:30:56,465 - model_file_loggers - INFO: Dataset length: 16000
+2022-05-30 11:30:56,465 - model_file_loggers - INFO: Batch size: 16
+2022-05-30 11:30:56,465 - model_file_loggers - INFO: Shuffle: True
+2022-05-30 11:30:56,465 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 11:30:56,465 - model_file_loggers - INFO: Dataset length: 2800
+2022-05-30 11:30:56,465 - model_file_loggers - INFO: Batch size: 1
+2022-05-30 11:30:56,465 - model_file_loggers - INFO: Shuffle: False
+2022-05-30 11:30:56,465 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 11:30:57,933 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-05-30 11:30:57,933 - model_file_loggers - INFO: model_name: MyNet
+2022-05-30 11:30:57,933 - model_file_loggers - INFO: epoch: 40
+2022-05-30 11:30:57,933 - model_file_loggers - INFO: loss_function: bce
+2022-05-30 11:30:57,933 - model_file_loggers - INFO: optimizer: SGD
+2022-05-30 11:30:57,933 - model_file_loggers - INFO: learning rate: 0.01
+2022-05-30 11:30:57,933 - model_file_loggers - INFO: device: gpu
+2022-05-30 11:32:21,791 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-05-30 11:32:21,791 - model_file_loggers - INFO: Dataset length: 16000
+2022-05-30 11:32:21,791 - model_file_loggers - INFO: Batch size: 16
+2022-05-30 11:32:21,791 - model_file_loggers - INFO: Shuffle: True
+2022-05-30 11:32:21,791 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 11:32:21,794 - model_file_loggers - INFO: Dataset length: 2800
+2022-05-30 11:32:21,794 - model_file_loggers - INFO: Batch size: 1
+2022-05-30 11:32:21,794 - model_file_loggers - INFO: Shuffle: False
+2022-05-30 11:32:21,794 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 11:32:23,245 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-05-30 11:32:23,245 - model_file_loggers - INFO: model_name: MyNet
+2022-05-30 11:32:23,245 - model_file_loggers - INFO: epoch: 40
+2022-05-30 11:32:23,245 - model_file_loggers - INFO: loss_function: bce
+2022-05-30 11:32:23,245 - model_file_loggers - INFO: optimizer: Adam
+2022-05-30 11:32:23,245 - model_file_loggers - INFO: learning rate: 0.01
+2022-05-30 11:32:23,245 - model_file_loggers - INFO: device: gpu
+2022-05-30 11:34:32,272 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-05-30 11:34:32,272 - model_file_loggers - INFO: Dataset length: 16000
+2022-05-30 11:34:32,272 - model_file_loggers - INFO: Batch size: 16
+2022-05-30 11:34:32,272 - model_file_loggers - INFO: Shuffle: True
+2022-05-30 11:34:32,272 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 11:34:32,272 - model_file_loggers - INFO: Dataset length: 2800
+2022-05-30 11:34:32,272 - model_file_loggers - INFO: Batch size: 1
+2022-05-30 11:34:32,272 - model_file_loggers - INFO: Shuffle: False
+2022-05-30 11:34:32,272 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 11:34:33,502 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-05-30 11:34:33,502 - model_file_loggers - INFO: model_name: MyNet
+2022-05-30 11:34:33,502 - model_file_loggers - INFO: epoch: 40
+2022-05-30 11:34:33,502 - model_file_loggers - INFO: loss_function: bce
+2022-05-30 11:34:33,502 - model_file_loggers - INFO: optimizer: Adam
+2022-05-30 11:34:33,502 - model_file_loggers - INFO: learning rate: 0.01
+2022-05-30 11:34:33,502 - model_file_loggers - INFO: device: gpu
+2022-05-30 11:50:35,880 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-05-30 11:50:35,880 - model_file_loggers - INFO: Dataset length: 29
+2022-05-30 11:50:35,880 - model_file_loggers - INFO: Batch size: 16
+2022-05-30 11:50:35,880 - model_file_loggers - INFO: Shuffle: True
+2022-05-30 11:50:35,880 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 11:50:35,880 - model_file_loggers - INFO: Dataset length: 3
+2022-05-30 11:50:35,880 - model_file_loggers - INFO: Batch size: 1
+2022-05-30 11:50:35,893 - model_file_loggers - INFO: Shuffle: False
+2022-05-30 11:50:35,893 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 11:50:37,156 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-05-30 11:50:37,156 - model_file_loggers - INFO: model_name: MyNet
+2022-05-30 11:50:37,156 - model_file_loggers - INFO: epoch: 40
+2022-05-30 11:50:37,156 - model_file_loggers - INFO: loss_function: bce
+2022-05-30 11:50:37,156 - model_file_loggers - INFO: optimizer: Adam
+2022-05-30 11:50:37,156 - model_file_loggers - INFO: learning rate: 0.01
+2022-05-30 11:50:37,156 - model_file_loggers - INFO: device: gpu
+2022-05-30 11:51:04,157 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-05-30 11:51:04,157 - model_file_loggers - INFO: Dataset length: 552
+2022-05-30 11:51:04,157 - model_file_loggers - INFO: Batch size: 16
+2022-05-30 11:51:04,157 - model_file_loggers - INFO: Shuffle: True
+2022-05-30 11:51:04,157 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 11:51:04,157 - model_file_loggers - INFO: Dataset length: 48
+2022-05-30 11:51:04,157 - model_file_loggers - INFO: Batch size: 1
+2022-05-30 11:51:04,157 - model_file_loggers - INFO: Shuffle: False
+2022-05-30 11:51:04,157 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 11:51:05,427 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-05-30 11:51:05,427 - model_file_loggers - INFO: model_name: MyNet
+2022-05-30 11:51:05,427 - model_file_loggers - INFO: epoch: 40
+2022-05-30 11:51:05,427 - model_file_loggers - INFO: loss_function: bce
+2022-05-30 11:51:05,427 - model_file_loggers - INFO: optimizer: Adam
+2022-05-30 11:51:05,427 - model_file_loggers - INFO: learning rate: 0.01
+2022-05-30 11:51:05,427 - model_file_loggers - INFO: device: gpu
+2022-05-30 11:51:28,802 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-05-30 11:51:28,818 - model_file_loggers - INFO: Dataset length: 552
+2022-05-30 11:51:28,818 - model_file_loggers - INFO: Batch size: 4
+2022-05-30 11:51:28,818 - model_file_loggers - INFO: Shuffle: True
+2022-05-30 11:51:28,818 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 11:51:28,818 - model_file_loggers - INFO: Dataset length: 48
+2022-05-30 11:51:28,818 - model_file_loggers - INFO: Batch size: 1
+2022-05-30 11:51:28,818 - model_file_loggers - INFO: Shuffle: False
+2022-05-30 11:51:28,818 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 11:51:30,116 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-05-30 11:51:30,116 - model_file_loggers - INFO: model_name: MyNet
+2022-05-30 11:51:30,116 - model_file_loggers - INFO: epoch: 40
+2022-05-30 11:51:30,116 - model_file_loggers - INFO: loss_function: bce
+2022-05-30 11:51:30,116 - model_file_loggers - INFO: optimizer: Adam
+2022-05-30 11:51:30,116 - model_file_loggers - INFO: learning rate: 0.01
+2022-05-30 11:51:30,116 - model_file_loggers - INFO: device: gpu
+2022-05-30 11:55:17,623 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-05-30 11:55:17,623 - model_file_loggers - INFO: Dataset length: 15000
+2022-05-30 11:55:17,623 - model_file_loggers - INFO: Batch size: 4
+2022-05-30 11:55:17,623 - model_file_loggers - INFO: Shuffle: True
+2022-05-30 11:55:17,623 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 11:55:17,623 - model_file_loggers - INFO: Dataset length: 0
+2022-05-30 11:55:17,623 - model_file_loggers - INFO: Batch size: 1
+2022-05-30 11:55:17,623 - model_file_loggers - INFO: Shuffle: False
+2022-05-30 11:55:17,623 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 11:55:18,834 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-05-30 11:55:18,834 - model_file_loggers - INFO: model_name: MyNet
+2022-05-30 11:55:18,834 - model_file_loggers - INFO: epoch: 40
+2022-05-30 11:55:18,834 - model_file_loggers - INFO: loss_function: bce
+2022-05-30 11:55:18,834 - model_file_loggers - INFO: optimizer: Adam
+2022-05-30 11:55:18,834 - model_file_loggers - INFO: learning rate: 0.01
+2022-05-30 11:55:18,834 - model_file_loggers - INFO: device: gpu
+2022-05-30 11:57:19,520 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-05-30 11:57:19,520 - model_file_loggers - INFO: Dataset length: 15000
+2022-05-30 11:57:19,520 - model_file_loggers - INFO: Batch size: 32
+2022-05-30 11:57:19,520 - model_file_loggers - INFO: Shuffle: True
+2022-05-30 11:57:19,520 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 11:57:19,520 - model_file_loggers - INFO: Dataset length: 0
+2022-05-30 11:57:19,520 - model_file_loggers - INFO: Batch size: 1
+2022-05-30 11:57:19,520 - model_file_loggers - INFO: Shuffle: False
+2022-05-30 11:57:19,520 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 11:57:20,782 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-05-30 11:57:20,782 - model_file_loggers - INFO: model_name: MyNet
+2022-05-30 11:57:20,782 - model_file_loggers - INFO: epoch: 40
+2022-05-30 11:57:20,782 - model_file_loggers - INFO: loss_function: bce
+2022-05-30 11:57:20,782 - model_file_loggers - INFO: optimizer: Adam
+2022-05-30 11:57:20,782 - model_file_loggers - INFO: learning rate: 0.01
+2022-05-30 11:57:20,782 - model_file_loggers - INFO: device: gpu
+2022-05-30 11:59:04,776 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-05-30 11:59:04,791 - model_file_loggers - INFO: Dataset length: 6400
+2022-05-30 11:59:04,791 - model_file_loggers - INFO: Batch size: 32
+2022-05-30 11:59:04,791 - model_file_loggers - INFO: Shuffle: True
+2022-05-30 11:59:04,791 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 11:59:04,792 - model_file_loggers - INFO: Dataset length: 3200
+2022-05-30 11:59:04,792 - model_file_loggers - INFO: Batch size: 1
+2022-05-30 11:59:04,792 - model_file_loggers - INFO: Shuffle: False
+2022-05-30 11:59:04,792 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 11:59:05,992 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-05-30 11:59:05,992 - model_file_loggers - INFO: model_name: MyNet
+2022-05-30 11:59:05,992 - model_file_loggers - INFO: epoch: 40
+2022-05-30 11:59:05,992 - model_file_loggers - INFO: loss_function: bce
+2022-05-30 11:59:05,992 - model_file_loggers - INFO: optimizer: Adam
+2022-05-30 11:59:05,992 - model_file_loggers - INFO: learning rate: 0.01
+2022-05-30 11:59:05,992 - model_file_loggers - INFO: device: gpu
+2022-05-30 12:01:07,046 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-05-30 12:01:07,046 - model_file_loggers - INFO: Dataset length: 6400
+2022-05-30 12:01:07,046 - model_file_loggers - INFO: Batch size: 32
+2022-05-30 12:01:07,046 - model_file_loggers - INFO: Shuffle: True
+2022-05-30 12:01:07,046 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 12:01:07,056 - model_file_loggers - INFO: Dataset length: 3200
+2022-05-30 12:01:07,056 - model_file_loggers - INFO: Batch size: 1
+2022-05-30 12:01:07,056 - model_file_loggers - INFO: Shuffle: False
+2022-05-30 12:01:07,056 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 12:01:08,258 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-05-30 12:01:08,258 - model_file_loggers - INFO: model_name: MyNet
+2022-05-30 12:01:08,258 - model_file_loggers - INFO: epoch: 40
+2022-05-30 12:01:08,258 - model_file_loggers - INFO: loss_function: bce
+2022-05-30 12:01:08,258 - model_file_loggers - INFO: optimizer: Adam
+2022-05-30 12:01:08,258 - model_file_loggers - INFO: learning rate: 0.01
+2022-05-30 12:01:08,258 - model_file_loggers - INFO: device: gpu
+2022-05-30 12:02:57,333 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-05-30 12:02:57,333 - model_file_loggers - INFO: Dataset length: 6400
+2022-05-30 12:02:57,333 - model_file_loggers - INFO: Batch size: 32
+2022-05-30 12:02:57,333 - model_file_loggers - INFO: Shuffle: True
+2022-05-30 12:02:57,333 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 12:02:57,333 - model_file_loggers - INFO: Dataset length: 3200
+2022-05-30 12:02:57,333 - model_file_loggers - INFO: Batch size: 1
+2022-05-30 12:02:57,333 - model_file_loggers - INFO: Shuffle: False
+2022-05-30 12:02:57,333 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 12:02:58,563 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-05-30 12:02:58,563 - model_file_loggers - INFO: model_name: MyNet
+2022-05-30 12:02:58,563 - model_file_loggers - INFO: epoch: 40
+2022-05-30 12:02:58,563 - model_file_loggers - INFO: loss_function: bce
+2022-05-30 12:02:58,563 - model_file_loggers - INFO: optimizer: Adam
+2022-05-30 12:02:58,563 - model_file_loggers - INFO: learning rate: 0.01
+2022-05-30 12:02:58,563 - model_file_loggers - INFO: device: gpu
+2022-05-30 12:12:59,011 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-05-30 12:12:59,011 - model_file_loggers - INFO: Dataset length: 9584
+2022-05-30 12:12:59,011 - model_file_loggers - INFO: Batch size: 32
+2022-05-30 12:12:59,011 - model_file_loggers - INFO: Shuffle: True
+2022-05-30 12:12:59,011 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 12:12:59,011 - model_file_loggers - INFO: Dataset length: 16
+2022-05-30 12:12:59,011 - model_file_loggers - INFO: Batch size: 1
+2022-05-30 12:12:59,011 - model_file_loggers - INFO: Shuffle: False
+2022-05-30 12:12:59,011 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 12:13:00,248 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-05-30 12:13:00,248 - model_file_loggers - INFO: model_name: MyNet
+2022-05-30 12:13:00,248 - model_file_loggers - INFO: epoch: 40
+2022-05-30 12:13:00,248 - model_file_loggers - INFO: loss_function: bce
+2022-05-30 12:13:00,248 - model_file_loggers - INFO: optimizer: Adam
+2022-05-30 12:13:00,248 - model_file_loggers - INFO: learning rate: 0.01
+2022-05-30 12:13:00,248 - model_file_loggers - INFO: device: gpu
+2022-05-30 12:19:39,230 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-05-30 12:19:39,230 - model_file_loggers - INFO: Dataset length: 8000
+2022-05-30 12:19:39,230 - model_file_loggers - INFO: Batch size: 32
+2022-05-30 12:19:39,230 - model_file_loggers - INFO: Shuffle: True
+2022-05-30 12:19:39,230 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 12:19:39,245 - model_file_loggers - INFO: Dataset length: 1600
+2022-05-30 12:19:39,245 - model_file_loggers - INFO: Batch size: 1
+2022-05-30 12:19:39,245 - model_file_loggers - INFO: Shuffle: False
+2022-05-30 12:19:39,245 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 12:19:40,540 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-05-30 12:19:40,540 - model_file_loggers - INFO: model_name: MyNet
+2022-05-30 12:19:40,540 - model_file_loggers - INFO: epoch: 40
+2022-05-30 12:19:40,540 - model_file_loggers - INFO: loss_function: bce
+2022-05-30 12:19:40,540 - model_file_loggers - INFO: optimizer: Adam
+2022-05-30 12:19:40,540 - model_file_loggers - INFO: learning rate: 0.01
+2022-05-30 12:19:40,540 - model_file_loggers - INFO: device: gpu
+2022-05-30 12:32:02,699 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-05-30 12:32:02,699 - model_file_loggers - INFO: Dataset length: 2560
+2022-05-30 12:32:02,699 - model_file_loggers - INFO: Batch size: 32
+2022-05-30 12:32:02,699 - model_file_loggers - INFO: Shuffle: True
+2022-05-30 12:32:02,699 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 12:32:02,699 - model_file_loggers - INFO: Dataset length: 448
+2022-05-30 12:32:02,699 - model_file_loggers - INFO: Batch size: 1
+2022-05-30 12:32:02,699 - model_file_loggers - INFO: Shuffle: False
+2022-05-30 12:32:02,699 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 12:32:03,955 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-05-30 12:32:03,955 - model_file_loggers - INFO: model_name: MyNet
+2022-05-30 12:32:03,955 - model_file_loggers - INFO: epoch: 40
+2022-05-30 12:32:03,955 - model_file_loggers - INFO: loss_function: bce
+2022-05-30 12:32:03,955 - model_file_loggers - INFO: optimizer: Adam
+2022-05-30 12:32:03,955 - model_file_loggers - INFO: learning rate: 0.01
+2022-05-30 12:32:03,955 - model_file_loggers - INFO: device: gpu
+2022-05-30 12:44:53,911 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-05-30 12:44:53,911 - model_file_loggers - INFO: Dataset length: 2560
+2022-05-30 12:44:53,911 - model_file_loggers - INFO: Batch size: 32
+2022-05-30 12:44:53,911 - model_file_loggers - INFO: Shuffle: True
+2022-05-30 12:44:53,911 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 12:44:53,911 - model_file_loggers - INFO: Dataset length: 448
+2022-05-30 12:44:53,911 - model_file_loggers - INFO: Batch size: 1
+2022-05-30 12:44:53,911 - model_file_loggers - INFO: Shuffle: False
+2022-05-30 12:44:53,911 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 12:44:55,139 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-05-30 12:44:55,139 - model_file_loggers - INFO: model_name: MyNet
+2022-05-30 12:44:55,139 - model_file_loggers - INFO: epoch: 40
+2022-05-30 12:44:55,139 - model_file_loggers - INFO: loss_function: bce
+2022-05-30 12:44:55,139 - model_file_loggers - INFO: optimizer: Adam
+2022-05-30 12:44:55,139 - model_file_loggers - INFO: learning rate: 0.01
+2022-05-30 12:44:55,139 - model_file_loggers - INFO: device: gpu
+2022-05-30 12:55:57,512 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-05-30 12:55:57,512 - model_file_loggers - INFO: Dataset length: 2560
+2022-05-30 12:55:57,512 - model_file_loggers - INFO: Batch size: 32
+2022-05-30 12:55:57,512 - model_file_loggers - INFO: Shuffle: True
+2022-05-30 12:55:57,512 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 12:55:57,534 - model_file_loggers - INFO: Dataset length: 448
+2022-05-30 12:55:57,534 - model_file_loggers - INFO: Batch size: 1
+2022-05-30 12:55:57,534 - model_file_loggers - INFO: Shuffle: False
+2022-05-30 12:55:57,534 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 12:55:58,854 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-05-30 12:55:58,854 - model_file_loggers - INFO: model_name: MyNet
+2022-05-30 12:55:58,854 - model_file_loggers - INFO: epoch: 40
+2022-05-30 12:55:58,854 - model_file_loggers - INFO: loss_function: bce
+2022-05-30 12:55:58,854 - model_file_loggers - INFO: optimizer: Adam
+2022-05-30 12:55:58,854 - model_file_loggers - INFO: learning rate: 0.01
+2022-05-30 12:55:58,854 - model_file_loggers - INFO: device: gpu
+2022-05-30 13:10:10,646 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-05-30 13:10:10,646 - model_file_loggers - INFO: Dataset length: 2560
+2022-05-30 13:10:10,646 - model_file_loggers - INFO: Batch size: 32
+2022-05-30 13:10:10,646 - model_file_loggers - INFO: Shuffle: True
+2022-05-30 13:10:10,646 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 13:10:10,646 - model_file_loggers - INFO: Dataset length: 448
+2022-05-30 13:10:10,646 - model_file_loggers - INFO: Batch size: 1
+2022-05-30 13:10:10,646 - model_file_loggers - INFO: Shuffle: False
+2022-05-30 13:10:10,646 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 13:10:11,879 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-05-30 13:10:11,879 - model_file_loggers - INFO: model_name: MyNet
+2022-05-30 13:10:11,879 - model_file_loggers - INFO: epoch: 40
+2022-05-30 13:10:11,879 - model_file_loggers - INFO: loss_function: bce
+2022-05-30 13:10:11,879 - model_file_loggers - INFO: optimizer: Adam
+2022-05-30 13:10:11,879 - model_file_loggers - INFO: learning rate: 0.01
+2022-05-30 13:10:11,879 - model_file_loggers - INFO: device: gpu
+2022-05-30 13:15:40,001 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-05-30 13:15:40,001 - model_file_loggers - INFO: Dataset length: 2560
+2022-05-30 13:15:40,001 - model_file_loggers - INFO: Batch size: 32
+2022-05-30 13:15:40,001 - model_file_loggers - INFO: Shuffle: True
+2022-05-30 13:15:40,001 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 13:15:40,010 - model_file_loggers - INFO: Dataset length: 448
+2022-05-30 13:15:40,010 - model_file_loggers - INFO: Batch size: 1
+2022-05-30 13:15:40,010 - model_file_loggers - INFO: Shuffle: False
+2022-05-30 13:15:40,010 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 13:15:41,279 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-05-30 13:15:41,279 - model_file_loggers - INFO: model_name: MyNet
+2022-05-30 13:15:41,279 - model_file_loggers - INFO: epoch: 40
+2022-05-30 13:15:41,279 - model_file_loggers - INFO: loss_function: bce
+2022-05-30 13:15:41,279 - model_file_loggers - INFO: optimizer: SGD
+2022-05-30 13:15:41,279 - model_file_loggers - INFO: learning rate: 0.01
+2022-05-30 13:15:41,279 - model_file_loggers - INFO: device: gpu
+2022-05-30 13:18:31,076 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-05-30 13:18:31,076 - model_file_loggers - INFO: Dataset length: 2560
+2022-05-30 13:18:31,076 - model_file_loggers - INFO: Batch size: 32
+2022-05-30 13:18:31,076 - model_file_loggers - INFO: Shuffle: True
+2022-05-30 13:18:31,076 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 13:18:31,088 - model_file_loggers - INFO: Dataset length: 448
+2022-05-30 13:18:31,088 - model_file_loggers - INFO: Batch size: 1
+2022-05-30 13:18:31,088 - model_file_loggers - INFO: Shuffle: False
+2022-05-30 13:18:31,088 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 13:18:32,393 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-05-30 13:18:32,393 - model_file_loggers - INFO: model_name: MyNet
+2022-05-30 13:18:32,393 - model_file_loggers - INFO: epoch: 40
+2022-05-30 13:18:32,393 - model_file_loggers - INFO: loss_function: bce
+2022-05-30 13:18:32,393 - model_file_loggers - INFO: optimizer: Adam
+2022-05-30 13:18:32,393 - model_file_loggers - INFO: learning rate: 0.1
+2022-05-30 13:18:32,393 - model_file_loggers - INFO: device: gpu
+2022-05-30 13:18:55,725 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-05-30 13:18:55,725 - model_file_loggers - INFO: Dataset length: 2560
+2022-05-30 13:18:55,725 - model_file_loggers - INFO: Batch size: 32
+2022-05-30 13:18:55,725 - model_file_loggers - INFO: Shuffle: True
+2022-05-30 13:18:55,725 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 13:18:55,736 - model_file_loggers - INFO: Dataset length: 448
+2022-05-30 13:18:55,736 - model_file_loggers - INFO: Batch size: 1
+2022-05-30 13:18:55,736 - model_file_loggers - INFO: Shuffle: False
+2022-05-30 13:18:55,736 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 13:18:56,766 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-05-30 13:18:56,766 - model_file_loggers - INFO: model_name: MyNet
+2022-05-30 13:18:56,766 - model_file_loggers - INFO: epoch: 40
+2022-05-30 13:18:56,766 - model_file_loggers - INFO: loss_function: bce
+2022-05-30 13:18:56,766 - model_file_loggers - INFO: optimizer: Adam
+2022-05-30 13:18:56,766 - model_file_loggers - INFO: learning rate: 0.001
+2022-05-30 13:18:56,766 - model_file_loggers - INFO: device: gpu
+2022-05-30 16:56:22,956 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-05-30 16:56:22,957 - model_file_loggers - INFO: Dataset length: 2560
+2022-05-30 16:56:22,957 - model_file_loggers - INFO: Batch size: 32
+2022-05-30 16:56:22,958 - model_file_loggers - INFO: Shuffle: True
+2022-05-30 16:56:22,958 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 16:56:22,959 - model_file_loggers - INFO: Dataset length: 448
+2022-05-30 16:56:22,959 - model_file_loggers - INFO: Batch size: 1
+2022-05-30 16:56:22,959 - model_file_loggers - INFO: Shuffle: False
+2022-05-30 16:56:22,960 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 16:56:24,342 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-05-30 16:56:24,342 - model_file_loggers - INFO: model_name: MyNet
+2022-05-30 16:56:24,342 - model_file_loggers - INFO: epoch: 40
+2022-05-30 16:56:24,342 - model_file_loggers - INFO: loss_function: soft_dice
+2022-05-30 16:56:24,342 - model_file_loggers - INFO: optimizer: Adam
+2022-05-30 16:56:24,342 - model_file_loggers - INFO: learning rate: 0.001
+2022-05-30 16:56:24,343 - model_file_loggers - INFO: device: gpu
+2022-05-30 17:02:54,922 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-05-30 17:02:54,922 - model_file_loggers - INFO: Dataset length: 2560
+2022-05-30 17:02:54,923 - model_file_loggers - INFO: Batch size: 32
+2022-05-30 17:02:54,923 - model_file_loggers - INFO: Shuffle: True
+2022-05-30 17:02:54,923 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 17:02:54,924 - model_file_loggers - INFO: Dataset length: 448
+2022-05-30 17:02:54,924 - model_file_loggers - INFO: Batch size: 1
+2022-05-30 17:02:54,924 - model_file_loggers - INFO: Shuffle: False
+2022-05-30 17:02:54,924 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 17:02:56,258 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-05-30 17:02:56,259 - model_file_loggers - INFO: model_name: MyNet
+2022-05-30 17:02:56,259 - model_file_loggers - INFO: epoch: 40
+2022-05-30 17:02:56,259 - model_file_loggers - INFO: loss_function: rmse
+2022-05-30 17:02:56,259 - model_file_loggers - INFO: optimizer: Adam
+2022-05-30 17:02:56,259 - model_file_loggers - INFO: learning rate: 0.01
+2022-05-30 17:02:56,259 - model_file_loggers - INFO: device: gpu
+2022-05-30 17:03:45,593 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-05-30 17:03:45,593 - model_file_loggers - INFO: Dataset length: 2560
+2022-05-30 17:03:45,594 - model_file_loggers - INFO: Batch size: 32
+2022-05-30 17:03:45,594 - model_file_loggers - INFO: Shuffle: True
+2022-05-30 17:03:45,594 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 17:03:45,595 - model_file_loggers - INFO: Dataset length: 448
+2022-05-30 17:03:45,595 - model_file_loggers - INFO: Batch size: 1
+2022-05-30 17:03:45,595 - model_file_loggers - INFO: Shuffle: False
+2022-05-30 17:03:45,596 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 17:03:46,961 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-05-30 17:03:46,961 - model_file_loggers - INFO: model_name: MyNet
+2022-05-30 17:03:46,962 - model_file_loggers - INFO: epoch: 40
+2022-05-30 17:03:46,962 - model_file_loggers - INFO: loss_function: npcc
+2022-05-30 17:03:46,962 - model_file_loggers - INFO: optimizer: Adam
+2022-05-30 17:03:46,962 - model_file_loggers - INFO: learning rate: 0.01
+2022-05-30 17:03:46,962 - model_file_loggers - INFO: device: gpu
+2022-05-30 17:06:55,663 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-05-30 17:06:55,664 - model_file_loggers - INFO: Dataset length: 2560
+2022-05-30 17:06:55,664 - model_file_loggers - INFO: Batch size: 32
+2022-05-30 17:06:55,664 - model_file_loggers - INFO: Shuffle: True
+2022-05-30 17:06:55,664 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 17:06:55,674 - model_file_loggers - INFO: Dataset length: 448
+2022-05-30 17:06:55,674 - model_file_loggers - INFO: Batch size: 1
+2022-05-30 17:06:55,674 - model_file_loggers - INFO: Shuffle: False
+2022-05-30 17:06:55,674 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 17:06:57,002 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-05-30 17:06:57,002 - model_file_loggers - INFO: model_name: MyNet
+2022-05-30 17:06:57,002 - model_file_loggers - INFO: epoch: 40
+2022-05-30 17:06:57,003 - model_file_loggers - INFO: loss_function: bce
+2022-05-30 17:06:57,003 - model_file_loggers - INFO: optimizer: Adam
+2022-05-30 17:06:57,003 - model_file_loggers - INFO: learning rate: 0.01
+2022-05-30 17:06:57,003 - model_file_loggers - INFO: device: gpu
+2022-05-30 17:08:22,814 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-05-30 17:08:22,814 - model_file_loggers - INFO: Dataset length: 2560
+2022-05-30 17:08:22,814 - model_file_loggers - INFO: Batch size: 32
+2022-05-30 17:08:22,814 - model_file_loggers - INFO: Shuffle: True
+2022-05-30 17:08:22,814 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 17:08:22,815 - model_file_loggers - INFO: Dataset length: 448
+2022-05-30 17:08:22,815 - model_file_loggers - INFO: Batch size: 1
+2022-05-30 17:08:22,815 - model_file_loggers - INFO: Shuffle: False
+2022-05-30 17:08:22,815 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 17:08:24,119 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-05-30 17:08:24,119 - model_file_loggers - INFO: model_name: MyNet
+2022-05-30 17:08:24,119 - model_file_loggers - INFO: epoch: 40
+2022-05-30 17:08:24,119 - model_file_loggers - INFO: loss_function: bce
+2022-05-30 17:08:24,120 - model_file_loggers - INFO: optimizer: Adam
+2022-05-30 17:08:24,120 - model_file_loggers - INFO: learning rate: 0.01
+2022-05-30 17:08:24,120 - model_file_loggers - INFO: device: gpu
+2022-05-30 17:08:54,040 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-05-30 17:08:54,041 - model_file_loggers - INFO: Dataset length: 2560
+2022-05-30 17:08:54,042 - model_file_loggers - INFO: Batch size: 32
+2022-05-30 17:08:54,042 - model_file_loggers - INFO: Shuffle: True
+2022-05-30 17:08:54,042 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 17:08:54,043 - model_file_loggers - INFO: Dataset length: 448
+2022-05-30 17:08:54,043 - model_file_loggers - INFO: Batch size: 1
+2022-05-30 17:08:54,043 - model_file_loggers - INFO: Shuffle: False
+2022-05-30 17:08:54,044 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 17:08:55,486 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-05-30 17:08:55,486 - model_file_loggers - INFO: model_name: MyNet
+2022-05-30 17:08:55,486 - model_file_loggers - INFO: epoch: 40
+2022-05-30 17:08:55,486 - model_file_loggers - INFO: loss_function: bce
+2022-05-30 17:08:55,487 - model_file_loggers - INFO: optimizer: Adam
+2022-05-30 17:08:55,487 - model_file_loggers - INFO: learning rate: 0.01
+2022-05-30 17:08:55,487 - model_file_loggers - INFO: device: gpu
+2022-05-30 17:10:15,524 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-05-30 17:10:15,525 - model_file_loggers - INFO: Dataset length: 2560
+2022-05-30 17:10:15,525 - model_file_loggers - INFO: Batch size: 32
+2022-05-30 17:10:15,525 - model_file_loggers - INFO: Shuffle: True
+2022-05-30 17:10:15,525 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 17:10:15,527 - model_file_loggers - INFO: Dataset length: 448
+2022-05-30 17:10:15,527 - model_file_loggers - INFO: Batch size: 1
+2022-05-30 17:10:15,528 - model_file_loggers - INFO: Shuffle: False
+2022-05-30 17:10:15,528 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 17:10:16,843 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-05-30 17:10:16,843 - model_file_loggers - INFO: model_name: MyNet
+2022-05-30 17:10:16,843 - model_file_loggers - INFO: epoch: 40
+2022-05-30 17:10:16,844 - model_file_loggers - INFO: loss_function: bce
+2022-05-30 17:10:16,844 - model_file_loggers - INFO: optimizer: Adam
+2022-05-30 17:10:16,844 - model_file_loggers - INFO: learning rate: 0.01
+2022-05-30 17:10:16,844 - model_file_loggers - INFO: device: gpu
+2022-05-30 17:10:38,553 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-05-30 17:10:38,554 - model_file_loggers - INFO: Dataset length: 2560
+2022-05-30 17:10:38,554 - model_file_loggers - INFO: Batch size: 32
+2022-05-30 17:10:38,554 - model_file_loggers - INFO: Shuffle: True
+2022-05-30 17:10:38,554 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 17:10:38,556 - model_file_loggers - INFO: Dataset length: 448
+2022-05-30 17:10:38,556 - model_file_loggers - INFO: Batch size: 1
+2022-05-30 17:10:38,556 - model_file_loggers - INFO: Shuffle: False
+2022-05-30 17:10:38,556 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 17:10:39,812 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-05-30 17:10:39,812 - model_file_loggers - INFO: model_name: MyNet
+2022-05-30 17:10:39,813 - model_file_loggers - INFO: epoch: 40
+2022-05-30 17:10:39,813 - model_file_loggers - INFO: loss_function: bce
+2022-05-30 17:10:39,813 - model_file_loggers - INFO: optimizer: Adam
+2022-05-30 17:10:39,813 - model_file_loggers - INFO: learning rate: 0.01
+2022-05-30 17:10:39,813 - model_file_loggers - INFO: device: gpu
+2022-05-30 17:13:59,426 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-05-30 17:13:59,427 - model_file_loggers - INFO: Dataset length: 2560
+2022-05-30 17:13:59,427 - model_file_loggers - INFO: Batch size: 32
+2022-05-30 17:13:59,428 - model_file_loggers - INFO: Shuffle: True
+2022-05-30 17:13:59,428 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 17:13:59,429 - model_file_loggers - INFO: Dataset length: 448
+2022-05-30 17:13:59,429 - model_file_loggers - INFO: Batch size: 1
+2022-05-30 17:13:59,429 - model_file_loggers - INFO: Shuffle: False
+2022-05-30 17:13:59,429 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 17:14:00,605 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-05-30 17:14:00,605 - model_file_loggers - INFO: model_name: MyNet
+2022-05-30 17:14:00,605 - model_file_loggers - INFO: epoch: 40
+2022-05-30 17:14:00,605 - model_file_loggers - INFO: loss_function: bce
+2022-05-30 17:14:00,606 - model_file_loggers - INFO: optimizer: Adam
+2022-05-30 17:14:00,606 - model_file_loggers - INFO: learning rate: 0.01
+2022-05-30 17:14:00,606 - model_file_loggers - INFO: device: gpu
+2022-05-30 17:22:23,914 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-05-30 17:22:23,915 - model_file_loggers - INFO: Dataset length: 2560
+2022-05-30 17:22:23,916 - model_file_loggers - INFO: Batch size: 32
+2022-05-30 17:22:23,916 - model_file_loggers - INFO: Shuffle: True
+2022-05-30 17:22:23,916 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 17:22:23,917 - model_file_loggers - INFO: Dataset length: 448
+2022-05-30 17:22:23,917 - model_file_loggers - INFO: Batch size: 1
+2022-05-30 17:22:23,917 - model_file_loggers - INFO: Shuffle: False
+2022-05-30 17:22:23,917 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 17:22:25,073 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-05-30 17:22:25,073 - model_file_loggers - INFO: model_name: MyNet
+2022-05-30 17:22:25,073 - model_file_loggers - INFO: epoch: 40
+2022-05-30 17:22:25,073 - model_file_loggers - INFO: loss_function: bce
+2022-05-30 17:22:25,073 - model_file_loggers - INFO: optimizer: Adam
+2022-05-30 17:22:25,074 - model_file_loggers - INFO: learning rate: 0.01
+2022-05-30 17:22:25,074 - model_file_loggers - INFO: device: gpu
+2022-05-30 17:23:06,631 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-05-30 17:23:06,632 - model_file_loggers - INFO: Dataset length: 2560
+2022-05-30 17:23:06,633 - model_file_loggers - INFO: Batch size: 32
+2022-05-30 17:23:06,633 - model_file_loggers - INFO: Shuffle: True
+2022-05-30 17:23:06,633 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 17:23:06,633 - model_file_loggers - INFO: Dataset length: 448
+2022-05-30 17:23:06,634 - model_file_loggers - INFO: Batch size: 1
+2022-05-30 17:23:06,634 - model_file_loggers - INFO: Shuffle: False
+2022-05-30 17:23:06,634 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 17:23:07,761 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-05-30 17:23:07,761 - model_file_loggers - INFO: model_name: MyNet
+2022-05-30 17:23:07,761 - model_file_loggers - INFO: epoch: 40
+2022-05-30 17:23:07,761 - model_file_loggers - INFO: loss_function: bce
+2022-05-30 17:23:07,761 - model_file_loggers - INFO: optimizer: Adam
+2022-05-30 17:23:07,761 - model_file_loggers - INFO: learning rate: 0.01
+2022-05-30 17:23:07,761 - model_file_loggers - INFO: device: gpu
+2022-05-30 17:24:17,494 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-05-30 17:24:17,494 - model_file_loggers - INFO: Dataset length: 2560
+2022-05-30 17:24:17,495 - model_file_loggers - INFO: Batch size: 32
+2022-05-30 17:24:17,495 - model_file_loggers - INFO: Shuffle: True
+2022-05-30 17:24:17,495 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 17:24:17,495 - model_file_loggers - INFO: Dataset length: 448
+2022-05-30 17:24:17,496 - model_file_loggers - INFO: Batch size: 1
+2022-05-30 17:24:17,496 - model_file_loggers - INFO: Shuffle: False
+2022-05-30 17:24:17,496 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 17:24:18,613 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-05-30 17:24:18,613 - model_file_loggers - INFO: model_name: MyNet
+2022-05-30 17:24:18,613 - model_file_loggers - INFO: epoch: 40
+2022-05-30 17:24:18,613 - model_file_loggers - INFO: loss_function: bce
+2022-05-30 17:24:18,613 - model_file_loggers - INFO: optimizer: Adam
+2022-05-30 17:24:18,614 - model_file_loggers - INFO: learning rate: 0.01
+2022-05-30 17:24:18,614 - model_file_loggers - INFO: device: gpu
+2022-05-30 17:28:51,620 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-05-30 17:28:51,620 - model_file_loggers - INFO: Dataset length: 2560
+2022-05-30 17:28:51,621 - model_file_loggers - INFO: Batch size: 32
+2022-05-30 17:28:51,621 - model_file_loggers - INFO: Shuffle: True
+2022-05-30 17:28:51,621 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 17:28:51,621 - model_file_loggers - INFO: Dataset length: 448
+2022-05-30 17:28:51,622 - model_file_loggers - INFO: Batch size: 1
+2022-05-30 17:28:51,622 - model_file_loggers - INFO: Shuffle: False
+2022-05-30 17:28:51,622 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 17:28:52,770 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-05-30 17:28:52,770 - model_file_loggers - INFO: model_name: MyNet
+2022-05-30 17:28:52,770 - model_file_loggers - INFO: epoch: 40
+2022-05-30 17:28:52,770 - model_file_loggers - INFO: loss_function: bce
+2022-05-30 17:28:52,770 - model_file_loggers - INFO: optimizer: Adam
+2022-05-30 17:28:52,770 - model_file_loggers - INFO: learning rate: 0.01
+2022-05-30 17:28:52,771 - model_file_loggers - INFO: device: gpu
+2022-05-30 17:29:27,763 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-05-30 17:29:27,764 - model_file_loggers - INFO: Dataset length: 2560
+2022-05-30 17:29:27,764 - model_file_loggers - INFO: Batch size: 32
+2022-05-30 17:29:27,764 - model_file_loggers - INFO: Shuffle: True
+2022-05-30 17:29:27,764 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 17:29:27,765 - model_file_loggers - INFO: Dataset length: 448
+2022-05-30 17:29:27,765 - model_file_loggers - INFO: Batch size: 1
+2022-05-30 17:29:27,765 - model_file_loggers - INFO: Shuffle: False
+2022-05-30 17:29:27,765 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 17:29:28,915 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-05-30 17:29:28,915 - model_file_loggers - INFO: model_name: MyNet
+2022-05-30 17:29:28,915 - model_file_loggers - INFO: epoch: 40
+2022-05-30 17:29:28,915 - model_file_loggers - INFO: loss_function: bce
+2022-05-30 17:29:28,915 - model_file_loggers - INFO: optimizer: Adam
+2022-05-30 17:29:28,916 - model_file_loggers - INFO: learning rate: 0.01
+2022-05-30 17:29:28,916 - model_file_loggers - INFO: device: gpu
+2022-05-30 17:32:26,713 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-05-30 17:32:26,714 - model_file_loggers - INFO: Dataset length: 2560
+2022-05-30 17:32:26,714 - model_file_loggers - INFO: Batch size: 32
+2022-05-30 17:32:26,714 - model_file_loggers - INFO: Shuffle: True
+2022-05-30 17:32:26,714 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 17:32:26,715 - model_file_loggers - INFO: Dataset length: 448
+2022-05-30 17:32:26,715 - model_file_loggers - INFO: Batch size: 1
+2022-05-30 17:32:26,715 - model_file_loggers - INFO: Shuffle: False
+2022-05-30 17:32:26,715 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 17:32:27,845 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-05-30 17:32:27,845 - model_file_loggers - INFO: model_name: MyNet
+2022-05-30 17:32:27,845 - model_file_loggers - INFO: epoch: 40
+2022-05-30 17:32:27,846 - model_file_loggers - INFO: loss_function: bce
+2022-05-30 17:32:27,846 - model_file_loggers - INFO: optimizer: Adam
+2022-05-30 17:32:27,846 - model_file_loggers - INFO: learning rate: 0.01
+2022-05-30 17:32:27,846 - model_file_loggers - INFO: device: gpu
+2022-05-30 17:33:11,816 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-05-30 17:33:11,817 - model_file_loggers - INFO: Dataset length: 2560
+2022-05-30 17:33:11,817 - model_file_loggers - INFO: Batch size: 32
+2022-05-30 17:33:11,817 - model_file_loggers - INFO: Shuffle: True
+2022-05-30 17:33:11,817 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 17:33:11,818 - model_file_loggers - INFO: Dataset length: 448
+2022-05-30 17:33:11,818 - model_file_loggers - INFO: Batch size: 1
+2022-05-30 17:33:11,818 - model_file_loggers - INFO: Shuffle: False
+2022-05-30 17:33:11,818 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 17:33:12,936 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-05-30 17:33:12,936 - model_file_loggers - INFO: model_name: MyNet
+2022-05-30 17:33:12,937 - model_file_loggers - INFO: epoch: 40
+2022-05-30 17:33:12,937 - model_file_loggers - INFO: loss_function: bce
+2022-05-30 17:33:12,937 - model_file_loggers - INFO: optimizer: Adam
+2022-05-30 17:33:12,937 - model_file_loggers - INFO: learning rate: 0.01
+2022-05-30 17:33:12,937 - model_file_loggers - INFO: device: gpu
+2022-05-30 17:33:49,172 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-05-30 17:33:49,173 - model_file_loggers - INFO: Dataset length: 2560
+2022-05-30 17:33:49,173 - model_file_loggers - INFO: Batch size: 32
+2022-05-30 17:33:49,173 - model_file_loggers - INFO: Shuffle: True
+2022-05-30 17:33:49,173 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 17:33:49,174 - model_file_loggers - INFO: Dataset length: 448
+2022-05-30 17:33:49,174 - model_file_loggers - INFO: Batch size: 1
+2022-05-30 17:33:49,174 - model_file_loggers - INFO: Shuffle: False
+2022-05-30 17:33:49,174 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 17:33:50,305 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-05-30 17:33:50,305 - model_file_loggers - INFO: model_name: MyNet
+2022-05-30 17:33:50,306 - model_file_loggers - INFO: epoch: 40
+2022-05-30 17:33:50,306 - model_file_loggers - INFO: loss_function: bce
+2022-05-30 17:33:50,306 - model_file_loggers - INFO: optimizer: Adam
+2022-05-30 17:33:50,306 - model_file_loggers - INFO: learning rate: 0.01
+2022-05-30 17:33:50,306 - model_file_loggers - INFO: device: gpu
+2022-05-30 17:35:49,411 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-05-30 17:35:49,412 - model_file_loggers - INFO: Dataset length: 2560
+2022-05-30 17:35:49,413 - model_file_loggers - INFO: Batch size: 32
+2022-05-30 17:35:49,413 - model_file_loggers - INFO: Shuffle: True
+2022-05-30 17:35:49,413 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 17:35:49,414 - model_file_loggers - INFO: Dataset length: 448
+2022-05-30 17:35:49,415 - model_file_loggers - INFO: Batch size: 1
+2022-05-30 17:35:49,415 - model_file_loggers - INFO: Shuffle: False
+2022-05-30 17:35:49,415 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 17:35:50,558 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-05-30 17:35:50,558 - model_file_loggers - INFO: model_name: MyNet
+2022-05-30 17:35:50,559 - model_file_loggers - INFO: epoch: 40
+2022-05-30 17:35:50,559 - model_file_loggers - INFO: loss_function: bce
+2022-05-30 17:35:50,559 - model_file_loggers - INFO: optimizer: Adam
+2022-05-30 17:35:50,559 - model_file_loggers - INFO: learning rate: 0.01
+2022-05-30 17:35:50,559 - model_file_loggers - INFO: device: gpu
+2022-05-30 17:37:50,888 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-05-30 17:37:50,890 - model_file_loggers - INFO: Dataset length: 2560
+2022-05-30 17:37:50,890 - model_file_loggers - INFO: Batch size: 32
+2022-05-30 17:37:50,890 - model_file_loggers - INFO: Shuffle: True
+2022-05-30 17:37:50,891 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 17:37:50,892 - model_file_loggers - INFO: Dataset length: 448
+2022-05-30 17:37:50,892 - model_file_loggers - INFO: Batch size: 1
+2022-05-30 17:37:50,892 - model_file_loggers - INFO: Shuffle: False
+2022-05-30 17:37:50,892 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 17:37:52,037 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-05-30 17:37:52,038 - model_file_loggers - INFO: model_name: MyNet
+2022-05-30 17:37:52,038 - model_file_loggers - INFO: epoch: 40
+2022-05-30 17:37:52,038 - model_file_loggers - INFO: loss_function: bce
+2022-05-30 17:37:52,038 - model_file_loggers - INFO: optimizer: Adam
+2022-05-30 17:37:52,039 - model_file_loggers - INFO: learning rate: 0.01
+2022-05-30 17:37:52,039 - model_file_loggers - INFO: device: gpu
+2022-05-30 17:39:30,557 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-05-30 17:39:30,558 - model_file_loggers - INFO: Dataset length: 2560
+2022-05-30 17:39:30,558 - model_file_loggers - INFO: Batch size: 32
+2022-05-30 17:39:30,559 - model_file_loggers - INFO: Shuffle: True
+2022-05-30 17:39:30,559 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 17:39:30,559 - model_file_loggers - INFO: Dataset length: 448
+2022-05-30 17:39:30,560 - model_file_loggers - INFO: Batch size: 1
+2022-05-30 17:39:30,560 - model_file_loggers - INFO: Shuffle: False
+2022-05-30 17:39:30,560 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 17:39:31,695 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-05-30 17:39:31,697 - model_file_loggers - INFO: model_name: MyNet
+2022-05-30 17:39:31,697 - model_file_loggers - INFO: epoch: 40
+2022-05-30 17:39:31,697 - model_file_loggers - INFO: loss_function: bce
+2022-05-30 17:39:31,697 - model_file_loggers - INFO: optimizer: Adam
+2022-05-30 17:39:31,697 - model_file_loggers - INFO: learning rate: 0.01
+2022-05-30 17:39:31,697 - model_file_loggers - INFO: device: gpu
+2022-05-30 17:41:25,627 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-05-30 17:41:25,629 - model_file_loggers - INFO: Dataset length: 2560
+2022-05-30 17:41:25,629 - model_file_loggers - INFO: Batch size: 32
+2022-05-30 17:41:25,629 - model_file_loggers - INFO: Shuffle: True
+2022-05-30 17:41:25,630 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 17:41:25,631 - model_file_loggers - INFO: Dataset length: 448
+2022-05-30 17:41:25,632 - model_file_loggers - INFO: Batch size: 1
+2022-05-30 17:41:25,632 - model_file_loggers - INFO: Shuffle: False
+2022-05-30 17:41:25,632 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 17:41:26,766 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-05-30 17:41:26,767 - model_file_loggers - INFO: model_name: MyNet
+2022-05-30 17:41:26,767 - model_file_loggers - INFO: epoch: 40
+2022-05-30 17:41:26,767 - model_file_loggers - INFO: loss_function: bce
+2022-05-30 17:41:26,767 - model_file_loggers - INFO: optimizer: Adam
+2022-05-30 17:41:26,768 - model_file_loggers - INFO: learning rate: 0.01
+2022-05-30 17:41:26,768 - model_file_loggers - INFO: device: gpu
+2022-05-30 17:45:37,197 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-05-30 17:45:37,198 - model_file_loggers - INFO: Dataset length: 2560
+2022-05-30 17:45:37,198 - model_file_loggers - INFO: Batch size: 32
+2022-05-30 17:45:37,198 - model_file_loggers - INFO: Shuffle: True
+2022-05-30 17:45:37,198 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 17:45:37,199 - model_file_loggers - INFO: Dataset length: 448
+2022-05-30 17:45:37,199 - model_file_loggers - INFO: Batch size: 1
+2022-05-30 17:45:37,199 - model_file_loggers - INFO: Shuffle: False
+2022-05-30 17:45:37,199 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 17:45:38,309 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-05-30 17:45:38,309 - model_file_loggers - INFO: model_name: MyNet
+2022-05-30 17:45:38,309 - model_file_loggers - INFO: epoch: 40
+2022-05-30 17:45:38,309 - model_file_loggers - INFO: loss_function: bce
+2022-05-30 17:45:38,309 - model_file_loggers - INFO: optimizer: Adam
+2022-05-30 17:45:38,310 - model_file_loggers - INFO: learning rate: 0.01
+2022-05-30 17:45:38,310 - model_file_loggers - INFO: device: gpu
+2022-05-30 17:47:50,597 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-05-30 17:47:50,598 - model_file_loggers - INFO: Dataset length: 2560
+2022-05-30 17:47:50,598 - model_file_loggers - INFO: Batch size: 32
+2022-05-30 17:47:50,598 - model_file_loggers - INFO: Shuffle: True
+2022-05-30 17:47:50,599 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 17:47:50,599 - model_file_loggers - INFO: Dataset length: 448
+2022-05-30 17:47:50,599 - model_file_loggers - INFO: Batch size: 1
+2022-05-30 17:47:50,599 - model_file_loggers - INFO: Shuffle: False
+2022-05-30 17:47:50,600 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 17:47:51,715 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-05-30 17:47:51,715 - model_file_loggers - INFO: model_name: MyNet
+2022-05-30 17:47:51,715 - model_file_loggers - INFO: epoch: 40
+2022-05-30 17:47:51,716 - model_file_loggers - INFO: loss_function: bce
+2022-05-30 17:47:51,716 - model_file_loggers - INFO: optimizer: Adam
+2022-05-30 17:47:51,716 - model_file_loggers - INFO: learning rate: 0.01
+2022-05-30 17:47:51,716 - model_file_loggers - INFO: device: gpu
+2022-05-30 17:48:23,156 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-05-30 17:48:23,156 - model_file_loggers - INFO: Dataset length: 2560
+2022-05-30 17:48:23,157 - model_file_loggers - INFO: Batch size: 32
+2022-05-30 17:48:23,157 - model_file_loggers - INFO: Shuffle: True
+2022-05-30 17:48:23,157 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 17:48:23,157 - model_file_loggers - INFO: Dataset length: 448
+2022-05-30 17:48:23,158 - model_file_loggers - INFO: Batch size: 1
+2022-05-30 17:48:23,158 - model_file_loggers - INFO: Shuffle: False
+2022-05-30 17:48:23,158 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 17:48:24,287 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-05-30 17:48:24,287 - model_file_loggers - INFO: model_name: MyNet
+2022-05-30 17:48:24,287 - model_file_loggers - INFO: epoch: 40
+2022-05-30 17:48:24,287 - model_file_loggers - INFO: loss_function: bce
+2022-05-30 17:48:24,288 - model_file_loggers - INFO: optimizer: Adam
+2022-05-30 17:48:24,288 - model_file_loggers - INFO: learning rate: 0.0001
+2022-05-30 17:48:24,288 - model_file_loggers - INFO: device: gpu
+2022-05-30 17:55:09,253 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-05-30 17:55:09,254 - model_file_loggers - INFO: Dataset length: 2496
+2022-05-30 17:55:09,254 - model_file_loggers - INFO: Batch size: 32
+2022-05-30 17:55:09,254 - model_file_loggers - INFO: Shuffle: True
+2022-05-30 17:55:09,254 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 17:55:09,255 - model_file_loggers - INFO: Dataset length: 512
+2022-05-30 17:55:09,255 - model_file_loggers - INFO: Batch size: 1
+2022-05-30 17:55:09,255 - model_file_loggers - INFO: Shuffle: False
+2022-05-30 17:55:09,255 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 17:55:10,450 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-05-30 17:55:10,450 - model_file_loggers - INFO: model_name: MyNet
+2022-05-30 17:55:10,450 - model_file_loggers - INFO: epoch: 40
+2022-05-30 17:55:10,450 - model_file_loggers - INFO: loss_function: bce
+2022-05-30 17:55:10,450 - model_file_loggers - INFO: optimizer: Adam
+2022-05-30 17:55:10,450 - model_file_loggers - INFO: learning rate: 0.0001
+2022-05-30 17:55:10,451 - model_file_loggers - INFO: device: gpu
+2022-05-30 17:57:07,831 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-05-30 17:57:07,832 - model_file_loggers - INFO: Dataset length: 2496
+2022-05-30 17:57:07,832 - model_file_loggers - INFO: Batch size: 32
+2022-05-30 17:57:07,833 - model_file_loggers - INFO: Shuffle: True
+2022-05-30 17:57:07,833 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 17:57:07,833 - model_file_loggers - INFO: Dataset length: 512
+2022-05-30 17:57:07,834 - model_file_loggers - INFO: Batch size: 1
+2022-05-30 17:57:07,834 - model_file_loggers - INFO: Shuffle: False
+2022-05-30 17:57:07,834 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 17:57:09,007 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-05-30 17:57:09,007 - model_file_loggers - INFO: model_name: MyNet
+2022-05-30 17:57:09,008 - model_file_loggers - INFO: epoch: 40
+2022-05-30 17:57:09,008 - model_file_loggers - INFO: loss_function: soft_dice
+2022-05-30 17:57:09,008 - model_file_loggers - INFO: optimizer: Adam
+2022-05-30 17:57:09,008 - model_file_loggers - INFO: learning rate: 0.0001
+2022-05-30 17:57:09,008 - model_file_loggers - INFO: device: gpu
+2022-05-30 17:58:58,267 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-05-30 17:58:58,268 - model_file_loggers - INFO: Dataset length: 2496
+2022-05-30 17:58:58,269 - model_file_loggers - INFO: Batch size: 32
+2022-05-30 17:58:58,269 - model_file_loggers - INFO: Shuffle: True
+2022-05-30 17:58:58,269 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 17:58:58,270 - model_file_loggers - INFO: Dataset length: 512
+2022-05-30 17:58:58,270 - model_file_loggers - INFO: Batch size: 1
+2022-05-30 17:58:58,270 - model_file_loggers - INFO: Shuffle: False
+2022-05-30 17:58:58,270 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 17:58:59,396 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-05-30 17:58:59,396 - model_file_loggers - INFO: model_name: MyNet
+2022-05-30 17:58:59,397 - model_file_loggers - INFO: epoch: 40
+2022-05-30 17:58:59,397 - model_file_loggers - INFO: loss_function: soft_dice
+2022-05-30 17:58:59,397 - model_file_loggers - INFO: optimizer: Adam
+2022-05-30 17:58:59,397 - model_file_loggers - INFO: learning rate: 0.001
+2022-05-30 17:58:59,397 - model_file_loggers - INFO: device: gpu
+2022-05-30 18:03:35,051 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-05-30 18:03:35,053 - model_file_loggers - INFO: Dataset length: 2496
+2022-05-30 18:03:35,053 - model_file_loggers - INFO: Batch size: 32
+2022-05-30 18:03:35,053 - model_file_loggers - INFO: Shuffle: True
+2022-05-30 18:03:35,053 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 18:03:35,054 - model_file_loggers - INFO: Dataset length: 512
+2022-05-30 18:03:35,054 - model_file_loggers - INFO: Batch size: 1
+2022-05-30 18:03:35,054 - model_file_loggers - INFO: Shuffle: False
+2022-05-30 18:03:35,054 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 18:03:36,183 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-05-30 18:03:36,183 - model_file_loggers - INFO: model_name: MyNet
+2022-05-30 18:03:36,183 - model_file_loggers - INFO: epoch: 40
+2022-05-30 18:03:36,184 - model_file_loggers - INFO: loss_function: bce
+2022-05-30 18:03:36,184 - model_file_loggers - INFO: optimizer: Adam
+2022-05-30 18:03:36,184 - model_file_loggers - INFO: learning rate: 0.001
+2022-05-30 18:03:36,184 - model_file_loggers - INFO: device: gpu
+2022-05-30 18:04:55,352 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-05-30 18:04:55,353 - model_file_loggers - INFO: Dataset length: 2496
+2022-05-30 18:04:55,353 - model_file_loggers - INFO: Batch size: 32
+2022-05-30 18:04:55,353 - model_file_loggers - INFO: Shuffle: True
+2022-05-30 18:04:55,353 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 18:04:55,353 - model_file_loggers - INFO: Dataset length: 512
+2022-05-30 18:04:55,354 - model_file_loggers - INFO: Batch size: 1
+2022-05-30 18:04:55,355 - model_file_loggers - INFO: Shuffle: False
+2022-05-30 18:04:55,355 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 18:04:56,559 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-05-30 18:04:56,559 - model_file_loggers - INFO: model_name: MyNet
+2022-05-30 18:04:56,559 - model_file_loggers - INFO: epoch: 40
+2022-05-30 18:04:56,560 - model_file_loggers - INFO: loss_function: bce
+2022-05-30 18:04:56,560 - model_file_loggers - INFO: optimizer: Adam
+2022-05-30 18:04:56,560 - model_file_loggers - INFO: learning rate: 0.001
+2022-05-30 18:04:56,560 - model_file_loggers - INFO: device: gpu
+2022-05-30 18:05:43,282 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-05-30 18:05:43,283 - model_file_loggers - INFO: Dataset length: 2496
+2022-05-30 18:05:43,284 - model_file_loggers - INFO: Batch size: 32
+2022-05-30 18:05:43,284 - model_file_loggers - INFO: Shuffle: True
+2022-05-30 18:05:43,284 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 18:05:43,285 - model_file_loggers - INFO: Dataset length: 512
+2022-05-30 18:05:43,285 - model_file_loggers - INFO: Batch size: 1
+2022-05-30 18:05:43,285 - model_file_loggers - INFO: Shuffle: False
+2022-05-30 18:05:43,285 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 18:05:44,425 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-05-30 18:05:44,425 - model_file_loggers - INFO: model_name: MyNet
+2022-05-30 18:05:44,425 - model_file_loggers - INFO: epoch: 40
+2022-05-30 18:05:44,425 - model_file_loggers - INFO: loss_function: bce
+2022-05-30 18:05:44,425 - model_file_loggers - INFO: optimizer: Adam
+2022-05-30 18:05:44,426 - model_file_loggers - INFO: learning rate: 0.0001
+2022-05-30 18:05:44,426 - model_file_loggers - INFO: device: gpu
+2022-05-30 18:09:49,196 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-05-30 18:09:49,208 - model_file_loggers - INFO: Dataset length: 2496
+2022-05-30 18:09:49,209 - model_file_loggers - INFO: Batch size: 32
+2022-05-30 18:09:49,209 - model_file_loggers - INFO: Shuffle: True
+2022-05-30 18:09:49,209 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 18:09:49,210 - model_file_loggers - INFO: Dataset length: 512
+2022-05-30 18:09:49,210 - model_file_loggers - INFO: Batch size: 1
+2022-05-30 18:09:49,211 - model_file_loggers - INFO: Shuffle: False
+2022-05-30 18:09:49,211 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 18:09:50,384 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-05-30 18:09:50,384 - model_file_loggers - INFO: model_name: MyNet
+2022-05-30 18:09:50,384 - model_file_loggers - INFO: epoch: 40
+2022-05-30 18:09:50,384 - model_file_loggers - INFO: loss_function: bce
+2022-05-30 18:09:50,384 - model_file_loggers - INFO: optimizer: Adam
+2022-05-30 18:09:50,384 - model_file_loggers - INFO: learning rate: 0.0001
+2022-05-30 18:09:50,385 - model_file_loggers - INFO: device: gpu
+2022-05-30 18:10:57,005 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-05-30 18:10:57,006 - model_file_loggers - INFO: Dataset length: 2496
+2022-05-30 18:10:57,006 - model_file_loggers - INFO: Batch size: 32
+2022-05-30 18:10:57,007 - model_file_loggers - INFO: Shuffle: True
+2022-05-30 18:10:57,007 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 18:10:57,007 - model_file_loggers - INFO: Dataset length: 512
+2022-05-30 18:10:57,008 - model_file_loggers - INFO: Batch size: 1
+2022-05-30 18:10:57,008 - model_file_loggers - INFO: Shuffle: False
+2022-05-30 18:10:57,008 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 18:11:31,860 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-05-30 18:11:31,861 - model_file_loggers - INFO: Dataset length: 2496
+2022-05-30 18:11:31,861 - model_file_loggers - INFO: Batch size: 32
+2022-05-30 18:11:31,862 - model_file_loggers - INFO: Shuffle: True
+2022-05-30 18:11:31,862 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 18:11:31,862 - model_file_loggers - INFO: Dataset length: 512
+2022-05-30 18:11:31,862 - model_file_loggers - INFO: Batch size: 1
+2022-05-30 18:11:31,863 - model_file_loggers - INFO: Shuffle: False
+2022-05-30 18:11:31,863 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 18:11:33,000 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-05-30 18:11:33,000 - model_file_loggers - INFO: model_name: MyNet
+2022-05-30 18:11:33,000 - model_file_loggers - INFO: epoch: 40
+2022-05-30 18:11:33,000 - model_file_loggers - INFO: loss_function: bce
+2022-05-30 18:11:33,000 - model_file_loggers - INFO: optimizer: Adam
+2022-05-30 18:11:33,001 - model_file_loggers - INFO: learning rate: 0.0001
+2022-05-30 18:11:33,001 - model_file_loggers - INFO: device: gpu
+2022-05-30 18:15:57,898 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-05-30 18:15:57,900 - model_file_loggers - INFO: Dataset length: 2496
+2022-05-30 18:15:57,900 - model_file_loggers - INFO: Batch size: 32
+2022-05-30 18:15:57,900 - model_file_loggers - INFO: Shuffle: True
+2022-05-30 18:15:57,900 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 18:15:57,901 - model_file_loggers - INFO: Dataset length: 512
+2022-05-30 18:15:57,901 - model_file_loggers - INFO: Batch size: 1
+2022-05-30 18:15:57,902 - model_file_loggers - INFO: Shuffle: False
+2022-05-30 18:15:57,902 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 18:15:59,222 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-05-30 18:15:59,222 - model_file_loggers - INFO: model_name: MyNet
+2022-05-30 18:15:59,222 - model_file_loggers - INFO: epoch: 40
+2022-05-30 18:15:59,223 - model_file_loggers - INFO: loss_function: bce
+2022-05-30 18:15:59,223 - model_file_loggers - INFO: optimizer: Adam
+2022-05-30 18:15:59,223 - model_file_loggers - INFO: learning rate: 0.0001
+2022-05-30 18:15:59,223 - model_file_loggers - INFO: device: gpu
+2022-05-30 18:44:48,233 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-05-30 18:44:48,234 - model_file_loggers - INFO: Dataset length: 2496
+2022-05-30 18:44:48,234 - model_file_loggers - INFO: Batch size: 32
+2022-05-30 18:44:48,234 - model_file_loggers - INFO: Shuffle: True
+2022-05-30 18:44:48,234 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 18:44:48,235 - model_file_loggers - INFO: Dataset length: 512
+2022-05-30 18:44:48,235 - model_file_loggers - INFO: Batch size: 1
+2022-05-30 18:44:48,235 - model_file_loggers - INFO: Shuffle: False
+2022-05-30 18:44:48,235 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 18:44:49,427 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-05-30 18:44:49,427 - model_file_loggers - INFO: model_name: MyNet
+2022-05-30 18:44:49,427 - model_file_loggers - INFO: epoch: 40
+2022-05-30 18:44:49,427 - model_file_loggers - INFO: loss_function: bce
+2022-05-30 18:44:49,427 - model_file_loggers - INFO: optimizer: Adam
+2022-05-30 18:44:49,428 - model_file_loggers - INFO: learning rate: 0.0001
+2022-05-30 18:44:49,428 - model_file_loggers - INFO: device: gpu
+2022-05-30 18:49:07,785 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-05-30 18:49:07,785 - model_file_loggers - INFO: Dataset length: 2560
+2022-05-30 18:49:07,786 - model_file_loggers - INFO: Batch size: 32
+2022-05-30 18:49:07,786 - model_file_loggers - INFO: Shuffle: True
+2022-05-30 18:49:07,786 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 18:49:07,787 - model_file_loggers - INFO: Dataset length: 448
+2022-05-30 18:49:07,787 - model_file_loggers - INFO: Batch size: 1
+2022-05-30 18:49:07,787 - model_file_loggers - INFO: Shuffle: False
+2022-05-30 18:49:07,788 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 18:49:08,972 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-05-30 18:49:08,972 - model_file_loggers - INFO: model_name: MyNet
+2022-05-30 18:49:08,972 - model_file_loggers - INFO: epoch: 40
+2022-05-30 18:49:08,973 - model_file_loggers - INFO: loss_function: bce
+2022-05-30 18:49:08,973 - model_file_loggers - INFO: optimizer: Adam
+2022-05-30 18:49:08,973 - model_file_loggers - INFO: learning rate: 0.0001
+2022-05-30 18:49:08,973 - model_file_loggers - INFO: device: gpu
+2022-05-30 18:52:44,901 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-05-30 18:52:44,902 - model_file_loggers - INFO: Dataset length: 10240
+2022-05-30 18:52:44,902 - model_file_loggers - INFO: Batch size: 32
+2022-05-30 18:52:44,902 - model_file_loggers - INFO: Shuffle: True
+2022-05-30 18:52:44,902 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 18:52:44,903 - model_file_loggers - INFO: Dataset length: 1792
+2022-05-30 18:52:44,903 - model_file_loggers - INFO: Batch size: 1
+2022-05-30 18:52:44,903 - model_file_loggers - INFO: Shuffle: False
+2022-05-30 18:52:44,903 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 18:52:46,019 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-05-30 18:52:46,019 - model_file_loggers - INFO: model_name: MyNet
+2022-05-30 18:52:46,019 - model_file_loggers - INFO: epoch: 40
+2022-05-30 18:52:46,020 - model_file_loggers - INFO: loss_function: bce
+2022-05-30 18:52:46,020 - model_file_loggers - INFO: optimizer: Adam
+2022-05-30 18:52:46,020 - model_file_loggers - INFO: learning rate: 0.0001
+2022-05-30 18:52:46,020 - model_file_loggers - INFO: device: gpu
+2022-05-30 18:54:23,706 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-05-30 18:54:23,707 - model_file_loggers - INFO: Dataset length: 10240
+2022-05-30 18:54:23,707 - model_file_loggers - INFO: Batch size: 32
+2022-05-30 18:54:23,707 - model_file_loggers - INFO: Shuffle: True
+2022-05-30 18:54:23,708 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 18:54:23,708 - model_file_loggers - INFO: Dataset length: 1792
+2022-05-30 18:54:23,708 - model_file_loggers - INFO: Batch size: 1
+2022-05-30 18:54:23,708 - model_file_loggers - INFO: Shuffle: False
+2022-05-30 18:54:23,709 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 18:54:24,936 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-05-30 18:54:24,936 - model_file_loggers - INFO: model_name: MyNet
+2022-05-30 18:54:24,936 - model_file_loggers - INFO: epoch: 40
+2022-05-30 18:54:24,937 - model_file_loggers - INFO: loss_function: bce
+2022-05-30 18:54:24,937 - model_file_loggers - INFO: optimizer: Adam
+2022-05-30 18:54:24,937 - model_file_loggers - INFO: learning rate: 1e-05
+2022-05-30 18:54:24,937 - model_file_loggers - INFO: device: gpu
+2022-05-30 18:57:59,942 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-05-30 18:57:59,943 - model_file_loggers - INFO: Dataset length: 640
+2022-05-30 18:57:59,943 - model_file_loggers - INFO: Batch size: 32
+2022-05-30 18:57:59,943 - model_file_loggers - INFO: Shuffle: True
+2022-05-30 18:57:59,944 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 18:57:59,944 - model_file_loggers - INFO: Dataset length: 112
+2022-05-30 18:57:59,944 - model_file_loggers - INFO: Batch size: 1
+2022-05-30 18:57:59,944 - model_file_loggers - INFO: Shuffle: False
+2022-05-30 18:57:59,945 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 18:58:01,127 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-05-30 18:58:01,128 - model_file_loggers - INFO: model_name: MyNet
+2022-05-30 18:58:01,128 - model_file_loggers - INFO: epoch: 40
+2022-05-30 18:58:01,128 - model_file_loggers - INFO: loss_function: bce
+2022-05-30 18:58:01,128 - model_file_loggers - INFO: optimizer: Adam
+2022-05-30 18:58:01,129 - model_file_loggers - INFO: learning rate: 0.0001
+2022-05-30 18:58:01,129 - model_file_loggers - INFO: device: gpu
+2022-05-30 19:00:47,686 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-05-30 19:00:47,687 - model_file_loggers - INFO: Dataset length: 2560
+2022-05-30 19:00:47,687 - model_file_loggers - INFO: Batch size: 32
+2022-05-30 19:00:47,687 - model_file_loggers - INFO: Shuffle: True
+2022-05-30 19:00:47,688 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 19:00:47,688 - model_file_loggers - INFO: Dataset length: 448
+2022-05-30 19:00:47,688 - model_file_loggers - INFO: Batch size: 1
+2022-05-30 19:00:47,688 - model_file_loggers - INFO: Shuffle: False
+2022-05-30 19:00:47,689 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 19:00:48,815 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-05-30 19:00:48,815 - model_file_loggers - INFO: model_name: MyNet
+2022-05-30 19:00:48,815 - model_file_loggers - INFO: epoch: 40
+2022-05-30 19:00:48,815 - model_file_loggers - INFO: loss_function: bce
+2022-05-30 19:00:48,815 - model_file_loggers - INFO: optimizer: Adam
+2022-05-30 19:00:48,816 - model_file_loggers - INFO: learning rate: 0.0001
+2022-05-30 19:00:48,816 - model_file_loggers - INFO: device: gpu
+2022-05-30 19:03:40,316 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-05-30 19:03:40,317 - model_file_loggers - INFO: Dataset length: 2560
+2022-05-30 19:03:40,317 - model_file_loggers - INFO: Batch size: 32
+2022-05-30 19:03:40,317 - model_file_loggers - INFO: Shuffle: True
+2022-05-30 19:03:40,318 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 19:03:40,318 - model_file_loggers - INFO: Dataset length: 448
+2022-05-30 19:03:40,318 - model_file_loggers - INFO: Batch size: 1
+2022-05-30 19:03:40,318 - model_file_loggers - INFO: Shuffle: False
+2022-05-30 19:03:40,318 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 19:03:41,529 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-05-30 19:03:41,529 - model_file_loggers - INFO: model_name: MyNet
+2022-05-30 19:03:41,529 - model_file_loggers - INFO: epoch: 40
+2022-05-30 19:03:41,529 - model_file_loggers - INFO: loss_function: bce
+2022-05-30 19:03:41,529 - model_file_loggers - INFO: optimizer: Adam
+2022-05-30 19:03:41,530 - model_file_loggers - INFO: learning rate: 0.0001
+2022-05-30 19:03:41,530 - model_file_loggers - INFO: device: gpu
+2022-05-30 19:09:02,635 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-05-30 19:09:02,636 - model_file_loggers - INFO: Dataset length: 2560
+2022-05-30 19:09:02,636 - model_file_loggers - INFO: Batch size: 32
+2022-05-30 19:09:02,636 - model_file_loggers - INFO: Shuffle: True
+2022-05-30 19:09:02,636 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 19:09:02,637 - model_file_loggers - INFO: Dataset length: 448
+2022-05-30 19:09:02,637 - model_file_loggers - INFO: Batch size: 1
+2022-05-30 19:09:02,637 - model_file_loggers - INFO: Shuffle: False
+2022-05-30 19:09:02,637 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 19:09:03,811 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-05-30 19:09:03,812 - model_file_loggers - INFO: model_name: MyNet
+2022-05-30 19:09:03,812 - model_file_loggers - INFO: epoch: 40
+2022-05-30 19:09:03,812 - model_file_loggers - INFO: loss_function: fl
+2022-05-30 19:09:03,812 - model_file_loggers - INFO: optimizer: Adam
+2022-05-30 19:09:03,812 - model_file_loggers - INFO: learning rate: 0.0001
+2022-05-30 19:09:03,812 - model_file_loggers - INFO: device: gpu
+2022-05-30 19:10:36,943 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-05-30 19:10:36,944 - model_file_loggers - INFO: Dataset length: 2560
+2022-05-30 19:10:36,945 - model_file_loggers - INFO: Batch size: 32
+2022-05-30 19:10:36,945 - model_file_loggers - INFO: Shuffle: True
+2022-05-30 19:10:36,945 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 19:10:36,946 - model_file_loggers - INFO: Dataset length: 448
+2022-05-30 19:10:36,947 - model_file_loggers - INFO: Batch size: 1
+2022-05-30 19:10:36,947 - model_file_loggers - INFO: Shuffle: False
+2022-05-30 19:10:36,947 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 19:10:38,226 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-05-30 19:10:38,226 - model_file_loggers - INFO: model_name: MyNet
+2022-05-30 19:10:38,226 - model_file_loggers - INFO: epoch: 40
+2022-05-30 19:10:38,226 - model_file_loggers - INFO: loss_function: fl
+2022-05-30 19:10:38,227 - model_file_loggers - INFO: optimizer: Adam
+2022-05-30 19:10:38,227 - model_file_loggers - INFO: learning rate: 0.0001
+2022-05-30 19:10:38,227 - model_file_loggers - INFO: device: gpu
+2022-05-30 19:25:55,938 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-05-30 19:25:55,939 - model_file_loggers - INFO: Dataset length: 2560
+2022-05-30 19:25:55,939 - model_file_loggers - INFO: Batch size: 32
+2022-05-30 19:25:55,940 - model_file_loggers - INFO: Shuffle: True
+2022-05-30 19:25:55,940 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 19:25:55,941 - model_file_loggers - INFO: Dataset length: 448
+2022-05-30 19:25:55,941 - model_file_loggers - INFO: Batch size: 1
+2022-05-30 19:25:55,941 - model_file_loggers - INFO: Shuffle: False
+2022-05-30 19:25:55,941 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 19:26:23,470 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-05-30 19:26:23,471 - model_file_loggers - INFO: Dataset length: 2560
+2022-05-30 19:26:23,471 - model_file_loggers - INFO: Batch size: 32
+2022-05-30 19:26:23,471 - model_file_loggers - INFO: Shuffle: True
+2022-05-30 19:26:23,472 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 19:26:23,472 - model_file_loggers - INFO: Dataset length: 448
+2022-05-30 19:26:23,472 - model_file_loggers - INFO: Batch size: 1
+2022-05-30 19:26:23,472 - model_file_loggers - INFO: Shuffle: False
+2022-05-30 19:26:23,473 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 19:26:25,039 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-05-30 19:26:25,039 - model_file_loggers - INFO: model_name: MyNet
+2022-05-30 19:26:25,039 - model_file_loggers - INFO: epoch: 40
+2022-05-30 19:26:25,039 - model_file_loggers - INFO: loss_function: bce
+2022-05-30 19:26:25,039 - model_file_loggers - INFO: optimizer: Adam
+2022-05-30 19:26:25,040 - model_file_loggers - INFO: learning rate: 0.0001
+2022-05-30 19:26:25,040 - model_file_loggers - INFO: device: gpu
+2022-05-30 19:27:16,757 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-05-30 19:27:16,757 - model_file_loggers - INFO: Dataset length: 2560
+2022-05-30 19:27:16,758 - model_file_loggers - INFO: Batch size: 32
+2022-05-30 19:27:16,758 - model_file_loggers - INFO: Shuffle: True
+2022-05-30 19:27:16,758 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 19:27:16,758 - model_file_loggers - INFO: Dataset length: 448
+2022-05-30 19:27:16,759 - model_file_loggers - INFO: Batch size: 1
+2022-05-30 19:27:16,759 - model_file_loggers - INFO: Shuffle: False
+2022-05-30 19:27:16,759 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 19:27:18,189 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-05-30 19:27:18,189 - model_file_loggers - INFO: model_name: MyNet
+2022-05-30 19:27:18,189 - model_file_loggers - INFO: epoch: 40
+2022-05-30 19:27:18,189 - model_file_loggers - INFO: loss_function: bce
+2022-05-30 19:27:18,189 - model_file_loggers - INFO: optimizer: Adam
+2022-05-30 19:27:18,189 - model_file_loggers - INFO: learning rate: 0.0001
+2022-05-30 19:27:18,190 - model_file_loggers - INFO: device: gpu
+2022-05-30 19:28:25,031 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-05-30 19:28:25,032 - model_file_loggers - INFO: Dataset length: 2560
+2022-05-30 19:28:25,032 - model_file_loggers - INFO: Batch size: 32
+2022-05-30 19:28:25,032 - model_file_loggers - INFO: Shuffle: True
+2022-05-30 19:28:25,032 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 19:28:25,033 - model_file_loggers - INFO: Dataset length: 448
+2022-05-30 19:28:25,033 - model_file_loggers - INFO: Batch size: 1
+2022-05-30 19:28:25,033 - model_file_loggers - INFO: Shuffle: False
+2022-05-30 19:28:25,033 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 19:28:26,564 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-05-30 19:28:26,564 - model_file_loggers - INFO: model_name: MyNet
+2022-05-30 19:28:26,564 - model_file_loggers - INFO: epoch: 40
+2022-05-30 19:28:26,564 - model_file_loggers - INFO: loss_function: bce
+2022-05-30 19:28:26,565 - model_file_loggers - INFO: optimizer: Adam
+2022-05-30 19:28:26,565 - model_file_loggers - INFO: learning rate: 0.01
+2022-05-30 19:28:26,565 - model_file_loggers - INFO: device: gpu
+2022-05-30 19:30:40,141 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-05-30 19:30:40,142 - model_file_loggers - INFO: Dataset length: 2560
+2022-05-30 19:30:40,142 - model_file_loggers - INFO: Batch size: 32
+2022-05-30 19:30:40,143 - model_file_loggers - INFO: Shuffle: True
+2022-05-30 19:30:40,143 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 19:30:40,143 - model_file_loggers - INFO: Dataset length: 448
+2022-05-30 19:30:40,143 - model_file_loggers - INFO: Batch size: 1
+2022-05-30 19:30:40,144 - model_file_loggers - INFO: Shuffle: False
+2022-05-30 19:30:40,144 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 19:30:41,630 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-05-30 19:30:41,630 - model_file_loggers - INFO: model_name: MyNet
+2022-05-30 19:30:41,631 - model_file_loggers - INFO: epoch: 40
+2022-05-30 19:30:41,631 - model_file_loggers - INFO: loss_function: bce
+2022-05-30 19:30:41,631 - model_file_loggers - INFO: optimizer: Adam
+2022-05-30 19:30:41,631 - model_file_loggers - INFO: learning rate: 0.01
+2022-05-30 19:30:41,631 - model_file_loggers - INFO: device: gpu
+2022-05-30 19:31:40,736 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-05-30 19:31:40,737 - model_file_loggers - INFO: Dataset length: 2560
+2022-05-30 19:31:40,737 - model_file_loggers - INFO: Batch size: 32
+2022-05-30 19:31:40,737 - model_file_loggers - INFO: Shuffle: True
+2022-05-30 19:31:40,737 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 19:31:40,738 - model_file_loggers - INFO: Dataset length: 448
+2022-05-30 19:31:40,738 - model_file_loggers - INFO: Batch size: 1
+2022-05-30 19:31:40,738 - model_file_loggers - INFO: Shuffle: False
+2022-05-30 19:31:40,738 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 19:31:42,234 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-05-30 19:31:42,235 - model_file_loggers - INFO: model_name: MyNet
+2022-05-30 19:31:42,235 - model_file_loggers - INFO: epoch: 40
+2022-05-30 19:31:42,235 - model_file_loggers - INFO: loss_function: bce
+2022-05-30 19:31:42,236 - model_file_loggers - INFO: optimizer: Adam
+2022-05-30 19:31:42,236 - model_file_loggers - INFO: learning rate: 0.0001
+2022-05-30 19:31:42,236 - model_file_loggers - INFO: device: gpu
+2022-05-30 19:35:38,101 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-05-30 19:35:38,102 - model_file_loggers - INFO: Dataset length: 2560
+2022-05-30 19:35:38,102 - model_file_loggers - INFO: Batch size: 32
+2022-05-30 19:35:38,103 - model_file_loggers - INFO: Shuffle: True
+2022-05-30 19:35:38,103 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 19:35:38,103 - model_file_loggers - INFO: Dataset length: 448
+2022-05-30 19:35:38,104 - model_file_loggers - INFO: Batch size: 1
+2022-05-30 19:35:38,104 - model_file_loggers - INFO: Shuffle: False
+2022-05-30 19:35:38,104 - model_file_loggers - INFO: Num workers: 1
+2022-05-30 19:35:39,567 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-05-30 19:35:39,567 - model_file_loggers - INFO: model_name: MyNet
+2022-05-30 19:35:39,567 - model_file_loggers - INFO: epoch: 40
+2022-05-30 19:35:39,568 - model_file_loggers - INFO: loss_function: fl
+2022-05-30 19:35:39,568 - model_file_loggers - INFO: optimizer: Adam
+2022-05-30 19:35:39,568 - model_file_loggers - INFO: learning rate: 0.0001
+2022-05-30 19:35:39,568 - model_file_loggers - INFO: device: gpu
+2022-06-01 21:26:51,661 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-06-01 21:26:51,662 - model_file_loggers - INFO: Dataset length: 2560
+2022-06-01 21:26:51,662 - model_file_loggers - INFO: Batch size: 32
+2022-06-01 21:26:51,662 - model_file_loggers - INFO: Shuffle: True
+2022-06-01 21:26:51,662 - model_file_loggers - INFO: Num workers: 1
+2022-06-01 21:26:51,663 - model_file_loggers - INFO: Dataset length: 5632
+2022-06-01 21:26:51,664 - model_file_loggers - INFO: Batch size: 1
+2022-06-01 21:26:51,664 - model_file_loggers - INFO: Shuffle: False
+2022-06-01 21:26:51,664 - model_file_loggers - INFO: Num workers: 1
+2022-06-01 21:26:53,348 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-06-01 21:26:53,348 - model_file_loggers - INFO: model_name: MyNet
+2022-06-01 21:26:53,348 - model_file_loggers - INFO: epoch: 40
+2022-06-01 21:26:53,348 - model_file_loggers - INFO: loss_function: fl
+2022-06-01 21:26:53,348 - model_file_loggers - INFO: optimizer: Adam
+2022-06-01 21:26:53,348 - model_file_loggers - INFO: learning rate: 0.0001
+2022-06-01 21:26:53,349 - model_file_loggers - INFO: device: gpu
+2022-06-01 21:29:17,643 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-06-01 21:29:17,644 - model_file_loggers - INFO: Dataset length: 6400
+2022-06-01 21:29:17,644 - model_file_loggers - INFO: Batch size: 32
+2022-06-01 21:29:17,644 - model_file_loggers - INFO: Shuffle: True
+2022-06-01 21:29:17,645 - model_file_loggers - INFO: Num workers: 1
+2022-06-01 21:29:17,645 - model_file_loggers - INFO: Dataset length: 1792
+2022-06-01 21:29:17,645 - model_file_loggers - INFO: Batch size: 1
+2022-06-01 21:29:17,645 - model_file_loggers - INFO: Shuffle: False
+2022-06-01 21:29:17,646 - model_file_loggers - INFO: Num workers: 1
+2022-06-01 21:29:19,098 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-06-01 21:29:19,098 - model_file_loggers - INFO: model_name: MyNet
+2022-06-01 21:29:19,098 - model_file_loggers - INFO: epoch: 40
+2022-06-01 21:29:19,099 - model_file_loggers - INFO: loss_function: fl
+2022-06-01 21:29:19,099 - model_file_loggers - INFO: optimizer: Adam
+2022-06-01 21:29:19,099 - model_file_loggers - INFO: learning rate: 0.0001
+2022-06-01 21:29:19,099 - model_file_loggers - INFO: device: gpu
+2022-06-01 21:33:48,004 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-06-01 21:33:48,007 - model_file_loggers - INFO: Dataset length: 6336
+2022-06-01 21:33:48,007 - model_file_loggers - INFO: Batch size: 32
+2022-06-01 21:33:48,008 - model_file_loggers - INFO: Shuffle: True
+2022-06-01 21:33:48,008 - model_file_loggers - INFO: Num workers: 1
+2022-06-01 21:33:48,009 - model_file_loggers - INFO: Dataset length: 1856
+2022-06-01 21:33:48,010 - model_file_loggers - INFO: Batch size: 1
+2022-06-01 21:33:48,011 - model_file_loggers - INFO: Shuffle: False
+2022-06-01 21:33:48,014 - model_file_loggers - INFO: Num workers: 1
+2022-06-01 21:33:49,680 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-06-01 21:33:49,681 - model_file_loggers - INFO: model_name: MyNet
+2022-06-01 21:33:49,681 - model_file_loggers - INFO: epoch: 40
+2022-06-01 21:33:49,681 - model_file_loggers - INFO: loss_function: fl
+2022-06-01 21:33:49,681 - model_file_loggers - INFO: optimizer: Adam
+2022-06-01 21:33:49,681 - model_file_loggers - INFO: learning rate: 0.0001
+2022-06-01 21:33:49,681 - model_file_loggers - INFO: device: gpu
+2022-06-01 21:37:44,638 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-06-01 21:37:44,639 - model_file_loggers - INFO: Dataset length: 6336
+2022-06-01 21:37:44,639 - model_file_loggers - INFO: Batch size: 32
+2022-06-01 21:37:44,640 - model_file_loggers - INFO: Shuffle: True
+2022-06-01 21:37:44,640 - model_file_loggers - INFO: Num workers: 1
+2022-06-01 21:37:44,641 - model_file_loggers - INFO: Dataset length: 1856
+2022-06-01 21:37:44,641 - model_file_loggers - INFO: Batch size: 1
+2022-06-01 21:37:44,641 - model_file_loggers - INFO: Shuffle: False
+2022-06-01 21:37:44,641 - model_file_loggers - INFO: Num workers: 1
+2022-06-01 21:37:46,179 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-06-01 21:37:46,179 - model_file_loggers - INFO: model_name: MyNet
+2022-06-01 21:37:46,179 - model_file_loggers - INFO: epoch: 40
+2022-06-01 21:37:46,179 - model_file_loggers - INFO: loss_function: bce
+2022-06-01 21:37:46,179 - model_file_loggers - INFO: optimizer: Adam
+2022-06-01 21:37:46,179 - model_file_loggers - INFO: learning rate: 0.0001
+2022-06-01 21:37:46,180 - model_file_loggers - INFO: device: gpu
+2022-06-01 21:49:58,448 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-06-01 21:49:58,449 - model_file_loggers - INFO: Dataset length: 6336
+2022-06-01 21:49:58,449 - model_file_loggers - INFO: Batch size: 32
+2022-06-01 21:49:58,449 - model_file_loggers - INFO: Shuffle: True
+2022-06-01 21:49:58,450 - model_file_loggers - INFO: Num workers: 1
+2022-06-01 21:49:58,450 - model_file_loggers - INFO: Dataset length: 1856
+2022-06-01 21:49:58,451 - model_file_loggers - INFO: Batch size: 1
+2022-06-01 21:49:58,451 - model_file_loggers - INFO: Shuffle: False
+2022-06-01 21:49:58,451 - model_file_loggers - INFO: Num workers: 1
+2022-06-01 21:49:59,882 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-06-01 21:49:59,882 - model_file_loggers - INFO: model_name: MyNet
+2022-06-01 21:49:59,883 - model_file_loggers - INFO: epoch: 40
+2022-06-01 21:49:59,883 - model_file_loggers - INFO: loss_function: soft_dice
+2022-06-01 21:49:59,883 - model_file_loggers - INFO: optimizer: Adam
+2022-06-01 21:49:59,883 - model_file_loggers - INFO: learning rate: 0.0001
+2022-06-01 21:49:59,883 - model_file_loggers - INFO: device: gpu
+2022-06-01 21:54:30,201 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-06-01 21:54:30,202 - model_file_loggers - INFO: Dataset length: 6336
+2022-06-01 21:54:30,202 - model_file_loggers - INFO: Batch size: 32
+2022-06-01 21:54:30,203 - model_file_loggers - INFO: Shuffle: True
+2022-06-01 21:54:30,203 - model_file_loggers - INFO: Num workers: 1
+2022-06-01 21:54:30,203 - model_file_loggers - INFO: Dataset length: 1856
+2022-06-01 21:54:30,203 - model_file_loggers - INFO: Batch size: 1
+2022-06-01 21:54:30,204 - model_file_loggers - INFO: Shuffle: False
+2022-06-01 21:54:30,204 - model_file_loggers - INFO: Num workers: 1
+2022-06-01 21:54:31,747 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-06-01 21:54:31,748 - model_file_loggers - INFO: model_name: MyNet
+2022-06-01 21:54:31,748 - model_file_loggers - INFO: epoch: 40
+2022-06-01 21:54:31,748 - model_file_loggers - INFO: loss_function: soft_dice
+2022-06-01 21:54:31,748 - model_file_loggers - INFO: optimizer: Adam
+2022-06-01 21:54:31,748 - model_file_loggers - INFO: learning rate: 0.0001
+2022-06-01 21:54:31,748 - model_file_loggers - INFO: device: gpu
+2022-06-01 22:03:33,975 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-06-01 22:03:33,975 - model_file_loggers - INFO: Dataset length: 6336
+2022-06-01 22:03:33,975 - model_file_loggers - INFO: Batch size: 32
+2022-06-01 22:03:33,975 - model_file_loggers - INFO: Shuffle: True
+2022-06-01 22:03:33,975 - model_file_loggers - INFO: Num workers: 1
+2022-06-01 22:03:33,975 - model_file_loggers - INFO: Dataset length: 1856
+2022-06-01 22:03:33,975 - model_file_loggers - INFO: Batch size: 1
+2022-06-01 22:03:33,975 - model_file_loggers - INFO: Shuffle: False
+2022-06-01 22:03:33,975 - model_file_loggers - INFO: Num workers: 1
+2022-06-01 22:04:50,766 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-06-01 22:04:50,776 - model_file_loggers - INFO: Dataset length: 6336
+2022-06-01 22:04:50,776 - model_file_loggers - INFO: Batch size: 32
+2022-06-01 22:04:50,776 - model_file_loggers - INFO: Shuffle: True
+2022-06-01 22:04:50,776 - model_file_loggers - INFO: Num workers: 1
+2022-06-01 22:04:50,776 - model_file_loggers - INFO: Dataset length: 1856
+2022-06-01 22:04:50,776 - model_file_loggers - INFO: Batch size: 1
+2022-06-01 22:04:50,776 - model_file_loggers - INFO: Shuffle: False
+2022-06-01 22:04:50,776 - model_file_loggers - INFO: Num workers: 1
+2022-06-01 22:04:52,010 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-06-01 22:04:52,010 - model_file_loggers - INFO: model_name: MyNet
+2022-06-01 22:04:52,010 - model_file_loggers - INFO: epoch: 40
+2022-06-01 22:04:52,016 - model_file_loggers - INFO: loss_function: bce
+2022-06-01 22:04:52,016 - model_file_loggers - INFO: optimizer: Adam
+2022-06-01 22:04:52,016 - model_file_loggers - INFO: learning rate: 1e-05
+2022-06-01 22:04:52,016 - model_file_loggers - INFO: device: gpu
+2022-06-01 22:09:04,915 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-06-01 22:09:04,915 - model_file_loggers - INFO: Dataset length: 6336
+2022-06-01 22:09:04,915 - model_file_loggers - INFO: Batch size: 32
+2022-06-01 22:09:04,915 - model_file_loggers - INFO: Shuffle: True
+2022-06-01 22:09:04,915 - model_file_loggers - INFO: Num workers: 1
+2022-06-01 22:09:04,915 - model_file_loggers - INFO: Dataset length: 1856
+2022-06-01 22:09:04,915 - model_file_loggers - INFO: Batch size: 1
+2022-06-01 22:09:04,915 - model_file_loggers - INFO: Shuffle: False
+2022-06-01 22:09:04,915 - model_file_loggers - INFO: Num workers: 1
+2022-06-01 22:09:06,486 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-06-01 22:09:06,486 - model_file_loggers - INFO: model_name: MyNet
+2022-06-01 22:09:06,486 - model_file_loggers - INFO: epoch: 40
+2022-06-01 22:09:06,486 - model_file_loggers - INFO: loss_function: bce
+2022-06-01 22:09:06,486 - model_file_loggers - INFO: optimizer: Adam
+2022-06-01 22:09:06,486 - model_file_loggers - INFO: learning rate: 1e-05
+2022-06-01 22:09:06,486 - model_file_loggers - INFO: device: gpu
+2022-06-01 22:13:26,286 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-06-01 22:13:26,286 - model_file_loggers - INFO: Dataset length: 6336
+2022-06-01 22:13:26,286 - model_file_loggers - INFO: Batch size: 64
+2022-06-01 22:13:26,286 - model_file_loggers - INFO: Shuffle: True
+2022-06-01 22:13:26,291 - model_file_loggers - INFO: Num workers: 1
+2022-06-01 22:13:26,291 - model_file_loggers - INFO: Dataset length: 1856
+2022-06-01 22:13:26,291 - model_file_loggers - INFO: Batch size: 1
+2022-06-01 22:13:26,291 - model_file_loggers - INFO: Shuffle: False
+2022-06-01 22:13:26,291 - model_file_loggers - INFO: Num workers: 1
+2022-06-01 22:13:27,750 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-06-01 22:13:27,750 - model_file_loggers - INFO: model_name: MyNet
+2022-06-01 22:13:27,755 - model_file_loggers - INFO: epoch: 40
+2022-06-01 22:13:27,755 - model_file_loggers - INFO: loss_function: bce
+2022-06-01 22:13:27,755 - model_file_loggers - INFO: optimizer: Adam
+2022-06-01 22:13:27,755 - model_file_loggers - INFO: learning rate: 0.0001
+2022-06-01 22:13:27,755 - model_file_loggers - INFO: device: gpu
+2022-06-01 22:13:56,826 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-06-01 22:13:56,835 - model_file_loggers - INFO: Dataset length: 6336
+2022-06-01 22:13:56,835 - model_file_loggers - INFO: Batch size: 32
+2022-06-01 22:13:56,835 - model_file_loggers - INFO: Shuffle: True
+2022-06-01 22:13:56,835 - model_file_loggers - INFO: Num workers: 1
+2022-06-01 22:13:56,835 - model_file_loggers - INFO: Dataset length: 1856
+2022-06-01 22:13:56,840 - model_file_loggers - INFO: Batch size: 1
+2022-06-01 22:13:56,840 - model_file_loggers - INFO: Shuffle: False
+2022-06-01 22:13:56,840 - model_file_loggers - INFO: Num workers: 1
+2022-06-01 22:13:58,365 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-06-01 22:13:58,365 - model_file_loggers - INFO: model_name: MyNet
+2022-06-01 22:13:58,365 - model_file_loggers - INFO: epoch: 40
+2022-06-01 22:13:58,365 - model_file_loggers - INFO: loss_function: bce
+2022-06-01 22:13:58,365 - model_file_loggers - INFO: optimizer: Adam
+2022-06-01 22:13:58,365 - model_file_loggers - INFO: learning rate: 0.0001
+2022-06-01 22:13:58,365 - model_file_loggers - INFO: device: gpu
+2022-06-01 23:03:14,756 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-06-01 23:03:14,757 - model_file_loggers - INFO: Dataset length: 6336
+2022-06-01 23:03:14,757 - model_file_loggers - INFO: Batch size: 32
+2022-06-01 23:03:14,758 - model_file_loggers - INFO: Shuffle: True
+2022-06-01 23:03:14,758 - model_file_loggers - INFO: Num workers: 1
+2022-06-01 23:03:14,758 - model_file_loggers - INFO: Dataset length: 1856
+2022-06-01 23:03:14,758 - model_file_loggers - INFO: Batch size: 1
+2022-06-01 23:03:14,759 - model_file_loggers - INFO: Shuffle: False
+2022-06-01 23:03:14,759 - model_file_loggers - INFO: Num workers: 1
+2022-06-01 23:03:16,240 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-06-01 23:03:16,241 - model_file_loggers - INFO: model_name: MyNet
+2022-06-01 23:03:16,241 - model_file_loggers - INFO: epoch: 40
+2022-06-01 23:03:16,241 - model_file_loggers - INFO: loss_function: bce
+2022-06-01 23:03:16,241 - model_file_loggers - INFO: optimizer: Adam
+2022-06-01 23:03:16,241 - model_file_loggers - INFO: learning rate: 0.0001
+2022-06-01 23:03:16,241 - model_file_loggers - INFO: device: gpu
+2022-06-01 23:04:14,336 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-06-01 23:04:14,338 - model_file_loggers - INFO: Dataset length: 6336
+2022-06-01 23:04:14,339 - model_file_loggers - INFO: Batch size: 32
+2022-06-01 23:04:14,339 - model_file_loggers - INFO: Shuffle: True
+2022-06-01 23:04:14,340 - model_file_loggers - INFO: Num workers: 1
+2022-06-01 23:04:14,342 - model_file_loggers - INFO: Dataset length: 1856
+2022-06-01 23:04:14,343 - model_file_loggers - INFO: Batch size: 1
+2022-06-01 23:04:14,343 - model_file_loggers - INFO: Shuffle: False
+2022-06-01 23:04:14,344 - model_file_loggers - INFO: Num workers: 1
+2022-06-01 23:04:15,874 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-06-01 23:04:15,875 - model_file_loggers - INFO: model_name: MyNet
+2022-06-01 23:04:15,875 - model_file_loggers - INFO: epoch: 40
+2022-06-01 23:04:15,875 - model_file_loggers - INFO: loss_function: bce
+2022-06-01 23:04:15,875 - model_file_loggers - INFO: optimizer: Adam
+2022-06-01 23:04:15,875 - model_file_loggers - INFO: learning rate: 0.0001
+2022-06-01 23:04:15,875 - model_file_loggers - INFO: device: gpu
+2022-06-01 23:05:28,007 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-06-01 23:05:28,008 - model_file_loggers - INFO: Dataset length: 6336
+2022-06-01 23:05:28,009 - model_file_loggers - INFO: Batch size: 32
+2022-06-01 23:05:28,009 - model_file_loggers - INFO: Shuffle: True
+2022-06-01 23:05:28,009 - model_file_loggers - INFO: Num workers: 1
+2022-06-01 23:05:28,010 - model_file_loggers - INFO: Dataset length: 1856
+2022-06-01 23:05:28,011 - model_file_loggers - INFO: Batch size: 1
+2022-06-01 23:05:28,011 - model_file_loggers - INFO: Shuffle: False
+2022-06-01 23:05:28,011 - model_file_loggers - INFO: Num workers: 1
+2022-06-01 23:05:29,492 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-06-01 23:05:29,492 - model_file_loggers - INFO: model_name: MyNet
+2022-06-01 23:05:29,493 - model_file_loggers - INFO: epoch: 40
+2022-06-01 23:05:29,493 - model_file_loggers - INFO: loss_function: bce
+2022-06-01 23:05:29,493 - model_file_loggers - INFO: optimizer: Adam
+2022-06-01 23:05:29,493 - model_file_loggers - INFO: learning rate: 0.0001
+2022-06-01 23:05:29,493 - model_file_loggers - INFO: device: gpu
+2022-06-01 23:46:27,051 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-06-01 23:46:27,053 - model_file_loggers - INFO: Dataset length: 6336
+2022-06-01 23:46:27,053 - model_file_loggers - INFO: Batch size: 32
+2022-06-01 23:46:27,053 - model_file_loggers - INFO: Shuffle: True
+2022-06-01 23:46:27,053 - model_file_loggers - INFO: Num workers: 1
+2022-06-01 23:46:27,054 - model_file_loggers - INFO: Dataset length: 1856
+2022-06-01 23:46:27,054 - model_file_loggers - INFO: Batch size: 1
+2022-06-01 23:46:27,054 - model_file_loggers - INFO: Shuffle: False
+2022-06-01 23:46:27,054 - model_file_loggers - INFO: Num workers: 1
+2022-06-01 23:46:28,619 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-06-01 23:46:28,619 - model_file_loggers - INFO: model_name: MyNet
+2022-06-01 23:46:28,619 - model_file_loggers - INFO: epoch: 40
+2022-06-01 23:46:28,619 - model_file_loggers - INFO: loss_function: bce
+2022-06-01 23:46:28,619 - model_file_loggers - INFO: optimizer: Adam
+2022-06-01 23:46:28,620 - model_file_loggers - INFO: learning rate: 0.0001
+2022-06-01 23:46:28,620 - model_file_loggers - INFO: device: gpu
+2022-06-01 23:49:18,581 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-06-01 23:49:18,583 - model_file_loggers - INFO: Dataset length: 6336
+2022-06-01 23:49:18,583 - model_file_loggers - INFO: Batch size: 32
+2022-06-01 23:49:18,583 - model_file_loggers - INFO: Shuffle: True
+2022-06-01 23:49:18,583 - model_file_loggers - INFO: Num workers: 1
+2022-06-01 23:49:18,585 - model_file_loggers - INFO: Dataset length: 1856
+2022-06-01 23:49:18,585 - model_file_loggers - INFO: Batch size: 1
+2022-06-01 23:49:18,585 - model_file_loggers - INFO: Shuffle: False
+2022-06-01 23:49:18,585 - model_file_loggers - INFO: Num workers: 1
+2022-06-01 23:49:20,090 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-06-01 23:49:20,090 - model_file_loggers - INFO: model_name: MyNet
+2022-06-01 23:49:20,091 - model_file_loggers - INFO: epoch: 40
+2022-06-01 23:49:20,091 - model_file_loggers - INFO: loss_function: bce
+2022-06-01 23:49:20,091 - model_file_loggers - INFO: optimizer: Adam
+2022-06-01 23:49:20,091 - model_file_loggers - INFO: learning rate: 0.0001
+2022-06-01 23:49:20,091 - model_file_loggers - INFO: device: gpu
+2022-06-01 23:53:39,180 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-06-01 23:53:39,181 - model_file_loggers - INFO: Dataset length: 6336
+2022-06-01 23:53:39,181 - model_file_loggers - INFO: Batch size: 32
+2022-06-01 23:53:39,182 - model_file_loggers - INFO: Shuffle: True
+2022-06-01 23:53:39,182 - model_file_loggers - INFO: Num workers: 1
+2022-06-01 23:53:39,183 - model_file_loggers - INFO: Dataset length: 1856
+2022-06-01 23:53:39,183 - model_file_loggers - INFO: Batch size: 1
+2022-06-01 23:53:39,183 - model_file_loggers - INFO: Shuffle: False
+2022-06-01 23:53:39,183 - model_file_loggers - INFO: Num workers: 1
+2022-06-01 23:53:40,660 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-06-01 23:53:40,660 - model_file_loggers - INFO: model_name: MyNet
+2022-06-01 23:53:40,660 - model_file_loggers - INFO: epoch: 40
+2022-06-01 23:53:40,660 - model_file_loggers - INFO: loss_function: bce
+2022-06-01 23:53:40,660 - model_file_loggers - INFO: optimizer: Adam
+2022-06-01 23:53:40,661 - model_file_loggers - INFO: learning rate: 0.0001
+2022-06-01 23:53:40,661 - model_file_loggers - INFO: device: gpu
+2022-06-01 23:58:26,641 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-06-01 23:58:26,643 - model_file_loggers - INFO: Dataset length: 6336
+2022-06-01 23:58:26,644 - model_file_loggers - INFO: Batch size: 32
+2022-06-01 23:58:26,644 - model_file_loggers - INFO: Shuffle: True
+2022-06-01 23:58:26,645 - model_file_loggers - INFO: Num workers: 1
+2022-06-01 23:58:26,647 - model_file_loggers - INFO: Dataset length: 1856
+2022-06-01 23:58:26,647 - model_file_loggers - INFO: Batch size: 1
+2022-06-01 23:58:26,648 - model_file_loggers - INFO: Shuffle: False
+2022-06-01 23:58:26,648 - model_file_loggers - INFO: Num workers: 1
+2022-06-01 23:58:28,125 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-06-01 23:58:28,125 - model_file_loggers - INFO: model_name: MyNet
+2022-06-01 23:58:28,125 - model_file_loggers - INFO: epoch: 40
+2022-06-01 23:58:28,125 - model_file_loggers - INFO: loss_function: bce
+2022-06-01 23:58:28,125 - model_file_loggers - INFO: optimizer: Adam
+2022-06-01 23:58:28,125 - model_file_loggers - INFO: learning rate: 0.0001
+2022-06-01 23:58:28,126 - model_file_loggers - INFO: device: gpu
+2022-06-02 00:03:47,617 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-06-02 00:03:47,617 - model_file_loggers - INFO: Dataset length: 6336
+2022-06-02 00:03:47,617 - model_file_loggers - INFO: Batch size: 32
+2022-06-02 00:03:47,617 - model_file_loggers - INFO: Shuffle: True
+2022-06-02 00:03:47,617 - model_file_loggers - INFO: Num workers: 1
+2022-06-02 00:03:47,617 - model_file_loggers - INFO: Dataset length: 1856
+2022-06-02 00:03:47,617 - model_file_loggers - INFO: Batch size: 1
+2022-06-02 00:03:47,617 - model_file_loggers - INFO: Shuffle: False
+2022-06-02 00:03:47,617 - model_file_loggers - INFO: Num workers: 1
+2022-06-02 00:03:49,047 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-06-02 00:03:49,047 - model_file_loggers - INFO: model_name: MyNet
+2022-06-02 00:03:49,047 - model_file_loggers - INFO: epoch: 40
+2022-06-02 00:03:49,047 - model_file_loggers - INFO: loss_function: bce
+2022-06-02 00:03:49,047 - model_file_loggers - INFO: optimizer: Adam
+2022-06-02 00:03:49,047 - model_file_loggers - INFO: learning rate: 0.0001
+2022-06-02 00:03:49,047 - model_file_loggers - INFO: device: gpu
+2022-06-02 00:04:51,002 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-06-02 00:04:51,007 - model_file_loggers - INFO: Dataset length: 6336
+2022-06-02 00:04:51,007 - model_file_loggers - INFO: Batch size: 32
+2022-06-02 00:04:51,007 - model_file_loggers - INFO: Shuffle: True
+2022-06-02 00:04:51,007 - model_file_loggers - INFO: Num workers: 1
+2022-06-02 00:04:51,007 - model_file_loggers - INFO: Dataset length: 1856
+2022-06-02 00:04:51,007 - model_file_loggers - INFO: Batch size: 1
+2022-06-02 00:04:51,007 - model_file_loggers - INFO: Shuffle: False
+2022-06-02 00:04:51,007 - model_file_loggers - INFO: Num workers: 1
+2022-06-02 00:04:52,427 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-06-02 00:04:52,427 - model_file_loggers - INFO: model_name: MyNet
+2022-06-02 00:04:52,427 - model_file_loggers - INFO: epoch: 40
+2022-06-02 00:04:52,427 - model_file_loggers - INFO: loss_function: bce
+2022-06-02 00:04:52,432 - model_file_loggers - INFO: optimizer: Adam
+2022-06-02 00:04:52,432 - model_file_loggers - INFO: learning rate: 0.0001
+2022-06-02 00:04:52,432 - model_file_loggers - INFO: device: gpu
+2022-06-02 00:16:00,567 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-06-02 00:16:00,567 - model_file_loggers - INFO: Dataset length: 6336
+2022-06-02 00:16:00,567 - model_file_loggers - INFO: Batch size: 32
+2022-06-02 00:16:00,567 - model_file_loggers - INFO: Shuffle: True
+2022-06-02 00:16:00,567 - model_file_loggers - INFO: Num workers: 1
+2022-06-02 00:16:00,567 - model_file_loggers - INFO: Dataset length: 1856
+2022-06-02 00:16:00,567 - model_file_loggers - INFO: Batch size: 1
+2022-06-02 00:16:00,567 - model_file_loggers - INFO: Shuffle: False
+2022-06-02 00:16:00,567 - model_file_loggers - INFO: Num workers: 1
+2022-06-02 00:16:02,017 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-06-02 00:16:02,017 - model_file_loggers - INFO: model_name: MyNet
+2022-06-02 00:16:02,017 - model_file_loggers - INFO: epoch: 40
+2022-06-02 00:16:02,017 - model_file_loggers - INFO: loss_function: bce
+2022-06-02 00:16:02,017 - model_file_loggers - INFO: optimizer: Adam
+2022-06-02 00:16:02,017 - model_file_loggers - INFO: learning rate: 0.0001
+2022-06-02 00:16:02,017 - model_file_loggers - INFO: device: gpu
+2022-06-02 00:20:21,287 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-06-02 00:20:21,287 - model_file_loggers - INFO: Dataset length: 6336
+2022-06-02 00:20:21,287 - model_file_loggers - INFO: Batch size: 32
+2022-06-02 00:20:21,287 - model_file_loggers - INFO: Shuffle: True
+2022-06-02 00:20:21,287 - model_file_loggers - INFO: Num workers: 1
+2022-06-02 00:20:21,287 - model_file_loggers - INFO: Dataset length: 1856
+2022-06-02 00:20:21,287 - model_file_loggers - INFO: Batch size: 1
+2022-06-02 00:20:21,287 - model_file_loggers - INFO: Shuffle: False
+2022-06-02 00:20:21,287 - model_file_loggers - INFO: Num workers: 1
+2022-06-02 00:20:22,737 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-06-02 00:20:22,737 - model_file_loggers - INFO: model_name: MyNet
+2022-06-02 00:20:22,737 - model_file_loggers - INFO: epoch: 40
+2022-06-02 00:20:22,737 - model_file_loggers - INFO: loss_function: bce
+2022-06-02 00:20:22,737 - model_file_loggers - INFO: optimizer: Adam
+2022-06-02 00:20:22,737 - model_file_loggers - INFO: learning rate: 0.0001
+2022-06-02 00:20:22,737 - model_file_loggers - INFO: device: gpu
+2022-06-02 00:22:44,747 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-06-02 00:22:44,747 - model_file_loggers - INFO: Dataset length: 6336
+2022-06-02 00:22:44,747 - model_file_loggers - INFO: Batch size: 32
+2022-06-02 00:22:44,747 - model_file_loggers - INFO: Shuffle: True
+2022-06-02 00:22:44,747 - model_file_loggers - INFO: Num workers: 1
+2022-06-02 00:22:44,752 - model_file_loggers - INFO: Dataset length: 1856
+2022-06-02 00:22:44,752 - model_file_loggers - INFO: Batch size: 1
+2022-06-02 00:22:44,752 - model_file_loggers - INFO: Shuffle: False
+2022-06-02 00:22:44,752 - model_file_loggers - INFO: Num workers: 1
+2022-06-02 00:22:46,157 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-06-02 00:22:46,157 - model_file_loggers - INFO: model_name: MyNet
+2022-06-02 00:22:46,157 - model_file_loggers - INFO: epoch: 40
+2022-06-02 00:22:46,157 - model_file_loggers - INFO: loss_function: bce
+2022-06-02 00:22:46,157 - model_file_loggers - INFO: optimizer: Adam
+2022-06-02 00:22:46,157 - model_file_loggers - INFO: learning rate: 0.0001
+2022-06-02 00:22:46,157 - model_file_loggers - INFO: device: gpu
+2022-06-02 00:26:28,017 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-06-02 00:26:28,027 - model_file_loggers - INFO: Dataset length: 6336
+2022-06-02 00:26:28,027 - model_file_loggers - INFO: Batch size: 32
+2022-06-02 00:26:28,027 - model_file_loggers - INFO: Shuffle: True
+2022-06-02 00:26:28,027 - model_file_loggers - INFO: Num workers: 1
+2022-06-02 00:26:28,027 - model_file_loggers - INFO: Dataset length: 1856
+2022-06-02 00:26:28,027 - model_file_loggers - INFO: Batch size: 1
+2022-06-02 00:26:28,027 - model_file_loggers - INFO: Shuffle: False
+2022-06-02 00:26:28,027 - model_file_loggers - INFO: Num workers: 1
+2022-06-02 00:26:29,497 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-06-02 00:26:29,497 - model_file_loggers - INFO: model_name: MyNet
+2022-06-02 00:26:29,497 - model_file_loggers - INFO: epoch: 40
+2022-06-02 00:26:29,497 - model_file_loggers - INFO: loss_function: bce
+2022-06-02 00:26:29,497 - model_file_loggers - INFO: optimizer: Adam
+2022-06-02 00:26:29,497 - model_file_loggers - INFO: learning rate: 0.0001
+2022-06-02 00:26:29,497 - model_file_loggers - INFO: device: gpu
+2022-06-02 00:31:17,307 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-06-02 00:31:17,307 - model_file_loggers - INFO: Dataset length: 6336
+2022-06-02 00:31:17,307 - model_file_loggers - INFO: Batch size: 32
+2022-06-02 00:31:17,307 - model_file_loggers - INFO: Shuffle: True
+2022-06-02 00:31:17,307 - model_file_loggers - INFO: Num workers: 1
+2022-06-02 00:31:17,307 - model_file_loggers - INFO: Dataset length: 1856
+2022-06-02 00:31:17,307 - model_file_loggers - INFO: Batch size: 1
+2022-06-02 00:31:17,307 - model_file_loggers - INFO: Shuffle: False
+2022-06-02 00:31:17,317 - model_file_loggers - INFO: Num workers: 1
+2022-06-02 00:31:18,777 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-06-02 00:31:18,777 - model_file_loggers - INFO: model_name: MyNet
+2022-06-02 00:31:18,777 - model_file_loggers - INFO: epoch: 40
+2022-06-02 00:31:18,777 - model_file_loggers - INFO: loss_function: bce
+2022-06-02 00:31:18,777 - model_file_loggers - INFO: optimizer: Adam
+2022-06-02 00:31:18,777 - model_file_loggers - INFO: learning rate: 0.0001
+2022-06-02 00:31:18,784 - model_file_loggers - INFO: device: gpu
+2022-06-02 00:43:37,827 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-06-02 00:43:37,827 - model_file_loggers - INFO: Dataset length: 6336
+2022-06-02 00:43:37,827 - model_file_loggers - INFO: Batch size: 32
+2022-06-02 00:43:37,827 - model_file_loggers - INFO: Shuffle: True
+2022-06-02 00:43:37,827 - model_file_loggers - INFO: Num workers: 1
+2022-06-02 00:43:37,827 - model_file_loggers - INFO: Dataset length: 1856
+2022-06-02 00:43:37,827 - model_file_loggers - INFO: Batch size: 1
+2022-06-02 00:43:37,827 - model_file_loggers - INFO: Shuffle: False
+2022-06-02 00:43:37,827 - model_file_loggers - INFO: Num workers: 1
+2022-06-02 00:43:39,282 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-06-02 00:43:39,282 - model_file_loggers - INFO: model_name: MyNet
+2022-06-02 00:43:39,282 - model_file_loggers - INFO: epoch: 40
+2022-06-02 00:43:39,282 - model_file_loggers - INFO: loss_function: bce
+2022-06-02 00:43:39,282 - model_file_loggers - INFO: optimizer: Adam
+2022-06-02 00:43:39,282 - model_file_loggers - INFO: learning rate: 0.0001
+2022-06-02 00:43:39,282 - model_file_loggers - INFO: device: gpu
+2022-06-02 00:47:37,888 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-06-02 00:47:37,888 - model_file_loggers - INFO: Dataset length: 6336
+2022-06-02 00:47:37,888 - model_file_loggers - INFO: Batch size: 32
+2022-06-02 00:47:37,888 - model_file_loggers - INFO: Shuffle: True
+2022-06-02 00:47:37,897 - model_file_loggers - INFO: Num workers: 1
+2022-06-02 00:47:37,897 - model_file_loggers - INFO: Dataset length: 1856
+2022-06-02 00:47:37,897 - model_file_loggers - INFO: Batch size: 1
+2022-06-02 00:47:37,897 - model_file_loggers - INFO: Shuffle: False
+2022-06-02 00:47:37,897 - model_file_loggers - INFO: Num workers: 1
+2022-06-02 00:47:39,377 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-06-02 00:47:39,377 - model_file_loggers - INFO: model_name: MyNet
+2022-06-02 00:47:39,377 - model_file_loggers - INFO: epoch: 40
+2022-06-02 00:47:39,377 - model_file_loggers - INFO: loss_function: bce
+2022-06-02 00:47:39,377 - model_file_loggers - INFO: optimizer: Adam
+2022-06-02 00:47:39,377 - model_file_loggers - INFO: learning rate: 0.0001
+2022-06-02 00:47:39,377 - model_file_loggers - INFO: device: gpu
+2022-06-02 01:20:36,187 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-06-02 01:20:36,187 - model_file_loggers - INFO: Dataset length: 6336
+2022-06-02 01:20:36,187 - model_file_loggers - INFO: Batch size: 32
+2022-06-02 01:20:36,187 - model_file_loggers - INFO: Shuffle: True
+2022-06-02 01:20:36,187 - model_file_loggers - INFO: Num workers: 1
+2022-06-02 01:20:36,192 - model_file_loggers - INFO: Dataset length: 1856
+2022-06-02 01:20:36,192 - model_file_loggers - INFO: Batch size: 1
+2022-06-02 01:20:36,192 - model_file_loggers - INFO: Shuffle: False
+2022-06-02 01:20:36,192 - model_file_loggers - INFO: Num workers: 1
+2022-06-02 01:20:37,668 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-06-02 01:20:37,668 - model_file_loggers - INFO: model_name: MyNet
+2022-06-02 01:20:37,668 - model_file_loggers - INFO: epoch: 40
+2022-06-02 01:20:37,668 - model_file_loggers - INFO: loss_function: bce
+2022-06-02 01:20:37,668 - model_file_loggers - INFO: optimizer: Adam
+2022-06-02 01:20:37,668 - model_file_loggers - INFO: learning rate: 0.0001
+2022-06-02 01:20:37,668 - model_file_loggers - INFO: device: gpu
+2022-06-02 01:23:22,708 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-06-02 01:23:22,708 - model_file_loggers - INFO: Dataset length: 6336
+2022-06-02 01:23:22,708 - model_file_loggers - INFO: Batch size: 32
+2022-06-02 01:23:22,708 - model_file_loggers - INFO: Shuffle: True
+2022-06-02 01:23:22,708 - model_file_loggers - INFO: Num workers: 1
+2022-06-02 01:23:22,708 - model_file_loggers - INFO: Dataset length: 1856
+2022-06-02 01:23:22,708 - model_file_loggers - INFO: Batch size: 1
+2022-06-02 01:23:22,708 - model_file_loggers - INFO: Shuffle: False
+2022-06-02 01:23:22,708 - model_file_loggers - INFO: Num workers: 1
+2022-06-02 01:23:24,203 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-06-02 01:23:24,203 - model_file_loggers - INFO: model_name: MyNet
+2022-06-02 01:23:24,203 - model_file_loggers - INFO: epoch: 40
+2022-06-02 01:23:24,203 - model_file_loggers - INFO: loss_function: bce
+2022-06-02 01:23:24,203 - model_file_loggers - INFO: optimizer: Adam
+2022-06-02 01:23:24,203 - model_file_loggers - INFO: learning rate: 0.0001
+2022-06-02 01:23:24,203 - model_file_loggers - INFO: device: gpu
+2022-06-02 09:34:50,669 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-06-02 09:34:50,669 - model_file_loggers - INFO: Dataset length: 6336
+2022-06-02 09:34:50,669 - model_file_loggers - INFO: Batch size: 32
+2022-06-02 09:34:50,669 - model_file_loggers - INFO: Shuffle: True
+2022-06-02 09:34:50,669 - model_file_loggers - INFO: Num workers: 1
+2022-06-02 09:34:50,669 - model_file_loggers - INFO: Dataset length: 1856
+2022-06-02 09:34:50,669 - model_file_loggers - INFO: Batch size: 1
+2022-06-02 09:34:50,669 - model_file_loggers - INFO: Shuffle: False
+2022-06-02 09:34:50,669 - model_file_loggers - INFO: Num workers: 1
+2022-06-02 09:34:52,263 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-06-02 09:34:52,263 - model_file_loggers - INFO: model_name: MyNet
+2022-06-02 09:34:52,263 - model_file_loggers - INFO: epoch: 40
+2022-06-02 09:34:52,263 - model_file_loggers - INFO: loss_function: bce
+2022-06-02 09:34:52,263 - model_file_loggers - INFO: optimizer: Adam
+2022-06-02 09:34:52,263 - model_file_loggers - INFO: learning rate: 0.0001
+2022-06-02 09:34:52,263 - model_file_loggers - INFO: device: gpu
+2022-06-02 10:28:13,554 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-06-02 10:28:13,554 - model_file_loggers - INFO: Dataset length: 6336
+2022-06-02 10:28:13,554 - model_file_loggers - INFO: Batch size: 32
+2022-06-02 10:28:13,554 - model_file_loggers - INFO: Shuffle: True
+2022-06-02 10:28:13,554 - model_file_loggers - INFO: Num workers: 1
+2022-06-02 10:28:13,554 - model_file_loggers - INFO: Dataset length: 1856
+2022-06-02 10:28:13,554 - model_file_loggers - INFO: Batch size: 1
+2022-06-02 10:28:13,554 - model_file_loggers - INFO: Shuffle: False
+2022-06-02 10:28:13,554 - model_file_loggers - INFO: Num workers: 1
+2022-06-02 10:28:15,310 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-06-02 10:28:15,310 - model_file_loggers - INFO: model_name: MyNet
+2022-06-02 10:28:15,310 - model_file_loggers - INFO: epoch: 60
+2022-06-02 10:28:15,310 - model_file_loggers - INFO: loss_function: bce
+2022-06-02 10:28:15,310 - model_file_loggers - INFO: optimizer: Adam
+2022-06-02 10:28:15,310 - model_file_loggers - INFO: learning rate: 0.0001
+2022-06-02 10:28:15,310 - model_file_loggers - INFO: device: gpu
+2022-06-02 10:32:09,055 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-06-02 10:32:09,055 - model_file_loggers - INFO: Dataset length: 6336
+2022-06-02 10:32:09,055 - model_file_loggers - INFO: Batch size: 32
+2022-06-02 10:32:09,055 - model_file_loggers - INFO: Shuffle: True
+2022-06-02 10:32:09,055 - model_file_loggers - INFO: Num workers: 1
+2022-06-02 10:32:09,055 - model_file_loggers - INFO: Dataset length: 1856
+2022-06-02 10:32:09,055 - model_file_loggers - INFO: Batch size: 1
+2022-06-02 10:32:09,055 - model_file_loggers - INFO: Shuffle: False
+2022-06-02 10:32:09,055 - model_file_loggers - INFO: Num workers: 1
+2022-06-02 10:32:10,673 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-06-02 10:32:10,673 - model_file_loggers - INFO: model_name: MyNet
+2022-06-02 10:32:10,673 - model_file_loggers - INFO: epoch: 60
+2022-06-02 10:32:10,673 - model_file_loggers - INFO: loss_function: bce
+2022-06-02 10:32:10,673 - model_file_loggers - INFO: optimizer: Adam
+2022-06-02 10:32:10,673 - model_file_loggers - INFO: learning rate: 0.0001
+2022-06-02 10:32:10,673 - model_file_loggers - INFO: device: gpu
+2022-06-02 10:38:35,914 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-06-02 10:38:35,914 - model_file_loggers - INFO: Dataset length: 6336
+2022-06-02 10:38:35,914 - model_file_loggers - INFO: Batch size: 32
+2022-06-02 10:38:35,914 - model_file_loggers - INFO: Shuffle: True
+2022-06-02 10:38:35,914 - model_file_loggers - INFO: Num workers: 1
+2022-06-02 10:38:35,914 - model_file_loggers - INFO: Dataset length: 1856
+2022-06-02 10:38:35,914 - model_file_loggers - INFO: Batch size: 1
+2022-06-02 10:38:35,914 - model_file_loggers - INFO: Shuffle: False
+2022-06-02 10:38:35,914 - model_file_loggers - INFO: Num workers: 1
+2022-06-02 10:38:37,342 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-06-02 10:38:37,342 - model_file_loggers - INFO: model_name: MyNet
+2022-06-02 10:38:37,342 - model_file_loggers - INFO: epoch: 60
+2022-06-02 10:38:37,342 - model_file_loggers - INFO: loss_function: bce
+2022-06-02 10:38:37,342 - model_file_loggers - INFO: optimizer: Adam
+2022-06-02 10:38:37,342 - model_file_loggers - INFO: learning rate: 0.0001
+2022-06-02 10:38:37,342 - model_file_loggers - INFO: device: gpu
+2022-06-02 10:46:33,859 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-06-02 10:46:33,859 - model_file_loggers - INFO: Dataset length: 6336
+2022-06-02 10:46:33,859 - model_file_loggers - INFO: Batch size: 32
+2022-06-02 10:46:33,859 - model_file_loggers - INFO: Shuffle: True
+2022-06-02 10:46:33,859 - model_file_loggers - INFO: Num workers: 1
+2022-06-02 10:46:33,859 - model_file_loggers - INFO: Dataset length: 1856
+2022-06-02 10:46:33,859 - model_file_loggers - INFO: Batch size: 1
+2022-06-02 10:46:33,859 - model_file_loggers - INFO: Shuffle: False
+2022-06-02 10:46:33,859 - model_file_loggers - INFO: Num workers: 1
+2022-06-02 10:46:35,403 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-06-02 10:46:35,403 - model_file_loggers - INFO: model_name: MyNet
+2022-06-02 10:46:35,403 - model_file_loggers - INFO: epoch: 60
+2022-06-02 10:46:35,403 - model_file_loggers - INFO: loss_function: bce
+2022-06-02 10:46:35,403 - model_file_loggers - INFO: optimizer: Adam
+2022-06-02 10:46:35,403 - model_file_loggers - INFO: learning rate: 0.0001
+2022-06-02 10:46:35,403 - model_file_loggers - INFO: device: gpu
+2022-06-02 11:00:03,659 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-06-02 11:00:03,675 - model_file_loggers - INFO: Dataset length: 6336
+2022-06-02 11:00:03,675 - model_file_loggers - INFO: Batch size: 32
+2022-06-02 11:00:03,675 - model_file_loggers - INFO: Shuffle: True
+2022-06-02 11:00:03,675 - model_file_loggers - INFO: Num workers: 1
+2022-06-02 11:00:03,675 - model_file_loggers - INFO: Dataset length: 1856
+2022-06-02 11:00:03,675 - model_file_loggers - INFO: Batch size: 1
+2022-06-02 11:00:03,675 - model_file_loggers - INFO: Shuffle: False
+2022-06-02 11:00:03,675 - model_file_loggers - INFO: Num workers: 1
+2022-06-02 11:00:05,101 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-06-02 11:00:05,101 - model_file_loggers - INFO: model_name: MyNet
+2022-06-02 11:00:05,101 - model_file_loggers - INFO: epoch: 60
+2022-06-02 11:00:05,101 - model_file_loggers - INFO: loss_function: bce
+2022-06-02 11:00:05,101 - model_file_loggers - INFO: optimizer: Adam
+2022-06-02 11:00:05,101 - model_file_loggers - INFO: learning rate: 0.0001
+2022-06-02 11:00:05,101 - model_file_loggers - INFO: device: gpu
+2022-06-02 12:12:45,260 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-06-02 12:12:45,260 - model_file_loggers - INFO: Dataset length: 6336
+2022-06-02 12:12:45,260 - model_file_loggers - INFO: Batch size: 32
+2022-06-02 12:12:45,260 - model_file_loggers - INFO: Shuffle: True
+2022-06-02 12:12:45,260 - model_file_loggers - INFO: Num workers: 1
+2022-06-02 12:12:45,260 - model_file_loggers - INFO: Dataset length: 1856
+2022-06-02 12:12:45,260 - model_file_loggers - INFO: Batch size: 1
+2022-06-02 12:12:45,260 - model_file_loggers - INFO: Shuffle: False
+2022-06-02 12:12:45,260 - model_file_loggers - INFO: Num workers: 1
+2022-06-02 12:15:22,126 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-06-02 12:15:22,126 - model_file_loggers - INFO: Dataset length: 6336
+2022-06-02 12:15:22,126 - model_file_loggers - INFO: Batch size: 32
+2022-06-02 12:15:22,126 - model_file_loggers - INFO: Shuffle: True
+2022-06-02 12:15:22,126 - model_file_loggers - INFO: Num workers: 1
+2022-06-02 12:15:22,126 - model_file_loggers - INFO: Dataset length: 1856
+2022-06-02 12:15:22,126 - model_file_loggers - INFO: Batch size: 1
+2022-06-02 12:15:22,126 - model_file_loggers - INFO: Shuffle: False
+2022-06-02 12:15:22,126 - model_file_loggers - INFO: Num workers: 1
+2022-06-02 12:15:23,349 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-06-02 12:15:23,365 - model_file_loggers - INFO: model_name: MyNet
+2022-06-02 12:15:23,365 - model_file_loggers - INFO: epoch: 60
+2022-06-02 12:15:23,365 - model_file_loggers - INFO: loss_function: bce
+2022-06-02 12:15:23,365 - model_file_loggers - INFO: optimizer: Adam
+2022-06-02 12:15:23,365 - model_file_loggers - INFO: learning rate: 0.0001
+2022-06-02 12:15:23,365 - model_file_loggers - INFO: device: gpu
+2022-06-02 12:16:44,509 - model_file_loggers - INFO: --------------------------Data loader information--------------------------
+2022-06-02 12:16:44,510 - model_file_loggers - INFO: Dataset length: 6336
+2022-06-02 12:16:44,510 - model_file_loggers - INFO: Batch size: 32
+2022-06-02 12:16:44,510 - model_file_loggers - INFO: Shuffle: True
+2022-06-02 12:16:44,510 - model_file_loggers - INFO: Num workers: 1
+2022-06-02 12:16:44,511 - model_file_loggers - INFO: Dataset length: 1856
+2022-06-02 12:16:44,511 - model_file_loggers - INFO: Batch size: 1
+2022-06-02 12:16:44,511 - model_file_loggers - INFO: Shuffle: False
+2022-06-02 12:16:44,511 - model_file_loggers - INFO: Num workers: 1
+2022-06-02 12:16:45,637 - model_file_loggers - INFO: --------------------------Model information--------------------------
+2022-06-02 12:16:45,637 - model_file_loggers - INFO: model_name: MyNet
+2022-06-02 12:16:45,637 - model_file_loggers - INFO: epoch: 60
+2022-06-02 12:16:45,637 - model_file_loggers - INFO: loss_function: bce
+2022-06-02 12:16:45,637 - model_file_loggers - INFO: optimizer: Adam
+2022-06-02 12:16:45,637 - model_file_loggers - INFO: learning rate: 0.0001
+2022-06-02 12:16:45,637 - model_file_loggers - INFO: device: gpu
