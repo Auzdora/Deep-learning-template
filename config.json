@@ -32,7 +32,7 @@
                 "train_dataLoader": "_DataLoader2",
                 "test_dataLoader": "_Test_DataLoader2"
             },
-            "train_batch_size": 32,
+            "train_batch_size": 3,
             "test_batch_size": 1,
             "train_shuffle": true,
             "test_shuffle": false
@@ -41,13 +41,13 @@
 
 
     "model_params": {
-        "model": "UNet",
-        "epoch": 60,
+        "model": "ExpNet",
+        "epoch": 100,
         "data_loader": "data_loader",
         "test_loader": "test_loader",
-        "loss_function": "bce",
+        "loss_function": "npcc",
         "optimizer": "Adam",
-        "lr": 0.0001,
+        "lr": 0.01,
         "device": "gpu"
     }
 }

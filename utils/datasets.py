@@ -17,7 +17,6 @@ def file_loader(config):
 
 def image_loader(path):
     return Image.open(path).convert('L')
-    # return Image.open(path).convert('L')
 
 
 class MatLoader:
@@ -125,24 +124,3 @@ class MyDataSet1(Dataset):
 
     def __len__(self):
         return len(self.imgs)
-
-
-class MyDataset2(Dataset):
-    def __init__(self, input, label):
-        self.input = input
-        self.label = label
-
-    def __getitem__(self, index):
-        input_img = self.input[index]
-        input_label = self.label[index]
-        img = transforms.Compose([
-            transforms.ToPILImage(),
-            transforms.ToTensor()])(input_img)
-        label = transforms.Compose([
-            transforms.ToPILImage(),
-            transforms.ToTensor()])(input_label)
-        return img, label
-
-    def __len__(self):
-        return len(self.input)
-

@@ -6,6 +6,7 @@
             -stead of Flatten, so that it can distinguish from future version.
 
     Author: Botian Lan
+    Time: 2022/01/22
 """
 
 import torch
