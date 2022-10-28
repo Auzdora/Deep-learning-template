@@ -1,6 +1,6 @@
-# DeepLearning-Template-Code
+# ___DeepLearning-Template-Code___
 
-## Catalogue
+## ___Catalogue___
 * Intro
 * Diagram
 * Module and function
@@ -8,108 +8,107 @@
 * To Do List
 
 
-## Content
-### 1. Introduction
-&ensp;&ensp;&ensp;&ensp;
+
+## ___PART 1. Introduction___
+
 Hi, there. This project's name is deep learning template code, 
-which means it provides a model or a template or framework, if
-you wanna call it, for deep learning experiments or deep learning
-project. The purpose of this project is to simplify the process of
+which means it provides a model or a template for simply training your deep learning
+algorithm. The purpose of this project is to simplify the process of
 deep learning, __it aims at covering all of necessary steps during
 an experiment__. It requires no extra movements, all you need to do
-is just __focus on neural network's frame and tune the parameters to
-get the best result__.
+is just __preparing your dataset, focus on neural networks framework and tune the parameters to
+get the best result__. More importantly, you can use this template in both windows and macos environment
+(running on cpu).
 
-&ensp;&ensp;&ensp;&ensp;
-Next, diagram part introduces the whole framework for your guys
-to understand how this project been built.
+In the following content of this __README__ file, I'll introduce every implement details of how this
+template actually work to help you have a complete understanding of this project, so that you could 
+modify it in the way that you want.
 
-&ensp;&ensp;&ensp;&ensp;
-Module and function part describes every directory's function and
-utility. So you can add more based on these.
-
-&ensp;&ensp;&ensp;&ensp;
-How to use part demonstrates how you can implement this during
-a project.
-
-### 2. Diagram (ps, recommande use light mode of web so that you can see it clearly, sorry for that..)
-
+Part 2 will sketch an overall image of different modules in this project which offers you a quick 
+understanding. Part 3 will explain the function for each directory and explain its API. Part 4 gives
+you a brief introduction of how to use with your own models and dataset. Part 5 is the project's to
+ do list. So, let's dive into it!
+ 
+## ___PART 2. Diagram___
 ![](./readme_files/framwork.png)
-&ensp;&ensp;&ensp;&ensp;
-Logger directory provide simple files to control the whole project
-log record. Many log commands have been written to the different
-part of code.
 
-&ensp;&ensp;&ensp;&ensp;
-Database has two directories. One is train_data, other is test_data.
-It depends on your original dataset.
+## ___PART 3. Module and function___
+###  ___Directory baseline___
+Directory baseline provides two files, `base_data_load.py` and `base_trainer.py`. `base_data_load.py` provides basic
+dataloader class, while `base_trainer.py` provide basic trainer class.
 
-&ensp;&ensp;&ensp;&ensp;
-Utils provides many useful tools for coding. It also has optimizers, 
-loss function and some json utils.
+For `base_data_load.py`:
+> __Class name__: BaseDataLoader
+> 
+> __Params__: \
+> `dataset`: Warped data by Pytorch Dataset class. \
+> `batch_size`: Batch size of data. \
+> `shuffle`: Binary value, shuffle the dataset or not. \
+> `num_workers`: 1 as default.
+> 
+> __Methods__: \
+> `log_record`: Record logger information of dataloader on console and logger file. \
+> `length`: Compute the number of dataset.
 
-&ensp;&ensp;&ensp;&ensp;
-Model has backbone which you could define your innovational model
-here and layers which you could define your model's layer.
+For `base_trainer.py`:
+> __Class name__: BaseTrainer
+> 
+> __Params__: \
+> `model`: The neural network model that you created. \
+> `epoch`: The number of epoch. \
+> `data_loader`: The data loader that you created. \
+> `optimizer`: The optimizer that you choose. \
+> `checkpoint_enable`: A binary value. Enable the checkpoint or not. \
+> `device`: Running on GPU or CPU.
+> 
+> __Methods__: \
+> `_epoch_train`: Abstract method. The logic of each epoch during training process. \
+> `_epoch_val`: Abstract method. The logic of each epoch after training, to test model performance. \
+> `_train`: Overall training procedure. Call `_epoch_train` and `_epoch_val` for each epoch. \
+> `save_model`: Save the model for the specific epoch. \
+> `checkpoint_generator`: Generate the necessary information for checkpoint. \
+> `load_model`: Load the model from the checkpoint (Only used for checkpoint function).
 
-&ensp;&ensp;&ensp;&ensp;
-Baseline provides basic class for data_loader and trainer.
+### ___Directory data_loader___
 
-&ensp;&ensp;&ensp;&ensp;
-Data_loader will load data to database. Trainer provide a class
-for training process.
-
-### 3. Module and function
-#### Baseline
-&ensp;&ensp;&ensp;&ensp;
-Baseline provides basic elements you need to implement a neural
-network project for data loader and trainer. Specifically, for 
-trainer, you need to rewrite _**_epoch_train**_ and **__epoch_vall_** methods.
-These two files require no need to change if you just wanna use
-this project, also you could change it based on your purpose.
-
-#### data_loader
-&ensp;&ensp;&ensp;&ensp;
 This is the place where you need to define your self dataloader.
 For instance, dataset loction or transform.
 
-#### database
-&ensp;&ensp;&ensp;&ensp;
+### ___Directory database___
+
 It will restore your dataset through data_loader.
 
-#### logger
-&ensp;&ensp;&ensp;&ensp;
+### ___Directory logger___
+
 By changing the content or parameters in log_config.json, you
 could change formatter, logger and handlers. This file will be
 parsed by logger_parser.
 
-#### model
-&ensp;&ensp;&ensp;&ensp;
-Backbone is for restoring your models.
+### ___Directory model___
 
-&ensp;&ensp;&ensp;&ensp;
+Backbone is for restoring your models.
 Layers is for defining your own layers.
 
-#### readme_files
-&ensp;&ensp;&ensp;&ensp;
+### ___Directory readme_files___
+
 Nothing but imgs.
 
-#### trainer
-&ensp;&ensp;&ensp;&ensp;
+### ___Directory trainer___
+
 Self-defined trainers based on basic class.
 
-#### utils
-&ensp;&ensp;&ensp;&ensp;
+### ___Directory utils___
+
 It mainly contains two things. First, you could write any function
 here as tools. Second, you could define your own optimizers or loss
 function here.
 
-#### config.json
+### config.json
 Change and add your params here directly.
 
 
 ### 4. Getting started
-&ensp;&ensp;&ensp;&ensp;
+
 So, how you gonna use it? All you need to do is add your creative
 model to backbone, your dataset to database and go to train.py.
 Click 'run' button, and wait till the end of learing!
